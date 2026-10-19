@@ -1,0 +1,14 @@
+name: Validate themes
+on:
+  push:
+  pull_request:
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Check every theme against the schema
+        run: npx --yes ajv-cli@5 validate --spec=draft2020 -c ajv-formats -s schema/kanso-theme-v1.json -d "{$(ls *.json | grep -v '^index.json$' | paste -sd, -)}" --all-errors
