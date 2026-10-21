@@ -4,7 +4,8 @@ Color themes for [Kanso](https://github.com/iamngoni/kanso), the Markdown
 notes app. Each theme is one JSON file. Kanso compiles the themes in this
 folder in, and reads more from the `themes` folder in its data folder
 (Settings › Themes › Open Folder), so you can try a theme by dropping its file
-there: Kanso picks up the change within a couple of seconds.
+there: Kanso picks up the change within a couple of seconds. Icon themes are
+in [`icon-themes/`](#icon-themes).
 
 Three themes are in use at once, and you choose each in
 Settings › Themes:
@@ -161,8 +162,59 @@ The result lands in the themes folder as an ordinary theme file to edit.
 `kanso theme fmt <files>` writes a file in the canonical key order, and
 `kanso theme schema` prints the schema the app reads.
 
+## Icon themes
+
+`icon-themes/` holds icon themes. Each is a folder: one JSON file following
+[`icon-themes/schema/kanso-icon-theme-v1.json`](icon-themes/schema/kanso-icon-theme-v1.json),
+the SVGs it names and its LICENSE. An icon theme redraws Kanso's icons;
+Kanso draws each one in the color theme's text color, so any icon theme goes
+with any color theme, and an icon a theme leaves out stays Kanso's own.
+
+The ones here are converted from [Zed](https://zed.dev) icon themes with
+`kanso icon-theme import`. Each brings its folder icons as notebooks, closed
+and open, and, where it has them, its chevrons for folding, its file icon for
+notes, its PDF, image and audio icons for attachments, and its templates and
+journal folders for the Templates and Journal notebooks. Zed's icons for kinds of code file have nothing to
+stand for in a notes app, so they are left out. A Zed theme's light, dark and
+other color variants draw the same shapes once they are one color, so each
+theme is here once.
+
+To use one, drop its folder into the `icon-themes` folder in Kanso's data
+folder (Settings › Themes › Icon theme files › Open Folder), or choose
+**Import…** there and pick the folder. Then choose it in
+Settings › Themes › Icon theme.
+
+`scripts/check.sh` reads every icon theme with `kanso icon-theme check` and
+validates it against the schema. `icon-themes/index.json` lists them; Kanso
+has no index command for icon themes yet, so it is written from each theme's
+JSON by hand.
+
+| Theme | Icons | Icons by | License | Converted from |
+|---|---|---|---|---|
+| Catppuccin Icons | 6 | [Catppuccin](https://github.com/catppuccin/vscode-icons) | MIT | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) |
+| Charmed Icons | 6 | littensy | MIT | [jmesrje/zed-charmed-icons](https://github.com/jmesrje/zed-charmed-icons) |
+| FantastIcons | 7 | Caio Landgraf | MIT | [caiolandgraf/fantasticons-zed](https://github.com/caiolandgraf/fantasticons-zed) |
+| JetBrains Icons | 8 | JetBrains | Apache-2.0 | [ziishaned/zed-jetbrains-icons](https://github.com/ziishaned/zed-jetbrains-icons) |
+| JetBrains New UI Icons | 5 | JetBrains | Apache-2.0 | [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) |
+| Kokedera Icons | 9 | Florian Mühlhans | MIT | [cappuccinotogo/kokedera-icons-extension-zed](https://github.com/cappuccinotogo/kokedera-icons-extension-zed) |
+| Material Icon Theme | 6 | [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme) | MIT | [zed-extensions/material-icon-theme](https://github.com/zed-extensions/material-icon-theme) |
+| Min Icons | 6 | Artem Laman ([Chalice](https://github.com/artlaman/chalice-icon-theme)) | MIT | [phibr0/zed-min-theme](https://github.com/phibr0/zed-min-theme) |
+| Monospace Icons | 5 | Isheunopa Ralph Mhonde, after Firebase Studio's Monospace | Apache-2.0 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) |
+| Phosphor Icons Theme | 8 | [Phosphor Icons](https://phosphoricons.com) | MIT | [theoluciano/phosphor-icons-theme](https://github.com/theoluciano/phosphor-icons-theme) |
+| Serendipity Icons | 6 | Nguyen Dang Vinh | MIT | [meocoder31099/Serendipity-Icon-Theme-Zed](https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed) |
+| Symbols | 5 | Miguel Solorio ([Symbols](https://github.com/miguelsolorio/vscode-symbols)) | MIT | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) |
+
+Only icon themes whose icons may be shared under a permissive license are
+here; a Zed icon theme whose icons are GPL, CC BY-SA or of unclear origin
+isn't.
+
 ## Licenses
 
 Each theme carries its palette's license in its `license` field, with the
 palette's home in `source`. The palettes here are all MIT licensed; the
 files themselves are MIT, like Kanso.
+
+Each icon theme carries its icons' license in its `license` field and its
+folder's LICENSE file, the Zed extension's. Where the extension redraws
+another project's icons, that project's license is beside it as
+LICENSE-ICONS (or LICENSE-APACHE).

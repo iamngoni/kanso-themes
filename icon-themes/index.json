@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "themes": [
+    {
+      "folder": "catppuccin-icons",
+      "file": "catppuccin-icons/catppuccin-icons.json",
+      "name": "Catppuccin Icons",
+      "author": "Catppuccin",
+      "license": "MIT",
+      "source": "https://github.com/catppuccin/zed-icons",
+      "description": "Catppuccin's file and folder icons, from the Zed extension.",
+      "count": 6,
+      "icons": {
+        "library.attachment-audio": "icons/latte/audio.svg",
+        "library.attachment-image": "icons/latte/image.svg",
+        "library.attachment-pdf": "icons/latte/pdf.svg",
+        "library.notebook": "icons/latte/_folder.svg",
+        "library.notebook-open": "icons/latte/_folder_open.svg",
+        "library.templates": "icons/latte/folder_templates.svg"
+      }
+    },
+    {
+      "folder": "charmed-icons",
+      "file": "charmed-icons/charmed-icons.json",
+      "name": "Charmed Icons",
+      "author": "littensy, jmesrje",
+      "license": "MIT",
+      "source": "https://github.com/jmesrje/zed-charmed-icons",
+      "description": "littensy's Charmed Icons, from jmesrje's Zed extension.",
+      "count": 6,
+      "icons": {
+        "library.attachment-audio": "icons/base/audio.svg",
+        "library.attachment-image": "icons/base/image.svg",
+        "library.attachment-pdf": "icons/base/pdf.svg",
+        "library.note": "icons/base/_file.svg",
+        "library.notebook": "icons/base/_folder.svg",
+        "library.notebook-open": "icons/base/_folder_open.svg"
+      }
+    },
+    {
+      "folder": "fantasticons",
+      "file": "fantasticons/fantasticons.json",
+      "name": "FantastIcons",
+      "author": "Caio Landgraf",
+      "license": "MIT",
+      "source": "https://github.com/caiolandgraf/fantasticons-zed",
+      "description": "FantastIcons, from the Zed extension.",
+      "count": 7,
+      "icons": {
+        "library.attachment-audio": "icons/audio.svg",
+        "library.attachment-image": "icons/image.svg",
+        "library.attachment-pdf": "icons/pdf.svg",
+        "library.note": "icons/_file.svg",
+        "library.notebook": "icons/folder.svg",
+        "library.notebook-open": "icons/folder_open.svg",
+        "library.templates": "icons/folder_template.svg"
+      }
+    },
+    {
+      "folder": "jetbrains-icons",
+      "file": "jetbrains-icons/jetbrains-icons.json",
+      "name": "JetBrains Icons",
+      "author": "Zeeshan Ahmad",
+      "license": "Apache-2.0",
+      "source": "https://github.com/ziishaned/zed-jetbrains-icons",
+      "description": "JetBrains IntelliJ's product icons, from Zeeshan Ahmad's Zed extension.",
+      "count": 8,
+      "icons": {
+        "library.attachment-audio": "icons/dark/text.svg",
+        "library.attachment-image": "icons/dark/image.svg",
+        "library.attachment-pdf": "icons/dark/text.svg",
+        "library.fold-closed": "icons/dark/chevron_right.svg",
+        "library.fold-open": "icons/dark/chevron_down.svg",
+        "library.note": "icons/dark/text.svg",
+        "library.notebook": "icons/dark/folder.svg",
+        "library.notebook-open": "icons/dark/folder.svg"
+      }
+    },
+    {
+      "folder": "jetbrains-new-ui-icons",
+      "file": "jetbrains-new-ui-icons/jetbrains-new-ui-icons.json",
+      "name": "JetBrains New UI Icons",
+      "author": "ankddev",
+      "license": "Apache-2.0",
+      "source": "https://github.com/ankddev/zed-jetbrains-newui-icons",
+      "description": "The JetBrains IDEs' New UI icons, from ankddev's Zed extension.",
+      "count": 5,
+      "icons": {
+        "library.attachment-image": "icons/image_dark.svg",
+        "library.attachment-pdf": "icons/text.svg",
+        "library.note": "icons/anyType_dark.svg",
+        "library.notebook": "icons/folder_dark.svg",
+        "library.notebook-open": "icons/folder_dark.svg"
+      }
+    },
+    {
+      "folder": "kokedera-icons",
+      "file": "kokedera-icons/kokedera-icons.json",
+      "name": "Kokedera Icons",
+      "author": "Florian Mühlhans",
+      "license": "MIT",
+      "source": "https://github.com/cappuccinotogo/kokedera-icons-extension-zed",
+      "description": "Moss temple icons, from the Kokedera Zed extension.",
+      "count": 9,
+      "icons": {
+        "library.attachment-audio": "icons/morning/audio.svg",
+        "library.attachment-image": "icons/morning/image.svg",
+        "library.attachment-pdf": "icons/morning/pdf.svg",
+        "library.fold-closed": "icons/morning/chevron-closed.svg",
+        "library.fold-open": "icons/morning/chevron-open.svg",
+        "library.note": "icons/morning/default.svg",
+        "library.notebook": "icons/morning/folder-closed.svg",
+        "library.notebook-open": "icons/morning/folder-open.svg",
+        "library.templates": "icons/morning/folder-pages-closed.svg"
+      }
+    },
+    {
+      "folder": "material-icon-theme",
+      "file": "material-icon-theme/material-icon-theme.json",
+      "name": "Material Icon Theme",
+      "author": "Zed Industries",
+      "license": "MIT",
+      "source": "https://github.com/zed-extensions/material-icon-theme",
+      "description": "The Material Icon Theme project's icons, from Zed's extension.",
+      "count": 6,
+      "icons": {
+        "library.attachment-audio": "icons/audio.svg",
+        "library.attachment-image": "icons/image.svg",
+        "library.attachment-pdf": "icons/pdf.svg",
+        "library.journal": "icons/folder-docs.svg",
+        "library.notebook": "icons/folder.svg",
+        "library.notebook-open": "icons/folder-open.svg"
+      }
+    },
+    {
+      "folder": "min-icons",
+      "file": "min-icons/min-icons.json",
+      "name": "Min Icons",
+      "author": "Phillip Bronzel",
+      "license": "MIT",
+      "source": "https://github.com/phibr0/zed-min-theme",
+      "description": "Artem Laman's Chalice icons, from Phillip Bronzel's Min theme for Zed.",
+      "count": 6,
+      "icons": {
+        "library.attachment-audio": "icons/file-image.svg",
+        "library.attachment-image": "icons/file-image.svg",
+        "library.attachment-pdf": "icons/file-image.svg",
+        "library.note": "icons/file.svg",
+        "library.notebook": "icons/folder-closed.svg",
+        "library.notebook-open": "icons/folder-open.svg"
+      }
+    },
+    {
+      "folder": "monospace-icons",
+      "file": "monospace-icons/monospace-icons.json",
+      "name": "Monospace Icons",
+      "author": "Isheunopa Ralph Mhonde",
+      "license": "Apache-2.0",
+      "source": "https://github.com/irmhonde/monospace-icon-theme",
+      "description": "Firebase Studio's Monospace icons, from Isheunopa Ralph Mhonde's Zed extension.",
+      "count": 5,
+      "icons": {
+        "library.attachment-audio": "icons/audio.svg",
+        "library.attachment-image": "icons/image_light.svg",
+        "library.attachment-pdf": "icons/pdf_light.svg",
+        "library.notebook": "icons/folder_light.svg",
+        "library.notebook-open": "icons/folder_light_expanded.svg"
+      }
+    },
+    {
+      "folder": "phosphor-icons-theme",
+      "file": "phosphor-icons-theme/phosphor-icons-theme.json",
+      "name": "Phosphor Icons Theme",
+      "author": "Theo Luciano",
+      "license": "MIT",
+      "source": "https://github.com/theoluciano/phosphor-icons-theme",
+      "description": "Phosphor's icons as Theo Luciano's Zed extension picks them.",
+      "count": 8,
+      "icons": {
+        "library.attachment-audio": "icons/audio.svg",
+        "library.attachment-image": "icons/image.svg",
+        "library.attachment-pdf": "icons/pdf.svg",
+        "library.fold-closed": "icons/caret-right.svg",
+        "library.fold-open": "icons/caret-down.svg",
+        "library.note": "icons/document.svg",
+        "library.notebook": "icons/folder-closed.svg",
+        "library.notebook-open": "icons/folder-open.svg"
+      }
+    },
+    {
+      "folder": "serendipity-icons",
+      "file": "serendipity-icons/serendipity-icons.json",
+      "name": "Serendipity Icons",
+      "author": "Nguyen Dang Vinh",
+      "license": "MIT",
+      "source": "https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed",
+      "description": "A tiny set of file and folder icons, from the Zed extension.",
+      "count": 6,
+      "icons": {
+        "library.attachment-audio": "icons/file.svg",
+        "library.attachment-image": "icons/file.svg",
+        "library.attachment-pdf": "icons/file.svg",
+        "library.note": "icons/file.svg",
+        "library.notebook": "icons/folder.svg",
+        "library.notebook-open": "icons/folder-open.svg"
+      }
+    },
+    {
+      "folder": "symbols",
+      "file": "symbols/symbols.json",
+      "name": "Symbols",
+      "author": "Joan Garcia",
+      "license": "MIT",
+      "source": "https://github.com/joangarciaa-dev/zed-symbols",
+      "description": "Miguel Solorio's Symbols, from Joan Garcia's Zed extension.",
+      "count": 5,
+      "icons": {
+        "library.attachment-audio": "icons/files/audio.svg",
+        "library.attachment-image": "icons/files/image.svg",
+        "library.attachment-pdf": "icons/files/pdf.svg",
+        "library.notebook": "icons/folders/folder.svg",
+        "library.notebook-open": "icons/folders/folder-open.svg"
+      }
+    }
+  ]
+}
