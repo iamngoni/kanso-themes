@@ -7,7 +7,10 @@
 #      against schema/kanso-theme-v1.json with ajv;
 #   2. writes index.json (`kanso theme index`);
 #   3. renders each theme's three cards to thumbnails/<file>.png with the
-#      app's headless snapshot harness.
+#      app's headless snapshot harness;
+#   4. reads each icon theme folder in icon-themes/ as Kanso does
+#      (`kanso icon-theme check`), and, when `npx` is available, validates
+#      its JSON against icon-themes/schema/kanso-icon-theme-v1.json.
 #
 # It needs a Kanso checkout to build the tools: this folder's parent when it
 # lives in one (themes/ in the Kanso repository), or $KANSO_REPO.
@@ -42,6 +45,20 @@ if command -v npx >/dev/null 2>&1 && [ "${KANSO_SKIP_AJV:-}" = "" ]; then
 fi
 
 "$kanso" theme index "$here" --out "$here/index.json"
+
+icon_themes=$(find "$here/icon-themes" -mindepth 1 -maxdepth 1 -type d ! -name schema | sort)
+if [ -n "$icon_themes" ]; then
+    # shellcheck disable=SC2086
+    "$kanso" icon-theme check $icon_themes
+    if command -v npx >/dev/null 2>&1 && [ "${KANSO_SKIP_AJV:-}" = "" ]; then
+        for theme in $icon_themes; do
+            npx --yes ajv-cli@5 validate --spec=draft2020 --strict=false \
+                -s "$here/icon-themes/schema/kanso-icon-theme-v1.json" \
+                -d "$theme/$(basename "$theme").json" >/dev/null
+        done
+        echo "schema: every icon theme validates"
+    fi
+fi
 
 if [ "$thumbs" = 1 ]; then
     KANSO_THEMES_DIR="$here" KANSO_THEME_THUMBS_DIR="$here/thumbnails" \

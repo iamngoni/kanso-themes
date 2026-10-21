@@ -14,3 +14,10 @@ jobs:
         run: |
           npm install --no-save ajv-cli@5.0.0 ajv-formats@3.0.1
           npx ajv validate --spec=draft2020 -c ajv-formats -s schema/kanso-theme-v1.json -d "{$(ls *.json | grep -v '^index.json$' | paste -sd, -)}" --all-errors
+      - name: Check every icon theme against its schema
+        run: |
+          for dir in icon-themes/*/; do
+            name=$(basename "$dir")
+            [ "$name" = schema ] && continue
+            npx ajv validate --spec=draft2020 -c ajv-formats -s icon-themes/schema/kanso-icon-theme-v1.json -d "$dir$name.json" --all-errors
+          done
