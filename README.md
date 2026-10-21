@@ -170,12 +170,22 @@ the SVGs it names and its LICENSE. An icon theme redraws Kanso's icons;
 Kanso draws each one in the color theme's text color, so any icon theme goes
 with any color theme, and an icon a theme leaves out stays Kanso's own.
 
-The ones here are converted from [Zed](https://zed.dev) icon themes with
+Two are Kanso's own: **Lucide**, the icons Kanso draws without an icon
+theme, and **Phosphor**, which redraws every icon in Kanso, from the toolbar
+and menus to the notebooks. Both are built into Kanso too.
+
+| Theme | Icons | Icons by | License |
+|---|---|---|---|
+| Lucide | Kanso's own | [Lucide](https://lucide.dev) | ISC |
+| Phosphor | 363, every icon Kanso draws | [Phosphor Icons](https://phosphoricons.com) | MIT |
+
+The others are converted from [Zed](https://zed.dev) icon themes with
 `kanso icon-theme import`. Each brings its folder icons as notebooks, closed
 and open, and, where it has them, its chevrons for folding, its file icon for
 notes, its PDF, image and audio icons for attachments, and its templates and
 journal folders for the Templates and Journal notebooks. Zed's icons for kinds of code file have nothing to
-stand for in a notes app, so they are left out. A Zed theme's light, dark and
+stand for in a notes app, so they are left out, and so these themes
+restyle your library, while the rest of Kanso keeps its own icons. A Zed theme's light, dark and
 other color variants draw the same shapes once they are one color, so each
 theme is here once.
 
