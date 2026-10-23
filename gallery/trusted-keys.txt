@@ -1,0 +1,13 @@
+# The theme gallery's public keys: one base64 Ed25519 key a line.
+#
+# The signing job refuses a key whose public half isn't here, and Kanso
+# verifies `gallery/index.json.sig` against a copy of this list compiled in
+# (`crates/kanso-gallery/keys/themes-trusted-keys.txt`). Keep the two lists
+# identical for every rotation.
+#
+# The owner's key was generated once with `kanso-release keygen` (the same
+# base64 32-byte seed format `gallery-sign` reads) and its secret lives only
+# in the `gallery` environment as `KANSO_THEMES_SIGNING_KEY`. Do not run
+# `gallery-sign keygen` again unless you are rotating: a new key would not be
+# trusted by any shipped Kanso.
+gAD6MZmqRxzGkbeLh0ofxcVn5UlW+AaA7157L15Qd4Y=

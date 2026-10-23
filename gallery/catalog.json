@@ -1,0 +1,288 @@
+{
+  "min_kanso": "0.8.4",
+  "themes": {
+    "andromeda": {
+      "family": "andromeda",
+      "min_kanso": "0.8.4"
+    },
+    "ayu-dark": {
+      "family": "ayu",
+      "min_kanso": "0.8.4"
+    },
+    "ayu-light": {
+      "family": "ayu",
+      "min_kanso": "0.8.4"
+    },
+    "ayu-mirage": {
+      "family": "ayu-mirage",
+      "min_kanso": "0.8.4"
+    },
+    "catppuccin-frappe": {
+      "family": "catppuccin-frappe",
+      "min_kanso": "0.8.4"
+    },
+    "catppuccin-latte": {
+      "family": "catppuccin-latte",
+      "min_kanso": "0.8.4"
+    },
+    "catppuccin-macchiato": {
+      "family": "catppuccin-macchiato",
+      "min_kanso": "0.8.4"
+    },
+    "catppuccin-mocha": {
+      "family": "catppuccin-mocha",
+      "min_kanso": "0.8.4"
+    },
+    "cobalt2": {
+      "family": "cobalt2",
+      "min_kanso": "0.8.4"
+    },
+    "default-dark": {
+      "family": "default",
+      "min_kanso": "0.8.4"
+    },
+    "default-light": {
+      "family": "default",
+      "min_kanso": "0.8.4"
+    },
+    "dracula": {
+      "family": "dracula",
+      "min_kanso": "0.8.4"
+    },
+    "duskfox": {
+      "family": "duskfox",
+      "min_kanso": "0.8.4"
+    },
+    "everforest-dark": {
+      "family": "everforest",
+      "min_kanso": "0.8.4"
+    },
+    "everforest-light": {
+      "family": "everforest",
+      "min_kanso": "0.8.4"
+    },
+    "flexoki-dark": {
+      "family": "flexoki",
+      "min_kanso": "0.8.4"
+    },
+    "flexoki-light": {
+      "family": "flexoki",
+      "min_kanso": "0.8.4"
+    },
+    "github-dark-dimmed": {
+      "family": "github-dark-dimmed",
+      "min_kanso": "0.8.4"
+    },
+    "github-dark-high-contrast": {
+      "family": "github",
+      "min_kanso": "0.8.4"
+    },
+    "github-dark": {
+      "family": "github",
+      "min_kanso": "0.8.4"
+    },
+    "github-light-high-contrast": {
+      "family": "github",
+      "min_kanso": "0.8.4"
+    },
+    "github-light": {
+      "family": "github",
+      "min_kanso": "0.8.4"
+    },
+    "gruvbox-dark": {
+      "family": "gruvbox",
+      "min_kanso": "0.8.4"
+    },
+    "gruvbox-light": {
+      "family": "gruvbox",
+      "min_kanso": "0.8.4"
+    },
+    "gruvbox-material-dark": {
+      "family": "gruvbox-material",
+      "min_kanso": "0.8.4"
+    },
+    "gruvbox-material-light": {
+      "family": "gruvbox-material",
+      "min_kanso": "0.8.4"
+    },
+    "horizon-bright": {
+      "family": "horizon-bright",
+      "min_kanso": "0.8.4"
+    },
+    "horizon": {
+      "family": "horizon",
+      "min_kanso": "0.8.4"
+    },
+    "iceberg": {
+      "family": "iceberg",
+      "min_kanso": "0.8.4"
+    },
+    "kanagawa-dragon": {
+      "family": "kanagawa-dragon",
+      "min_kanso": "0.8.4"
+    },
+    "kanagawa-lotus": {
+      "family": "kanagawa-lotus",
+      "min_kanso": "0.8.4"
+    },
+    "kanagawa-wave": {
+      "family": "kanagawa-wave",
+      "min_kanso": "0.8.4"
+    },
+    "kanso-dark": {
+      "family": "kanso",
+      "min_kanso": "0.8.4"
+    },
+    "kanso-light": {
+      "family": "kanso",
+      "min_kanso": "0.8.4"
+    },
+    "material-dark": {
+      "family": "material",
+      "min_kanso": "0.8.4"
+    },
+    "material-lighter": {
+      "family": "material-lighter",
+      "min_kanso": "0.8.4"
+    },
+    "material-palenight": {
+      "family": "material-palenight",
+      "min_kanso": "0.8.4"
+    },
+    "min-dark": {
+      "family": "min",
+      "min_kanso": "0.8.4"
+    },
+    "min-light": {
+      "family": "min",
+      "min_kanso": "0.8.4"
+    },
+    "moonlight": {
+      "family": "moonlight",
+      "min_kanso": "0.8.4"
+    },
+    "night-owl-dark": {
+      "family": "night-owl",
+      "min_kanso": "0.8.4"
+    },
+    "night-owl-light": {
+      "family": "night-owl",
+      "min_kanso": "0.8.4"
+    },
+    "nightfox": {
+      "family": "nightfox",
+      "min_kanso": "0.8.4"
+    },
+    "nord": {
+      "family": "nord",
+      "min_kanso": "0.8.4"
+    },
+    "nordfox": {
+      "family": "nordfox",
+      "min_kanso": "0.8.4"
+    },
+    "one-dark-vibrant": {
+      "family": "one-dark-vibrant",
+      "min_kanso": "0.8.4"
+    },
+    "oxocarbon-dark": {
+      "family": "oxocarbon",
+      "min_kanso": "0.8.4"
+    },
+    "oxocarbon-light": {
+      "family": "oxocarbon",
+      "min_kanso": "0.8.4"
+    },
+    "rose-pine-dawn": {
+      "family": "rose-pine-dawn",
+      "min_kanso": "0.8.4"
+    },
+    "rose-pine-moon": {
+      "family": "rose-pine-moon",
+      "min_kanso": "0.8.4"
+    },
+    "rose-pine": {
+      "family": "rose-pine",
+      "min_kanso": "0.8.4"
+    },
+    "solarized-dark": {
+      "family": "solarized",
+      "min_kanso": "0.8.4"
+    },
+    "solarized-light": {
+      "family": "solarized",
+      "min_kanso": "0.8.4"
+    },
+    "synthwave-84": {
+      "family": "synthwave-84",
+      "min_kanso": "0.8.4"
+    },
+    "tokyo-night-light": {
+      "family": "tokyo-night",
+      "min_kanso": "0.8.4"
+    },
+    "tokyo-night-storm": {
+      "family": "tokyo-night-storm",
+      "min_kanso": "0.8.4"
+    },
+    "tokyo-night": {
+      "family": "tokyo-night",
+      "min_kanso": "0.8.4"
+    },
+    "tomorrow-night-burns": {
+      "family": "tomorrow-night-burns",
+      "min_kanso": "0.8.4"
+    },
+    "tomorrow-night": {
+      "family": "tomorrow-night",
+      "min_kanso": "0.8.4"
+    },
+    "tomorrow": {
+      "family": "tomorrow",
+      "min_kanso": "0.8.4"
+    },
+    "catppuccin-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "charmed-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "fantasticons": {
+      "min_kanso": "0.8.4"
+    },
+    "jetbrains-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "jetbrains-new-ui-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "kokedera-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "lucide": {
+      "min_kanso": "0.8.4"
+    },
+    "material-icon-theme": {
+      "min_kanso": "0.8.4"
+    },
+    "min-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "monospace-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "phosphor": {
+      "min_kanso": "0.8.4"
+    },
+    "phosphor-icons-theme": {
+      "min_kanso": "0.8.4"
+    },
+    "serendipity-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "symbols": {
+      "min_kanso": "0.8.4"
+    }
+  },
+  "revoked": []
+}

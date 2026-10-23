@@ -230,3 +230,109 @@ Each icon theme carries its icons' license in its `license` field and its
 folder's LICENSE file, the Zed extension's. Where the extension redraws
 another project's icons, that project's license is beside it as
 LICENSE-ICONS (or LICENSE-APACHE).
+
+## Theme gallery
+
+Kanso's gallery is the same themes, published as a signed catalog: a new
+theme, or a fix to one, reaches Kanso without a release. Everything in this
+section is optional for a theme PR; only the owner publishes.
+
+### Files
+
+```
+gallery/
+  catalog.json            reviewed: families, min_kanso, revoked
+  versions.json           generated: serial and per-theme versions
+  index.json              generated, signed, committed
+  index.json.sig          generated, signed, committed
+  icon-themes/<id>.tar.gz generated bundles, committed
+  trusted-keys.txt        public keys only
+  kanso-commit.txt        the Kanso commit whose parsers CI runs
+scripts/gallery.mjs       the builder
+tools/gallery-sign/       the signer and verifier
+```
+
+### Adding or changing a theme
+
+1. Add or edit `<id>.json` (a color theme at the repository root) or
+   `icon-themes/<id>/` and its row in
+   `icon-themes/index.json`, exactly as for a normal theme PR.
+2. Run `node scripts/gallery.mjs` to check the catalog builds. The builder
+   derives ids, names, hashes, sizes, versions and bundles from the files;
+   do not edit `gallery/index.json` or `gallery/versions.json` by hand.
+3. `scripts/check.sh` still runs Kanso's parser, contrast checks and icon
+   path rules; the `Validate themes` workflow runs them again from the
+   pinned Kanso commit in `gallery/kanso-commit.txt`.
+
+A color theme's `name` is immutable once published (Kanso selects by name):
+renaming one needs a new id. `id` is the file stem and is immutable too.
+
+### Families, minimum Kanso and revocation
+
+`gallery/catalog.json` is the reviewed metadata the theme files do not
+carry:
+
+```json
+{
+  "min_kanso": "0.8.4",
+  "themes": {
+    "nord": { "family": "nord", "min_kanso": "0.8.4" }
+  },
+  "revoked": [
+    { "id": "old-palette", "reason": "Withdrawn by its author.", "since": "2026-10-01T00:00:00Z" }
+  ]
+}
+```
+
+A family with exactly one light and one dark theme is one paired card in
+Kanso; more than two variants stay separate cards under the same family.
+`min_kanso` makes Kanso show but not install an entry that needs a newer app.
+
+Revocation is a separate, reviewed change: add the id to `revoked` with a
+reason and publish. Kanso removes an installed unedited copy and falls back
+if it was selected. A revoked copy the person edited is disabled and
+unselected, not deleted, until that case is decided (issue #49, question 4).
+Absence from the catalog is not revocation: an installed theme that merely
+disappears stays installed and is labelled "Not in the gallery".
+
+### Publishing
+
+`Publish gallery` runs after `Validate themes` succeeds on `main`:
+
+1. **build** (read-only, no secret) runs the builder and uploads the index,
+   bundles and versions.
+2. **sign** runs in the protected `gallery` environment, with a reviewer
+   required and `contents: read`, builds `tools/gallery-sign`, signs the
+   exact index bytes, verifies against `gallery/trusted-keys.txt`, and
+   uploads the signature. If the secret is absent it skips cleanly.
+3. **publish** has `contents: write`, no secret, re-verifies every bundle
+   hash against the signed index, and commits `gallery/` with `[skip ci]`.
+
+Every action is pinned to a commit. The publish job uses the workflow's
+built-in `GITHUB_TOKEN`; main is not protected, and a `GITHUB_TOKEN` push does
+not start another workflow, which is wanted here. It cannot forge a
+signature.
+
+### The owner's setup (done)
+
+The key and the `gallery` environment already exist; there is nothing left
+to generate.
+
+- The public key is in `gallery/trusted-keys.txt` and in Kanso's
+  `crates/kanso-gallery/keys/themes-trusted-keys.txt`.
+- The `gallery` environment requires a reviewer and deploys only from
+  `main`. It holds `KANSO_THEMES_SIGNING_KEY`, and nothing else does.
+- The secret was made with `kanso-release keygen` from Kanso, which prints
+  the base64 of a 32-byte Ed25519 seed. `gallery-sign` reads exactly that
+  format, so it needs no conversion. Do not run `gallery-sign keygen` again
+  unless rotating: a new key would not be trusted by a shipped Kanso.
+
+The next successful validation run signs and publishes the index.
+
+### Rotation
+
+Generate a new key, add its public half to both trusted-key lists, ship a
+Kanso release that trusts both, then replace `KANSO_THEMES_SIGNING_KEY` with
+the new secret. Once the oldest supported Kanso trusts the new key, remove
+the old line from both lists. Never reuse the app-update key: the two key
+lists are separate.

@@ -1,0 +1,168 @@
+name: Publish gallery
+# Validate themes on main, then build read-only, sign in the protected
+# `gallery` environment, and publish from a separate write-only job. The
+# signing key is in exactly one step's environment and never reaches the
+# job that writes to the repository.
+#
+# `workflow_run` with `branches: [main]` can match a fork pull request whose
+# head branch is named `main`, so every job also checks that this run came
+# from a push to this repository's own main. Nothing from a fork ever reaches
+# a job that runs the builder, the signer or the key.
+on:
+  workflow_run:
+    workflows: ["Validate themes"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency: gallery-publish
+
+jobs:
+  build:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the exact validated commit
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Take the serial from the tip of main
+        # The validated commit can be older than main by the time the job
+        # runs; the next serial must follow what main publishes, not the
+        # commit's own history.
+        run: |
+          git fetch --no-tags --depth=1 origin main
+          git show origin/main:gallery/versions.json > /tmp/versions-main.json
+      - name: Build the catalog and deterministic bundles
+        run: |
+          node scripts/gallery.mjs \
+            --root . --out gallery --previous /tmp/versions-main.json \
+            --source-commit "${{ github.event.workflow_run.head_sha }}" \
+            --generated-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          node scripts/gallery.mjs --root . --out gallery --check
+      - name: Upload the build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: gallery-build
+          path: gallery/
+          if-no-files-found: error
+
+  sign:
+    needs: build
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    # Requires reviewers. The key is a secret of this environment only.
+    environment: gallery
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the exact validated commit
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - name: Download the build
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-build
+          path: gallery/
+      - name: Build the signer
+        # No secret here: a build script or proc macro must never be able to
+        # read the key. The built binary runs in the next step.
+        run: cargo build --locked --manifest-path tools/gallery-sign/Cargo.toml
+      - name: Sign the exact index bytes
+        env:
+          KANSO_THEMES_SIGNING_KEY: ${{ secrets.KANSO_THEMES_SIGNING_KEY }}
+        run: |
+          test -n "${KANSO_THEMES_SIGNING_KEY:-}" || {
+            echo "The gallery environment has no KANSO_THEMES_SIGNING_KEY." >&2
+            exit 1
+          }
+          tools/gallery-sign/target/debug/gallery-sign \
+            sign --index gallery/index.json --out gallery/index.json.sig
+          tools/gallery-sign/target/debug/gallery-sign \
+            verify --index gallery/index.json --signature gallery/index.json.sig \
+            --keys gallery/trusted-keys.txt
+      - name: Upload the signed index
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: gallery-signed
+          path: |
+            gallery/index.json
+            gallery/index.json.sig
+          if-no-files-found: error
+
+  publish:
+    needs: sign
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out main with the built-in token
+        # GITHUB_TOKEN is enough: main is not protected, and its pushes do
+        # not start other workflows, which is wanted here.
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Download the signed index
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-signed
+          path: gallery/
+      - name: Download the bundles and versions
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-build
+          path: gallery-build/
+      - name: Put the build beside the signature and re-verify every hash
+        run: |
+          cp -R gallery-build/icon-themes/. gallery/icon-themes/
+          cp gallery-build/versions.json gallery/versions.json
+          cmp gallery/index.json gallery-build/index.json
+          node scripts/gallery.mjs --root . --out gallery --verify-only
+      - name: Commit and push once, retrying a fast-forward race once
+        run: |
+          git config user.name "kanso-gallery"
+          git config user.email "gallery@users.noreply.github.com"
+          git add gallery
+          if git diff --cached --quiet; then
+            echo "The gallery is unchanged."
+            exit 0
+          fi
+          git commit -m "Publish the theme gallery [skip ci]"
+          git fetch origin main
+          # The serial was built from main's tip at build time. If another
+          # publication landed since, this index would reuse a serial and
+          # every app would refuse it; fail instead of pushing it.
+          main_serial=$(git show origin/main:gallery/versions.json | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>console.log(JSON.parse(s).serial))")
+          built_serial=$(node -e "console.log(require('./gallery/index.json').serial - 1)")
+          if [ "$main_serial" != "$built_serial" ]; then
+            echo "main published serial $main_serial after this build started; run it again." >&2
+            exit 1
+          fi
+          git rebase origin/main
+          git push origin HEAD:main || {
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          }
