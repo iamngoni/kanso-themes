@@ -1,0 +1,87 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Oxocarbon Light",
+  "author": "nyoom-engineering",
+  "license": "CC0-1.0",
+  "source": "https://github.com/nyoom-engineering/oxocarbon.nvim",
+  "description": "Oxocarbon in daylight: white paper and Carbon's sharp violet.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FFFFFF",
+    "text": "#161616",
+    "accent": "#8A3FFC",
+    "app": "#FFFFFF",
+    "sidebar": "#FFFFFF",
+    "list": "#F4F4F4",
+    "elevated": "#F4F4F4",
+    "fill": "#F4F4F4",
+    "text_secondary": "#6F6F6F",
+    "text_muted": "#6F6F6F",
+    "divider": "#E0E0E0",
+    "link": "#8A3FFC",
+    "row_active": "#E0E0E0",
+    "row_hover": "#E8E8E8",
+    "sidebar_active": "#E0E0E0",
+    "sidebar_hover": "#E8E8E8",
+    "hover": "#E8E8E8",
+    "selected": "#E0E0E0",
+    "active_line": "#F4F4F4",
+    "success": "#24A148",
+    "warning": "#D67027",
+    "danger": "#DA1E28",
+    "selection": "#8A3FFC40",
+    "caret": "#8A3FFC"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#D12771",
+      "font_weight": 700
+    },
+    "block_marker": "#161616",
+    "marker": "#161616",
+    "list_marker": "#161616",
+    "link": "#0F62FE",
+    "url": "#0F62FE",
+    "code": "#1192E8",
+    "code_block": "#1192E8",
+    "emphasis": {
+      "color": "#0AA4A1",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#0AA4A1",
+      "font_weight": 700
+    },
+    "escape": "#8A3FFC",
+    "comment": {
+      "color": "#6F6F6F",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6F6F6F",
+      "font_style": "italic"
+    },
+    "keyword": "#8A3FFC",
+    "string": "#1192E8",
+    "string_special": "#1192E8",
+    "function": "#24A148",
+    "type": "#D12771",
+    "type_constructor": "#0AA4A1",
+    "number": "#8A3FFC",
+    "boolean": "#8A3FFC",
+    "constant": "#8A3FFC",
+    "variable": "#0AA4A1",
+    "variable_special": {
+      "color": "#0AA4A1",
+      "font_style": "italic"
+    },
+    "property": "#0AA4A1",
+    "attribute": "#24A148",
+    "tag": "#0AA4A1",
+    "label": "#D12771",
+    "punctuation": "#161616",
+    "bracket": "#161616"
+  },
+  "preview": {}
+}
