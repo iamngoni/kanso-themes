@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Tomorrow",
+  "author": "Chris Kempson",
+  "license": "MIT",
+  "source": "https://github.com/chriskempson/tomorrow-theme",
+  "description": "Tomorrow in daylight: a clean white page with soft, classic accents.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FFFFFF",
+    "text": "#60605F",
+    "accent": "#5286BC",
+    "app": "#FFFFFF",
+    "sidebar": "#F2F2F2",
+    "list": "#F2F2F2",
+    "elevated": "#F2F2F2",
+    "text_secondary": "#7F7F7F",
+    "text_muted": "#878787",
+    "divider": "#F2F2F2",
+    "row_active": "#E3E3E3",
+    "row_hover": "#FFFFFF",
+    "sidebar_active": "#DFE5EB",
+    "sidebar_hover": "#E0E0E0",
+    "hover": "#E0E0E0",
+    "selected": "#EAF0F7",
+    "active_line": "#F2F2F2",
+    "success": "#80950A",
+    "warning": "#9A8967",
+    "danger": "#D43E36",
+    "selection": "#DEDEDE8F",
+    "caret": "#5286BC"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#9C71B7",
+      "font_weight": 600
+    },
+    "block_marker": "#60605F",
+    "marker": "#60605F",
+    "list_marker": "#C3863B",
+    "task": "#C3863B",
+    "hr": "#C3863B",
+    "code": "#C3863B",
+    "comment": "#929491",
+    "comment_doc": "#929491",
+    "keyword": {
+      "color": "#9C71B7",
+      "font_weight": 600
+    },
+    "string": "#849B00",
+    "function": {
+      "color": "#4EA0A5",
+      "font_weight": 600
+    },
+    "type": {
+      "color": "#C3863B",
+      "font_weight": 600
+    },
+    "type_constructor": "#C3863B",
+    "number": "#C3863B",
+    "boolean": "#C3863B",
+    "constant": "#C3863B",
+    "variable": "#60605F",
+    "variable_special": "#C3863B",
+    "property": "#60605F",
+    "attribute": "#C3863B",
+    "tag": "#5286BC",
+    "label": "#C3863B",
+    "operator": "#60605F",
+    "punctuation": "#60605F",
+    "bracket": "#60605F"
+  },
+  "preview": {
+    "quote": "#767676",
+    "selection": "#5286BC48"
+  }
+}

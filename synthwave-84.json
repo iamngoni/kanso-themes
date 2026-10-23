@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Synthwave '84",
+  "author": "Robb Owen",
+  "license": "MIT",
+  "source": "https://github.com/robb0wen/synthwave-vscode",
+  "description": "Synthwave '84: neon magenta and cyan over a violet night.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#262335",
+    "text": "#FFFFFF",
+    "accent": "#FF7EDB",
+    "app": "#241B2F",
+    "sidebar": "#241B2F",
+    "list": "#262335",
+    "elevated": "#262335",
+    "fill": "#262335",
+    "text_secondary": "#93919A",
+    "text_muted": "#706F7B",
+    "divider": "#495495",
+    "link": "#03EDF9",
+    "row_active": "#463465",
+    "row_hover": "#2A2139",
+    "sidebar_active": "#463465",
+    "sidebar_hover": "#2A2139",
+    "hover": "#2A2139",
+    "selected": "#463465",
+    "active_line": "#2A2139",
+    "success": "#72F1B8",
+    "warning": "#FEDE5D",
+    "danger": "#FE4450",
+    "selection": "#F97E7240",
+    "caret": "#F97E72"
+  },
+  "syntax": {
+    "heading": "#36F9F6",
+    "block_marker": "#FEDE5D",
+    "marker": "#FFFFFF",
+    "list_marker": "#FF7EDB",
+    "link": "#03EDF9",
+    "url": "#72F1B8",
+    "code": "#FF8B39",
+    "code_block": "#FF8B39",
+    "emphasis": {
+      "color": "#FF7EDB",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#FF7EDB",
+      "font_weight": 700
+    },
+    "front_matter": "#FF7EDB",
+    "escape": "#72F1B8",
+    "comment": {
+      "color": "#848BBD",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#848BBD",
+      "font_style": "italic"
+    },
+    "keyword": "#FEDE5D",
+    "string": "#FF8B39",
+    "string_special": "#72F1B8",
+    "function": "#36F9F6",
+    "type": "#FF7EDB",
+    "type_constructor": "#36F9F6",
+    "number": "#F97E72",
+    "boolean": {
+      "color": "#F97E72",
+      "font_weight": 700
+    },
+    "constant": "#F97E72",
+    "variable": "#FF7EDB",
+    "variable_special": "#FF7EDB",
+    "property": "#FF7EDB",
+    "attribute": "#FEDE5D",
+    "tag": "#FF7EDB",
+    "label": "#FF7EDB",
+    "operator": "#FEDE5D",
+    "punctuation": "#FFFFFF",
+    "bracket": "#FFFFFF",
+    "embedded": {
+      "color": "#FFFFFF",
+      "font_style": "normal"
+    }
+  },
+  "preview": {}
+}
