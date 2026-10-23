@@ -1,6 +1,9 @@
 name: Validate themes
 on:
+  # Branches only: a tag named `main` must not look like a push to main to
+  # gallery-sign.yml, which runs after this workflow.
   push:
+    branches: ['**']
   pull_request:
 jobs:
   schema:

@@ -9,7 +9,7 @@
 //
 // Usage:
 //   node scripts/gallery.mjs [--root DIR] [--out DIR] [--previous FILE]
-//        [--source-commit SHA] [--generated-at RFC3339] [--check]
+//        [--source-commit SHA] [--generated-at RFC3339] [--check | --verify-only]
 //
 // Exit status 1 on any validation failure. Node 20+.
 
@@ -33,16 +33,20 @@ const MAX_BUNDLE_BYTES = 16 * 1024 * 1024;
 const MAX_SVG_BYTES = 128 * 1024;
 const MAX_PREVIEWS = 8;
 
+// Options that take no value. Anything else reads the next argument.
+const FLAGS = new Set(["check", "verify-only"]);
+
 function args(argv) {
   const out = {};
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (!arg.startsWith("--")) continue;
     const key = arg.slice(2);
-    if (key === "check") {
-      out.check = true;
+    if (FLAGS.has(key)) {
+      out[key] = true;
       continue;
     }
+    if (i + 1 >= argv.length || argv[i + 1].startsWith("--")) fail(`--${key} needs a value`);
     out[key] = argv[i + 1];
     i += 1;
   }

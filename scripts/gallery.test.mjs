@@ -151,3 +151,26 @@ test("check validates the output it is given, not the committed gallery", () => 
     rmSync(out, { recursive: true, force: true });
   }
 });
+
+test("--verify-only checks the index and writes nothing", () => {
+  const dir = copyRepo();
+  try {
+    build(dir);
+    const index = read(join(dir, "gallery/index.json"));
+    const versions = read(join(dir, "gallery/versions.json"));
+    execFileSync("node", [join(dir, "scripts/gallery.mjs"), "--root", dir, "--out", join(dir, "gallery"), "--verify-only"], { stdio: "pipe" });
+    assert.equal(read(join(dir, "gallery/index.json")), index);
+    assert.equal(read(join(dir, "gallery/versions.json")), versions);
+    const theme = join(dir, "andromeda.json");
+    writeFileSync(theme, read(theme) + "\n");
+    assert.throws(() =>
+      execFileSync("node", [join(dir, "scripts/gallery.mjs"), "--root", dir, "--out", join(dir, "gallery"), "--verify-only"], { stdio: "pipe" }),
+    );
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test("an option missing its value is refused", () => {
+  assert.throws(() => execFileSync("node", [join(repo, "scripts/gallery.mjs"), "--root"], { stdio: "pipe" }));
+});
