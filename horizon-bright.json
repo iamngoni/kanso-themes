@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Horizon Bright",
+  "author": "Jonathan Olaleye",
+  "license": "MIT",
+  "source": "https://github.com/jolaleye/horizon-theme-vscode",
+  "description": "Horizon Bright: the same dusk in daylight, on warm cream paper.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FDF0ED",
+    "text": "#06060C",
+    "accent": "#E84A72",
+    "app": "#FDF0ED",
+    "sidebar": "#FDF0ED",
+    "list": "#FDF0ED",
+    "elevated": "#FADAD1",
+    "fill": "#F9CBBE",
+    "text_secondary": "#504C4F",
+    "text_muted": "#837C7E",
+    "divider": "#FBDDD5",
+    "link": "#A24418",
+    "row_active": "#FBDDD5",
+    "row_hover": "#FBDDD5",
+    "sidebar_active": "#FBDDD5",
+    "sidebar_hover": "#FCE5DF",
+    "hover": "#FAD5CB",
+    "selected": "#FBDDD5",
+    "active_line": "#FCE5DF",
+    "success": "#07905F",
+    "warning": "#199166",
+    "danger": "#E83B58",
+    "selection": "#F9CBBE88",
+    "caret": "#E84A72"
+  },
+  "syntax": {
+    "heading": "#DA103F",
+    "block_marker": "#8A31B9",
+    "marker": "#333333",
+    "link": "#EA611D",
+    "url": "#EA611D",
+    "emphasis": {
+      "color": "#C8744C",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#8A31B9",
+      "font_weight": 700
+    },
+    "escape": "#1D8991",
+    "comment": {
+      "color": "#918A89",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#918A89",
+      "font_style": "italic"
+    },
+    "keyword": "#8A31B9",
+    "string": "#EA611D",
+    "string_special": "#DC3318",
+    "function": "#1D8991",
+    "type": "#D96E23",
+    "type_constructor": "#1D8991",
+    "number": "#DC3318",
+    "boolean": "#DC3318",
+    "constant": "#DC3318",
+    "variable": "#DA103F",
+    "variable_special": {
+      "color": "#D96E23",
+      "font_style": "italic"
+    },
+    "property": "#DA103F",
+    "attribute": "#DC3318",
+    "tag": "#DA103F",
+    "label": "#EA611D",
+    "operator": "#333333",
+    "punctuation": "#333333",
+    "bracket": "#E45373",
+    "embedded": "#8A31B9"
+  },
+  "preview": {}
+}

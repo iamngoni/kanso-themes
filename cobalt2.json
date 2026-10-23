@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Cobalt2",
+  "author": "Wes Bos",
+  "license": "MIT",
+  "source": "https://github.com/wesbos/cobalt2-vscode",
+  "description": "Wes Bos's Cobalt2: deep blue with bright yellow and cyan.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#193549",
+    "text": "#FFFFFF",
+    "accent": "#FFC600",
+    "app": "#193549",
+    "sidebar": "#122738",
+    "list": "#122738",
+    "elevated": "#193549",
+    "fill": "#0074D9",
+    "text_secondary": "#D0D0D0",
+    "text_muted": "#AAAAAA",
+    "link": "#33A0FF",
+    "row_active": "#193549",
+    "row_hover": "#193549",
+    "sidebar_hover": "#193549",
+    "hover": "#193549",
+    "active_line": "#1F4662",
+    "success": "#3AD900",
+    "warning": "#FFC600",
+    "danger": "#BC6464",
+    "selection": "#003B8B",
+    "caret": "#FFC600"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#C9A8F9",
+      "font_weight": 400
+    },
+    "block_marker": "#FF79C6",
+    "marker": "#FF79C6",
+    "link": {
+      "color": "#F8F8F2",
+      "font_style": "normal"
+    },
+    "url": "#8BE9FD",
+    "code": "#F1FA8C",
+    "code_block": "#F1FA8C",
+    "emphasis": "#9EFFFF",
+    "strong": {
+      "color": "#9EFFFF",
+      "font_weight": 700
+    },
+    "front_matter": "#F8F8F2",
+    "escape": "#FF79C6",
+    "comment": {
+      "color": "#0088FF",
+      "font_style": "italic"
+    },
+    "comment_doc": "#0088FF",
+    "keyword": "#FF9D00",
+    "string": "#A5FF90",
+    "string_special": "#FF5555",
+    "function": "#FFC600",
+    "type": {
+      "color": "#FF68B8",
+      "font_style": "italic"
+    },
+    "type_constructor": "#FF79C6",
+    "number": "#BD93F9",
+    "boolean": "#FF79C6",
+    "constant": "#FF628C",
+    "variable": "#FFFFFF",
+    "variable_special": "#FF79C6",
+    "property": "#FFB86C",
+    "tag": "#FF79C6",
+    "operator": "#FF79C6",
+    "punctuation": "#E1EFFF",
+    "bracket": "#F8F8F2",
+    "embedded": "#F8F8F2"
+  },
+  "preview": {
+    "code_background": "#0074D9"
+  }
+}

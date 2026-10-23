@@ -1,0 +1,85 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Horizon",
+  "author": "Jonathan Olaleye",
+  "license": "MIT",
+  "source": "https://github.com/jolaleye/horizon-theme-vscode",
+  "description": "Horizon: a warm charcoal dusk with coral and peach.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#1C1E26",
+    "text": "#D5D8DA",
+    "accent": "#E95378",
+    "app": "#1C1E26",
+    "sidebar": "#1C1E26",
+    "list": "#1C1E26",
+    "elevated": "#232530",
+    "fill": "#2E303E",
+    "text_secondary": "#797B80",
+    "text_muted": "#6E7075",
+    "divider": "#252732",
+    "link": "#FAB795",
+    "row_active": "#252732",
+    "row_hover": "#252732",
+    "sidebar_active": "#252732",
+    "sidebar_hover": "#21232D",
+    "hover": "#262834",
+    "selected": "#252732",
+    "active_line": "#21232D",
+    "success": "#09F7A0",
+    "warning": "#27D797",
+    "danger": "#F43E5C",
+    "selection": "#2E303EB3",
+    "caret": "#E95378"
+  },
+  "syntax": {
+    "heading": "#E95678",
+    "block_marker": "#B877DB",
+    "marker": "#BBBBBB",
+    "link": "#FAB795",
+    "url": "#FAB795",
+    "emphasis": {
+      "color": "#FAB795",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#B877DB",
+      "font_weight": 700
+    },
+    "escape": "#25B0BC",
+    "comment": {
+      "color": "#67696E",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6C6D71",
+      "font_style": "italic"
+    },
+    "keyword": "#B877DB",
+    "string": "#FAB795",
+    "string_special": "#F09483",
+    "function": "#25B0BC",
+    "type": "#FAC29A",
+    "type_constructor": "#25B0BC",
+    "number": "#F09483",
+    "boolean": "#F09483",
+    "constant": "#F09483",
+    "variable": "#E95678",
+    "variable_special": {
+      "color": "#FAC29A",
+      "font_style": "italic"
+    },
+    "property": "#E95678",
+    "attribute": "#F09483",
+    "tag": "#E95678",
+    "label": "#FAB795",
+    "operator": "#BBBBBB",
+    "punctuation": "#BBBBBB",
+    "bracket": "#AD4963",
+    "embedded": "#B877DB"
+  },
+  "preview": {
+    "quote": "#85878B"
+  }
+}

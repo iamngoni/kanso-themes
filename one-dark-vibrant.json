@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "One Dark Vibrant",
+  "author": "Julian Graf",
+  "license": "MIT",
+  "source": "https://github.com/julian-graf/zed-one-dark-vibrant",
+  "description": "A brighter One Dark: near-black, with vivid cyan and warm accents.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#121212",
+    "text": "#E0E0E0",
+    "accent": "#52E5FF",
+    "app": "#121212",
+    "sidebar": "#18181D",
+    "list": "#121212",
+    "elevated": "#18181D",
+    "fill": "#1461AC",
+    "text_secondary": "#B2B5BC",
+    "text_muted": "#616775",
+    "divider": "#020202",
+    "link": "#1E90FF",
+    "row_active": "#2C313C",
+    "row_hover": "#2C313C",
+    "sidebar_active": "#2C313C",
+    "sidebar_hover": "#2C313C",
+    "hover": "#2C313C",
+    "selected": "#2C313C",
+    "active_line": "#1C1E22",
+    "success": "#32CD32",
+    "warning": "#FFA500",
+    "danger": "#FF0000",
+    "selection": "#4D3DFF38",
+    "caret": "#1E90FF"
+  },
+  "syntax": {
+    "heading": "#1E90FF",
+    "block_marker": "#7B8A99",
+    "marker": "#7B8A99",
+    "list_marker": "#FF3366",
+    "link": "#1E90FF",
+    "url": "#FF00FF",
+    "code": "#6BFF8E",
+    "code_block": "#6BFF8E",
+    "emphasis": "#FF00FF",
+    "strong": "#FFFFFF",
+    "front_matter": "#FF00FF",
+    "escape": "#52E5FF",
+    "comment": {
+      "color": "#666D80",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#5E6372",
+      "font_style": "italic"
+    },
+    "keyword": "#FF00FF",
+    "string": "#6BFF8E",
+    "string_special": "#52E5FF",
+    "function": "#1E90FF",
+    "type": "#FFD700",
+    "type_constructor": "#FFD700",
+    "number": "#FF8C00",
+    "boolean": "#FF8C00",
+    "constant": "#FF8C00",
+    "variable": "#FF3366",
+    "variable_special": {
+      "color": "#FF00FF",
+      "font_style": "italic"
+    },
+    "property": "#A64DFF",
+    "attribute": {
+      "color": "#1E90FF",
+      "font_style": "italic"
+    },
+    "tag": "#FF3366",
+    "label": "#FFFFFF",
+    "operator": "#7B8A99",
+    "punctuation": "#7B8A99",
+    "bracket": "#BEC3C8",
+    "embedded": "#E0E0E0"
+  },
+  "preview": {
+    "code_background": "#1461AC"
+  }
+}
