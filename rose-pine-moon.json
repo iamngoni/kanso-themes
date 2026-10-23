@@ -1,0 +1,87 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Rosé Pine Moon",
+  "author": "Rosé Pine",
+  "license": "MIT",
+  "source": "https://github.com/rose-pine/rose-pine-theme",
+  "description": "Rosé Pine Moon: the palette's night, a violet page in soft rose and foam.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#232136",
+    "text": "#E0DEF4",
+    "accent": "#9CCFD8",
+    "app": "#232136",
+    "sidebar": "#232136",
+    "list": "#2A273F",
+    "elevated": "#2A273F",
+    "fill": "#2A273F",
+    "text_secondary": "#A6A3BE",
+    "text_muted": "#74708C",
+    "divider": "#56526E",
+    "link": "#9CCFD8",
+    "row_active": "#56526E",
+    "row_hover": "#393552",
+    "sidebar_active": "#56526E",
+    "sidebar_hover": "#44415A",
+    "hover": "#44415A",
+    "selected": "#56526E",
+    "active_line": "#2A273F",
+    "success": "#3E8FB0",
+    "warning": "#F6C177",
+    "danger": "#EB6F92",
+    "selection": "#E0DEF422",
+    "caret": "#E0DEF4"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#EB6F92",
+      "font_weight": 700
+    },
+    "block_marker": "#908CAA",
+    "marker": "#908CAA",
+    "list_marker": {
+      "color": "#908CAA",
+      "font_weight": 700
+    },
+    "link": "#C4A7E7",
+    "url": "#3E8FB0",
+    "code": "#F6C177",
+    "code_block": "#F6C177",
+    "emphasis": {
+      "color": "#C4A7E7",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#9CCFD8",
+      "font_weight": 700
+    },
+    "front_matter": "#3E8FB0",
+    "escape": "#C4A7E7",
+    "comment": {
+      "color": "#6E6A86",
+      "font_style": "italic"
+    },
+    "comment_doc": "#908CAA",
+    "keyword": "#3E8FB0",
+    "string": "#F6C177",
+    "string_special": "#C4A7E7",
+    "function": "#EA9A97",
+    "type": "#9CCFD8",
+    "type_constructor": "#9CCFD8",
+    "number": "#EA9A97",
+    "boolean": "#EA9A97",
+    "constant": "#EA9A97",
+    "variable": "#E0DEF4",
+    "variable_special": "#EB6F92",
+    "property": "#C4A7E7",
+    "attribute": "#C4A7E7",
+    "tag": "#9CCFD8",
+    "label": "#9CCFD8",
+    "operator": "#908CAA",
+    "punctuation": "#908CAA",
+    "bracket": "#908CAA",
+    "embedded": "#E0DEF4"
+  },
+  "preview": {}
+}

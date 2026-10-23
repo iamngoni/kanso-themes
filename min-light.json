@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Min Light",
+  "author": "phibr0",
+  "license": "MIT",
+  "source": "https://github.com/phibr0/zed-min-theme",
+  "description": "Min Light: almost nothing but text, on a soft white page.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FFFFFF",
+    "text": "#606060",
+    "accent": "#1976D2",
+    "app": "#FBFBFB",
+    "sidebar": "#FBFBFB",
+    "list": "#FBFBFB",
+    "text_secondary": "#606060",
+    "text_muted": "#606060",
+    "divider": "#E9E9E9",
+    "link": "#212121",
+    "row_active": "#EDEDED",
+    "row_hover": "#EDEDED",
+    "sidebar_active": "#EDEDED",
+    "selected": "#EDEDED",
+    "warning": "#9C924C",
+    "danger": "#D32F2F",
+    "selection": "#1976D220"
+  },
+  "syntax": {
+    "code": {
+      "color": "#C2185B",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "code_block": {
+      "color": "#C2185B",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "escape": {
+      "color": "#D32F2F",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "comment": "#939495",
+    "comment_doc": "#939495",
+    "keyword": "#D32F2F",
+    "string": "#22863A",
+    "function": "#6F42C1",
+    "type": {
+      "color": "#1976D2",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "number": "#212121",
+    "boolean": "#1976D2",
+    "constant": "#1976D2",
+    "variable": {
+      "color": "#212121",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "variable_special": {
+      "color": "#1976D2",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "property": "#212121",
+    "attribute": "#6F42C1",
+    "tag": {
+      "color": "#22863A",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "operator": "#D32F2F",
+    "punctuation": "#424242"
+  },
+  "preview": {
+    "selection": "#1976D23C"
+  }
+}

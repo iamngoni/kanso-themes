@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Material Theme",
+  "author": "Mattia Astorino",
+  "license": "Apache-2.0",
+  "source": "https://github.com/material-theme/vsc-material-theme",
+  "description": "Material Theme's dark: a slate page in Material's blues and greens.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#263238",
+    "text": "#EEFFFF",
+    "accent": "#82AAFF",
+    "app": "#263238",
+    "sidebar": "#263238",
+    "list": "#263238",
+    "elevated": "#263238",
+    "fill": "#31454A",
+    "text_secondary": "#79929D",
+    "text_muted": "#6C8692",
+    "divider": "#263238",
+    "link": "#EEFFFF",
+    "row_active": "#2B373D",
+    "row_hover": "#263238",
+    "sidebar_active": "#2B373D",
+    "sidebar_hover": "#263238",
+    "hover": "#263238",
+    "selected": "#263238",
+    "active_line": "#1A2226",
+    "warning": "#887852",
+    "danger": "#957176"
+  },
+  "syntax": {
+    "block_marker": "#89DDFF",
+    "marker": "#89DDFF",
+    "list_marker": "#89DDFF",
+    "code": "#C3E88D",
+    "code_block": "#C3E88D",
+    "emphasis": {
+      "color": "#F07178",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#F07178",
+      "font_weight": 700
+    },
+    "escape": "#C3E88D",
+    "comment": {
+      "color": "#637D87",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#637D87",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#89DDFF",
+      "font_style": "italic"
+    },
+    "string": "#C3E88D",
+    "string_special": "#C3E88D",
+    "function": "#82AAFF",
+    "type_constructor": "#F07178",
+    "number": "#F78C6C",
+    "attribute": "#C792EA",
+    "tag": "#F07178",
+    "punctuation": "#89DDFF",
+    "bracket": "#89DDFF"
+  },
+  "preview": {
+    "quote": "#859DA7"
+  }
+}
