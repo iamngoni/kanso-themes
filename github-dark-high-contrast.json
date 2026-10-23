@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "GitHub Dark High Contrast",
+  "author": "GitHub",
+  "license": "MIT",
+  "source": "https://github.com/primer/github-vscode-theme",
+  "description": "GitHub Dark at its sharpest: true black and bright, readable text.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#010409",
+    "text": "#FFFFFF",
+    "accent": "#74B9FF",
+    "app": "#010409",
+    "sidebar": "#010409",
+    "list": "#010409",
+    "elevated": "#010409",
+    "fill": "#212830",
+    "text_secondary": "#FFFFFF",
+    "text_muted": "#B7BDC8",
+    "divider": "#B7BDC8",
+    "link": "#74B9FF",
+    "row_active": "#212830",
+    "row_hover": "#212830",
+    "sidebar_active": "#212830",
+    "sidebar_hover": "#212830",
+    "hover": "#212830",
+    "selected": "#212830",
+    "active_line": "#151B23",
+    "success": "#2BD853",
+    "warning": "#F0B72F",
+    "danger": "#FF9492",
+    "selection": "#0576FF66",
+    "caret": "#0576FF"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#91CBFF",
+      "font_weight": 700
+    },
+    "block_marker": "#FF9492",
+    "marker": "#FFFFFF",
+    "list_marker": "#FFB757",
+    "link": {
+      "color": "#ADDCFF",
+      "font_style": "italic"
+    },
+    "url": "#91CBFF",
+    "code": "#91CBFF",
+    "code_block": "#91CBFF",
+    "emphasis": {
+      "font_style": "italic"
+    },
+    "strong": {
+      "font_weight": 700
+    },
+    "front_matter": "#FF9492",
+    "escape": "#FF9492",
+    "comment": "#9198A1",
+    "comment_doc": "#9198A1",
+    "keyword": "#FF9492",
+    "string": "#ADDCFF",
+    "string_special": "#ADDCFF",
+    "function": "#DBB7FF",
+    "type": "#FFB757",
+    "type_constructor": "#FFB757",
+    "number": "#91CBFF",
+    "boolean": "#91CBFF",
+    "constant": "#91CBFF",
+    "variable": "#FFFFFF",
+    "variable_special": "#91CBFF",
+    "property": "#FFFFFF",
+    "attribute": "#91CBFF",
+    "tag": "#72F088",
+    "label": "#91CBFF",
+    "operator": "#FF9492",
+    "punctuation": "#FF9492",
+    "bracket": "#FFFFFF",
+    "embedded": "#FF9492"
+  },
+  "preview": {}
+}

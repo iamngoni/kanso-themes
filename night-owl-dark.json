@@ -1,0 +1,117 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Night Owl Dark",
+  "author": "Sarah Drasner",
+  "license": "MIT",
+  "source": "https://github.com/sdras/night-owl-vscode-theme",
+  "description": "Sarah Drasner's Night Owl: a deep blue night for late reading, with soft, high-contrast text.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#011627",
+    "text": "#D6DEEB",
+    "accent": "#82AAFF",
+    "app": "#011627",
+    "sidebar": "#011627",
+    "list": "#011627",
+    "elevated": "#0B2942",
+    "fill": "#102435",
+    "text_secondary": "#89A4BB",
+    "text_muted": "#5F7E97",
+    "divider": "#0B2942",
+    "link": "#82AAFF",
+    "row_active": "#14344F",
+    "row_hover": "#0B2942",
+    "sidebar_active": "#14344F",
+    "sidebar_hover": "#0B2942",
+    "hover": "#0B2942",
+    "selected": "#14344F",
+    "active_line": "#072435",
+    "success": "#9CCC65",
+    "warning": "#B39554",
+    "danger": "#EF5350",
+    "selection": "#4373C250",
+    "caret": "#80A4C2"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#82AAFF",
+      "font_weight": 700
+    },
+    "block_marker": {
+      "color": "#82AAFF",
+      "font_style": "italic"
+    },
+    "marker": {
+      "color": "#D6DEEB",
+      "font_style": "normal"
+    },
+    "list_marker": "#7FDBCA",
+    "link": {
+      "color": "#82AAFF",
+      "font_style": "normal"
+    },
+    "url": "#7FDBCA",
+    "code": "#ECC48D",
+    "code_block": "#ECC48D",
+    "emphasis": {
+      "color": "#82AAFF",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#FFCB8B",
+      "font_weight": 700
+    },
+    "front_matter": {
+      "color": "#C792EA",
+      "font_style": "italic"
+    },
+    "escape": "#F78C6C",
+    "comment": {
+      "color": "#637777",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#637777",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#C792EA",
+      "font_style": "italic"
+    },
+    "string": "#ECC48D",
+    "string_special": "#5CA7E4",
+    "function": {
+      "color": "#82AAFF",
+      "font_style": "italic"
+    },
+    "type": "#FFCB8B",
+    "type_constructor": {
+      "color": "#82AAFF",
+      "font_style": "normal"
+    },
+    "number": "#F78C6C",
+    "boolean": "#FF5874",
+    "constant": "#82AAFF",
+    "variable": "#D6DEEB",
+    "variable_special": "#7FDBCA",
+    "property": "#D6DEEB",
+    "attribute": {
+      "color": "#C5E478",
+      "font_style": "italic"
+    },
+    "tag": "#CAECE6",
+    "label": "#82AAFF",
+    "operator": "#C792EA",
+    "punctuation": {
+      "color": "#D6DEEB",
+      "font_style": "normal"
+    },
+    "bracket": {
+      "color": "#FFD602",
+      "font_style": "normal"
+    },
+    "embedded": "#D6DEEB"
+  },
+  "preview": {}
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Oxocarbon Dark",
+  "author": "nyoom-engineering",
+  "license": "CC0-1.0",
+  "source": "https://github.com/nyoom-engineering/oxocarbon.nvim",
+  "description": "Oxocarbon's dark: IBM Carbon's graphite and electric blue, pared back.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#161616",
+    "text": "#F2F4F8",
+    "accent": "#78A9FF",
+    "app": "#161616",
+    "sidebar": "#161616",
+    "list": "#161616",
+    "elevated": "#161616",
+    "fill": "#252626",
+    "text_secondary": "#A8A8A8",
+    "text_muted": "#6F6F6F",
+    "divider": "#262626",
+    "link": "#BE95FF",
+    "row_active": "#393939",
+    "row_hover": "#303030",
+    "sidebar_active": "#393939",
+    "sidebar_hover": "#262626",
+    "hover": "#262626",
+    "selected": "#393939",
+    "active_line": "#262626",
+    "success": "#33B1FF",
+    "warning": "#F1C21B",
+    "danger": "#EE5396",
+    "selection": "#30293ABF",
+    "caret": "#BE95FF"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#EE5396",
+      "font_weight": 700
+    },
+    "block_marker": "#F2F4F8",
+    "marker": "#F2F4F8",
+    "list_marker": "#F2F4F8",
+    "link": "#3DDBD9",
+    "url": "#3DDBD9",
+    "code": "#33B1FF",
+    "code_block": "#33B1FF",
+    "emphasis": {
+      "color": "#3DDBD9",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#3DDBD9",
+      "font_weight": 700
+    },
+    "escape": "#78A9FF",
+    "comment": {
+      "color": "#6F6F6F",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6F6F6F",
+      "font_style": "italic"
+    },
+    "keyword": "#BE95FF",
+    "string": "#33B1FF",
+    "string_special": "#33B1FF",
+    "function": "#42BE65",
+    "type": "#EE5396",
+    "type_constructor": "#3DDBD9",
+    "number": "#78A9FF",
+    "boolean": "#78A9FF",
+    "constant": "#78A9FF",
+    "variable": "#3DDBD9",
+    "variable_special": {
+      "color": "#3DDBD9",
+      "font_style": "italic"
+    },
+    "attribute": "#42BE65",
+    "tag": "#3DDBD9",
+    "label": "#EE5396",
+    "punctuation": "#F2F4F8",
+    "bracket": "#F2F4F8"
+  },
+  "preview": {}
+}

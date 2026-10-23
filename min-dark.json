@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Min Dark",
+  "author": "phibr0",
+  "license": "MIT",
+  "source": "https://github.com/phibr0/zed-min-theme",
+  "description": "Min Dark: almost nothing but text, on a quiet near-black page.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#1A1A1A",
+    "text": "#999999",
+    "accent": "#79B8FF",
+    "app": "#141414",
+    "sidebar": "#141414",
+    "list": "#141414",
+    "text_secondary": "#999999",
+    "text_muted": "#999999",
+    "divider": "#2A2A2A",
+    "link": "#BBBBBB",
+    "row_active": "#2A2A2A",
+    "row_hover": "#2A2A2A",
+    "sidebar_active": "#2A2A2A",
+    "selected": "#2A2A2A",
+    "warning": "#FFE62A",
+    "danger": "#F97583",
+    "selection": "#0D2847E8",
+    "caret": "#F8F8F8"
+  },
+  "syntax": {
+    "code": {
+      "color": "#E394DC",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "code_block": {
+      "color": "#E394DC",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "escape": {
+      "color": "#FA7584",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "comment": "#888888",
+    "comment_doc": "#888888",
+    "keyword": "#FA7584",
+    "string": "#FFAB70",
+    "function": "#B392F1",
+    "type": {
+      "color": "#79B8FF",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "number": "#F8F8F8",
+    "boolean": "#79B8FF",
+    "constant": "#79B8FF",
+    "variable": {
+      "color": "#BBBBBB",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "variable_special": {
+      "color": "#79B8FF",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "property": "#BBBBBB",
+    "attribute": "#B392F1",
+    "tag": {
+      "color": "#FFAB70",
+      "font_style": "normal",
+      "font_weight": 400
+    },
+    "operator": "#FA7584",
+    "punctuation": "#D1D1D1"
+  },
+  "preview": {
+    "selection": "#79B8FF28"
+  }
+}

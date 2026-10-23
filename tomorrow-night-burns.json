@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Tomorrow Night Burns",
+  "author": "Alistair Smith",
+  "license": "MIT",
+  "source": "https://github.com/alii/zed-tomorrow-night-burns",
+  "description": "Tomorrow Night Burns: near-black and ember-warm, a darker turn on Tomorrow.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#151515",
+    "text": "#A1B0B8",
+    "accent": "#D3494E",
+    "app": "#151515",
+    "text_secondary": "#75868A",
+    "text_muted": "#5D6F71",
+    "row_active": "#5E292B",
+    "row_hover": "#191919",
+    "sidebar_active": "#5E292B",
+    "sidebar_hover": "#191919",
+    "hover": "#191919",
+    "selected": "#5E292B"
+  },
+  "syntax": {
+    "code": "#FC595F",
+    "code_block": "#FC595F",
+    "escape": "#D3494E",
+    "comment": "#5D6F71",
+    "comment_doc": "#5D6F71",
+    "keyword": "#A64246",
+    "string": "#FC595F",
+    "string_special": "#FC595F",
+    "function": "#DF9395",
+    "type": "#BA8586",
+    "number": "#D3494E",
+    "boolean": "#D3494E",
+    "constant": "#D3494E",
+    "variable": "#A1B0B8",
+    "variable_special": "#A1B0B8",
+    "tag": "#A64246"
+  },
+  "preview": {}
+}

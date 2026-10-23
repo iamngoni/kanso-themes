@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Catppuccin Macchiato",
+  "author": "Catppuccin",
+  "license": "MIT",
+  "source": "https://github.com/catppuccin/catppuccin",
+  "description": "Catppuccin Macchiato: a deeper, darker Frappé, still soft.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#24273A",
+    "text": "#CAD3F5",
+    "accent": "#C6A0F6",
+    "app": "#2C2F46",
+    "sidebar": "#1E2030",
+    "list": "#1E2030",
+    "elevated": "#1E2030",
+    "fill": "#181926",
+    "text_secondary": "#B8C0E0",
+    "text_muted": "#6C718B",
+    "divider": "#313148",
+    "link": "#91D7E3",
+    "row_active": "#252839",
+    "row_hover": "#363A4F",
+    "sidebar_active": "#404458",
+    "sidebar_hover": "#2B2E40",
+    "hover": "#2B2E40",
+    "selected": "#44485E",
+    "active_line": "#303347",
+    "success": "#A6DA95",
+    "warning": "#EED49F",
+    "danger": "#ED8796",
+    "selection": "#939AB740",
+    "caret": "#F4DBD6"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#ED8796",
+      "font_weight": 800
+    },
+    "block_marker": "#F5BDE6",
+    "marker": "#939AB7",
+    "list_marker": "#8BD5CA",
+    "link": "#B7BDF8",
+    "url": {
+      "color": "#8AADF4",
+      "font_style": "italic"
+    },
+    "code": "#A6DA95",
+    "code_block": "#A6DA95",
+    "emphasis": {
+      "color": "#EE99A0",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#EE99A0",
+      "font_weight": 700
+    },
+    "front_matter": "#F5BDE6",
+    "escape": "#F5BDE6",
+    "comment": {
+      "color": "#939AB7",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#939AB7",
+      "font_style": "italic"
+    },
+    "keyword": "#C6A0F6",
+    "string": "#A6DA95",
+    "string_special": "#F5BDE6",
+    "function": "#8AADF4",
+    "type": "#EED49F",
+    "type_constructor": "#F0C6C6",
+    "number": "#F5A97F",
+    "boolean": "#F5A97F",
+    "constant": "#F5A97F",
+    "variable": "#CAD3F5",
+    "variable_special": {
+      "color": "#ED8796",
+      "font_style": "italic"
+    },
+    "property": "#B7BDF8",
+    "attribute": "#EED49F",
+    "tag": "#8AADF4",
+    "label": "#7DC4E4",
+    "operator": "#91D7E3",
+    "punctuation": "#939AB7",
+    "bracket": "#939AB7",
+    "embedded": "#EE99A0"
+  },
+  "preview": {}
+}

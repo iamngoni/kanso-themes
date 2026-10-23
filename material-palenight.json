@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Material Theme Palenight",
+  "author": "Mattia Astorino",
+  "license": "Apache-2.0",
+  "source": "https://github.com/material-theme/vsc-material-theme",
+  "description": "Material Theme's Palenight: a purple-blue dusk in soft pastels.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#292D3E",
+    "text": "#BABED8",
+    "accent": "#82AAFF",
+    "app": "#292D3E",
+    "sidebar": "#292D3E",
+    "list": "#292D3E",
+    "elevated": "#292D3E",
+    "fill": "#404663",
+    "text_secondary": "#8C92B3",
+    "text_muted": "#6F769C",
+    "divider": "#3A3E50",
+    "link": "#82AAFF",
+    "row_active": "#2D3142",
+    "row_hover": "#323647",
+    "sidebar_active": "#2D3142",
+    "sidebar_hover": "#323647",
+    "hover": "#35394A",
+    "selected": "#37415D",
+    "active_line": "#1C1F2B",
+    "warning": "#887455",
+    "danger": "#916E7E",
+    "selection": "#BABED818"
+  },
+  "syntax": {
+    "block_marker": "#89DDFF",
+    "marker": "#89DDFF",
+    "list_marker": "#89DDFF",
+    "code": "#C3E88D",
+    "code_block": "#C3E88D",
+    "emphasis": {
+      "color": "#F07178",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#F07178",
+      "font_weight": 700
+    },
+    "escape": "#C3E88D",
+    "comment": {
+      "color": "#6F769C",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6F769C",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#89DDFF",
+      "font_style": "italic"
+    },
+    "string": "#C3E88D",
+    "string_special": "#C3E88D",
+    "function": "#82AAFF",
+    "type_constructor": "#F07178",
+    "number": "#F78C6C",
+    "attribute": "#C792EA",
+    "tag": "#F07178",
+    "punctuation": "#89DDFF",
+    "bracket": "#89DDFF"
+  },
+  "preview": {
+    "quote": "#8D93B4",
+    "selection": "#BABED838"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Iceberg",
+  "author": "cocopon",
+  "license": "MIT",
+  "source": "https://github.com/cocopon/iceberg.vim",
+  "description": "Iceberg: a cold, dark blue sea with pale, calm text.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#161821",
+    "text": "#C6C8D1",
+    "accent": "#84A0C6",
+    "app": "#161821",
+    "sidebar": "#161821",
+    "list": "#161821",
+    "elevated": "#0F1117",
+    "fill": "#22242D",
+    "text_secondary": "#6B7089",
+    "text_muted": "#6B7089",
+    "divider": "#0E1015",
+    "link": "#84A0C6",
+    "row_active": "#1E2132",
+    "row_hover": "#1E2132",
+    "sidebar_active": "#1E2132",
+    "sidebar_hover": "#1E2132",
+    "hover": "#1E2132",
+    "selected": "#1E2132",
+    "active_line": "#1E2132",
+    "warning": "#E2A478",
+    "danger": "#E27878"
+  },
+  "syntax": {
+    "block_marker": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "marker": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "list_marker": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "link": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "url": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "code": {
+      "color": "#89B8C2",
+      "font_weight": 500
+    },
+    "code_block": {
+      "color": "#89B8C2",
+      "font_weight": 500
+    },
+    "strong": {
+      "color": "#D2D4DE",
+      "font_weight": 700
+    },
+    "escape": {
+      "color": "#89B8C2",
+      "font_weight": 500
+    },
+    "comment": {
+      "color": "#6B7089",
+      "font_weight": 500
+    },
+    "comment_doc": {
+      "color": "#6B7089",
+      "font_weight": 500
+    },
+    "keyword": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "string": {
+      "color": "#89B8C2",
+      "font_weight": 500
+    },
+    "string_special": {
+      "color": "#89B8C2",
+      "font_weight": 500
+    },
+    "function": {
+      "color": "#C6C8D1",
+      "font_weight": 500
+    },
+    "type_constructor": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "number": {
+      "color": "#A093C7",
+      "font_weight": 500
+    },
+    "constant": {
+      "color": "#A093C7",
+      "font_weight": 500
+    },
+    "property": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "attribute": {
+      "color": "#A093C7",
+      "font_weight": 500
+    },
+    "tag": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "operator": {
+      "color": "#C6C8D1",
+      "font_weight": 500
+    },
+    "punctuation": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    },
+    "bracket": {
+      "color": "#84A0C6",
+      "font_weight": 500
+    }
+  },
+  "preview": {
+    "quote": "#7D8297"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Night Owl Light",
+  "author": "Sarah Drasner",
+  "license": "MIT",
+  "source": "https://github.com/sdras/night-owl-vscode-theme",
+  "description": "The light half of Night Owl: a near-white page in cool blue and teal.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FBFBFB",
+    "text": "#403F53",
+    "accent": "#2AA298",
+    "app": "#FBFBFB",
+    "sidebar": "#F0F0F0",
+    "list": "#F0F0F0",
+    "elevated": "#F0F0F0",
+    "fill": "#65BCB4",
+    "text_secondary": "#54596B",
+    "text_muted": "#808B8F",
+    "divider": "#D9D9D9",
+    "link": "#466BBC",
+    "row_active": "#E1ECF4",
+    "row_hover": "#D3E8F8",
+    "sidebar_active": "#E1ECF4",
+    "sidebar_hover": "#D3E8F8",
+    "hover": "#D3E8F8",
+    "selected": "#E7F1F9",
+    "active_line": "#F0F0F0",
+    "success": "#459697",
+    "warning": "#A4851E",
+    "danger": "#E64D49",
+    "selection": "#2AA29850",
+    "caret": "#2AA298"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#4876D6",
+      "font_weight": 700
+    },
+    "block_marker": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "marker": {
+      "color": "#403F53",
+      "font_style": "normal"
+    },
+    "list_marker": "#4876D6",
+    "link": {
+      "color": "#403F53",
+      "font_style": "normal"
+    },
+    "url": "#D4768A",
+    "code": "#0C969B",
+    "code_block": "#0C969B",
+    "emphasis": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#4876D6",
+      "font_weight": 700
+    },
+    "front_matter": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "escape": "#AA0982",
+    "comment": {
+      "color": "#8B91A3",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#8B91A3",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "string": "#C96765",
+    "string_special": "#5897CE",
+    "function": {
+      "color": "#4876D6",
+      "font_style": "italic"
+    },
+    "type": "#4876D6",
+    "type_constructor": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "number": "#AA0982",
+    "boolean": "#BC5454",
+    "constant": "#4876D6",
+    "variable": "#403F53",
+    "variable_special": "#0C969B",
+    "property": "#0C969B",
+    "attribute": {
+      "color": "#4876D6",
+      "font_style": "italic"
+    },
+    "tag": "#994CC3",
+    "label": "#4876D6",
+    "operator": "#0C969B",
+    "punctuation": {
+      "color": "#403F53",
+      "font_style": "normal"
+    },
+    "bracket": {
+      "color": "#994CC3",
+      "font_style": "italic"
+    },
+    "embedded": "#403F53"
+  },
+  "preview": {
+    "code_background": "#65BCB4"
+  }
+}

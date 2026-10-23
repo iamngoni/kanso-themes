@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Ayu Mirage",
+  "author": "Ike Kurghinyan",
+  "license": "MIT",
+  "source": "https://github.com/ayu-theme/ayu-vscode",
+  "description": "Ayu's softer middle: a blue-grey page, dimmer than the dark and warmer than night.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#232936",
+    "text": "#DDD7CB",
+    "accent": "#ECD496",
+    "app": "#232936",
+    "sidebar": "#232936",
+    "list": "#2B3242",
+    "elevated": "#2B3242",
+    "fill": "#2B3242",
+    "text_secondary": "#9D988D",
+    "text_muted": "#8F8A80",
+    "divider": "#1A1F29",
+    "link": "#91B6C7",
+    "row_active": "#394357",
+    "row_hover": "#363F52",
+    "sidebar_active": "#313B4D",
+    "sidebar_hover": "#2D3443",
+    "hover": "#2D3443",
+    "selected": "#313B4D",
+    "active_line": "#323C52",
+    "success": "#87D96C",
+    "warning": "#FFCC66",
+    "danger": "#F27983",
+    "selection": "#73D0FF3D",
+    "caret": "#73D0FF"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#F0DBA2",
+      "font_weight": 800
+    },
+    "block_marker": "#E4B391",
+    "marker": "#9F988B",
+    "list_marker": "#F0DBA2",
+    "link": "#91B6C7",
+    "url": {
+      "color": "#87C1C8",
+      "font_style": "italic"
+    },
+    "code": "#D5FF80",
+    "code_block": "#D5FF80",
+    "emphasis": {
+      "color": "#F28779",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#F28779",
+      "font_weight": 800
+    },
+    "front_matter": "#FFAD66",
+    "escape": "#B0DDD0",
+    "comment": {
+      "color": "#787571",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#9A958B",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#EDBA8B",
+      "font_weight": 600
+    },
+    "string": "#C7E19D",
+    "string_special": "#B0DDD0",
+    "function": {
+      "color": "#F0DBA2",
+      "font_weight": 600
+    },
+    "type": {
+      "color": "#91B6C7",
+      "font_weight": 600
+    },
+    "type_constructor": {
+      "color": "#91B6C7",
+      "font_weight": 600
+    },
+    "number": "#ECD496",
+    "boolean": "#ECD496",
+    "constant": "#D8C5E6",
+    "variable": "#DDD7CB",
+    "variable_special": {
+      "color": "#5CCFE6",
+      "font_style": "italic"
+    },
+    "property": "#F0DBA2",
+    "attribute": "#F0DBA2",
+    "tag": "#87C1C8",
+    "label": "#91B6C7",
+    "operator": "#E4B391",
+    "punctuation": "#9F988B",
+    "bracket": "#9F988B",
+    "embedded": "#DDD7CB"
+  },
+  "preview": {}
+}

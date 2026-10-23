@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Material Theme Lighter",
+  "author": "Mattia Astorino",
+  "license": "Apache-2.0",
+  "source": "https://github.com/material-theme/vsc-material-theme",
+  "description": "Material Theme's light side: a bright page with cool, muted accents.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FAFAFA",
+    "text": "#5B686E",
+    "accent": "#6182B8",
+    "app": "#FAFAFA",
+    "sidebar": "#FDFDFD",
+    "list": "#FDFDFD",
+    "elevated": "#FAFAFA",
+    "fill": "#EFF7F6",
+    "text_secondary": "#758A95",
+    "text_muted": "#758A95",
+    "divider": "#E7E8E9",
+    "link": "#67757D",
+    "row_active": "#F5F6F6",
+    "row_hover": "#F6F6F6",
+    "sidebar_active": "#F5F6F6",
+    "sidebar_hover": "#F5F6F6",
+    "hover": "#F5F6F6",
+    "selected": "#EFF7F6",
+    "active_line": "#ECEFF0",
+    "warning": "#929084",
+    "danger": "#A48A8C",
+    "selection": "#90A4AE30",
+    "caret": "#82949D"
+  },
+  "syntax": {
+    "block_marker": "#419DA5",
+    "marker": "#419DA5",
+    "list_marker": "#419DA5",
+    "task": "#419DA5",
+    "hr": "#419DA5",
+    "url": "#419DA5",
+    "code": "#7D9A61",
+    "code_block": "#7D9A61",
+    "emphasis": {
+      "color": "#E53935",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#E53935",
+      "font_weight": 700
+    },
+    "escape": "#7D9A61",
+    "comment": {
+      "color": "#81949C",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#81949C",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#419DA5",
+      "font_style": "italic"
+    },
+    "string": "#7D9A61",
+    "string_special": "#7D9A61",
+    "function": "#6182B8",
+    "type_constructor": "#E53935",
+    "number": "#E76D4B",
+    "attribute": "#9C3EDA",
+    "tag": "#E53935",
+    "punctuation": "#419DA5",
+    "bracket": "#419DA5"
+  },
+  "preview": {
+    "quote": "#66767F",
+    "code_background": "#EFF7F6",
+    "selection": "#90A4AE3C"
+  }
+}

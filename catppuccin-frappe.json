@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Catppuccin Frappé",
+  "author": "Catppuccin",
+  "license": "MIT",
+  "source": "https://github.com/catppuccin/catppuccin",
+  "description": "Catppuccin Frappé: the middle of Catppuccin's four, a muted blue-grey.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#303446",
+    "text": "#C6D0F5",
+    "accent": "#CA9EE6",
+    "app": "#383C52",
+    "sidebar": "#292C3C",
+    "list": "#292C3C",
+    "elevated": "#292C3C",
+    "fill": "#232634",
+    "text_secondary": "#B5BFE2",
+    "text_muted": "#767D97",
+    "divider": "#3C3C53",
+    "link": "#99D1DB",
+    "row_active": "#303445",
+    "row_hover": "#414559",
+    "sidebar_active": "#4A4E62",
+    "sidebar_hover": "#35394B",
+    "hover": "#35394B",
+    "selected": "#4E5368",
+    "active_line": "#3B3F52",
+    "success": "#A6D189",
+    "warning": "#E5C890",
+    "danger": "#E78284",
+    "selection": "#949CBB40",
+    "caret": "#F2D5CF"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#E78284",
+      "font_weight": 800
+    },
+    "block_marker": "#F4B8E4",
+    "marker": "#949CBB",
+    "list_marker": "#81C8BE",
+    "link": "#BABBF1",
+    "url": {
+      "color": "#8CAAEE",
+      "font_style": "italic"
+    },
+    "code": "#A6D189",
+    "code_block": "#A6D189",
+    "emphasis": {
+      "color": "#EA999C",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#EA999C",
+      "font_weight": 700
+    },
+    "front_matter": "#F4B8E4",
+    "escape": "#F4B8E4",
+    "comment": {
+      "color": "#949CBB",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#949CBB",
+      "font_style": "italic"
+    },
+    "keyword": "#CA9EE6",
+    "string": "#A6D189",
+    "string_special": "#F4B8E4",
+    "function": "#8CAAEE",
+    "type": "#E5C890",
+    "type_constructor": "#EEBEBE",
+    "number": "#EF9F76",
+    "boolean": "#EF9F76",
+    "constant": "#EF9F76",
+    "variable": "#C6D0F5",
+    "variable_special": {
+      "color": "#E78284",
+      "font_style": "italic"
+    },
+    "property": "#BABBF1",
+    "attribute": "#E5C890",
+    "tag": "#8CAAEE",
+    "label": "#85C1DC",
+    "operator": "#99D1DB",
+    "punctuation": "#949CBB",
+    "bracket": "#949CBB",
+    "embedded": "#EA999C"
+  },
+  "preview": {}
+}
