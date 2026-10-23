@@ -1,0 +1,120 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Ayu Dark",
+  "author": "Ike Kurghinyan",
+  "license": "MIT",
+  "source": "https://github.com/ayu-theme/ayu-vscode",
+  "description": "Ayu's dark: a warm graphite page lit by amber and blue.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#0F1419",
+    "text": "#BFBDB6",
+    "accent": "#D8B56F",
+    "app": "#0B0E14",
+    "sidebar": "#0B0E14",
+    "list": "#10161E",
+    "elevated": "#141B24",
+    "fill": "#141B24",
+    "text_secondary": "#7A8596",
+    "text_muted": "#99A3B2",
+    "divider": "#10151B",
+    "link": "#59C2FF",
+    "row_active": "#202938",
+    "row_hover": "#1A2230",
+    "sidebar_active": "#10151B",
+    "sidebar_hover": "#141922",
+    "hover": "#141922",
+    "selected": "#10151B",
+    "active_line": "#141922",
+    "success": "#70BF56",
+    "warning": "#D8B56F",
+    "danger": "#D95757",
+    "selection": "#59C2FF3D",
+    "caret": "#59C2FF"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#E8C783",
+      "font_weight": 600
+    },
+    "block_marker": "#D9A97A",
+    "marker": "#656D74",
+    "list_marker": {
+      "color": "#E8C783",
+      "font_weight": 600
+    },
+    "link": {
+      "color": "#59C2FF",
+      "font_weight": 600
+    },
+    "url": {
+      "color": "#95E6CB",
+      "font_style": "italic"
+    },
+    "code": "#AAD94C",
+    "code_block": "#AAD94C",
+    "emphasis": "#F07178",
+    "strong": "#F07178",
+    "front_matter": "#D9A97A",
+    "escape": {
+      "color": "#95E6CB",
+      "font_style": "italic"
+    },
+    "comment": {
+      "color": "#626A73",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#5C636A",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#E6B673",
+      "font_weight": 600
+    },
+    "string": "#AAD94C",
+    "string_special": {
+      "color": "#95E6CB",
+      "font_style": "italic"
+    },
+    "function": {
+      "color": "#E8C783",
+      "font_weight": 600
+    },
+    "type": {
+      "color": "#59C2FF",
+      "font_weight": 600
+    },
+    "type_constructor": {
+      "color": "#59C2FF",
+      "font_weight": 600
+    },
+    "number": "#E8C783",
+    "boolean": "#E8C783",
+    "constant": "#D2A6FF",
+    "variable": "#BFBDB6",
+    "variable_special": {
+      "color": "#95E6CB",
+      "font_style": "italic"
+    },
+    "property": {
+      "color": "#E8C783",
+      "font_weight": 600
+    },
+    "attribute": {
+      "color": "#E8C783",
+      "font_weight": 600
+    },
+    "tag": "#39BAE6",
+    "label": {
+      "color": "#59C2FF",
+      "font_weight": 600
+    },
+    "operator": "#D9A97A",
+    "punctuation": "#656D74",
+    "bracket": "#656D74",
+    "embedded": "#BFBDB6"
+  },
+  "preview": {}
+}
