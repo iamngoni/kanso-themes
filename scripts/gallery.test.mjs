@@ -95,3 +95,59 @@ test("check accepts the committed index and rejects a changed file", () => {
     rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test("every preview pin carries a size and matches its file", () => {
+  const dir = copyRepo();
+  try {
+    build(dir);
+    const index = JSON.parse(read(join(dir, "gallery", "index.json")));
+    const icons = index.themes.filter((theme) => theme.kind === "icons");
+    assert.ok(icons.length > 0, "the catalog has icon themes");
+    assert.ok(icons.filter((theme) => theme.preview.length > 0).length > 0, "some have previews");
+    for (const theme of icons) {
+      for (const pin of theme.preview) {
+        assert.ok(Number.isInteger(pin.size) && pin.size > 0, `${pin.path} has a size`);
+        assert.equal(readFileSync(join(dir, pin.path)).length, pin.size, pin.path);
+      }
+    }
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test("check validates the output it is given, not the committed gallery", () => {
+  const dir = copyRepo();
+  const out = mkdtempSync(join(tmpdir(), "kanso-gallery-out-"));
+  try {
+    execFileSync("node", [
+      join(dir, "scripts/gallery.mjs"),
+      "--root", dir,
+      "--out", out,
+      "--source-commit", commit,
+      "--generated-at", generatedAt,
+    ], { stdio: "pipe" });
+    execFileSync("node", [
+      join(dir, "scripts/gallery.mjs"),
+      "--root", dir,
+      "--out", out,
+      "--check",
+    ], { stdio: "pipe" });
+    // A preview without a size is what the published index used to carry.
+    const indexPath = join(out, "index.json");
+    const index = JSON.parse(read(indexPath));
+    const icon = index.themes.find((theme) => theme.kind === "icons");
+    delete icon.preview[0].size;
+    writeFileSync(indexPath, JSON.stringify(index, null, 2) + "\n");
+    assert.throws(() =>
+      execFileSync("node", [
+        join(dir, "scripts/gallery.mjs"),
+        "--root", dir,
+        "--out", out,
+        "--check",
+      ], { stdio: "pipe" }),
+    );
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+    rmSync(out, { recursive: true, force: true });
+  }
+});

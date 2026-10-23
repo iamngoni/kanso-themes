@@ -80,6 +80,15 @@ function isSpdx(text) {
   );
 }
 
+function isHttpsUrl(text) {
+  try {
+    const url = new URL(text);
+    return url.protocol === "https:" && url.hostname.length > 0 && !url.username && !url.password;
+  } catch {
+    return false;
+  }
+}
+
 function isSvgPath(path) {
   return (
     path.length <= 200 &&
@@ -214,7 +223,7 @@ function main() {
   const root = resolve(options.root || join(process.cwd()));
   const out = resolve(options.out || join(root, "gallery"));
   if (options["verify-only"] || options.check) {
-    check(root, join(out, "index.json"));
+    check(root, out, join(out, "index.json"));
     console.log("gallery: the index matches every file it names");
     return;
   }
@@ -325,7 +334,7 @@ function main() {
       if (bytes.length > MAX_SVG_BYTES) fail(`${id}/${svg.path} is too large`);
       const path = `icon-themes/${id}/${svg.path}`;
       if (!isSvgPath(path)) fail(`${path} isn't a valid preview path`);
-      preview.push({ path, sha256: sha256(bytes) });
+      preview.push({ path, sha256: sha256(bytes), size: bytes.length });
     }
     const entry = {
       id,
@@ -374,26 +383,38 @@ function main() {
 function requireFields(entry) {
   if (!entry.name) fail(`${entry.id} has no name`);
   if (!isSpdx(entry.license)) fail(`${entry.id} has no SPDX licence`);
-  if (!/^https:\/\//.test(entry.source)) fail(`${entry.id} has no HTTPS source`);
+  if (!isHttpsUrl(entry.source)) fail(`${entry.id} has no HTTPS source`);
   if (!/^\d+\.\d+\.\d+/.test(entry.min_kanso)) fail(`${entry.id} has no min_kanso`);
   if (!Number.isInteger(entry.version) || entry.version < 1) fail(`${entry.id} has no version`);
 }
 
-// Verifies the generated index against the files it names.
-function check(root, indexPath) {
+// Verifies the generated index against the files it names. `out` is where
+// the generated bundles live (the repository's `gallery/` when publishing,
+// a temp folder when validating); colour themes and previews come from
+// `root`.
+function check(root, out, indexPath) {
   const index = readJson(indexPath);
   for (const theme of index.themes) {
-    if (theme.kind === "color") {
-      const bytes = readFileSync(join(root, theme.file.path));
-      if (sha256(bytes) !== theme.file.sha256 || bytes.length !== theme.file.size) {
-        fail(`${theme.file.path} doesn't match the index`);
+    const pins = [theme.file, theme.bundle, ...(theme.preview || [])];
+    for (const pin of pins) {
+      if (!pin) continue;
+      // A file the index pins must carry a real size: Kanso's parser
+      // requires one and refuses zero.
+      if (!Number.isInteger(pin.size) || pin.size <= 0) {
+        fail(`${pin.path} has no size in the index`);
       }
-    } else {
-      const bytes = readFileSync(join(root, theme.bundle.path));
-      if (sha256(bytes) !== theme.bundle.sha256 || bytes.length !== theme.bundle.size) {
-        fail(`${theme.bundle.path} doesn't match the index`);
+      if (!isSha(pin.sha256)) fail(`${pin.path} has no SHA-256 in the index`);
+      const file = pin.path.startsWith("gallery/")
+        ? join(out, pin.path.slice("gallery/".length))
+        : join(root, pin.path);
+      const bytes = readFileSync(file);
+      if (sha256(bytes) !== pin.sha256 || bytes.length !== pin.size) {
+        fail(`${pin.path} doesn't match the index`);
       }
     }
+  }
+  for (const revoked of index.revoked || []) {
+    if (!isName(revoked.id)) fail(`revoked id ${revoked.id} isn't valid`);
   }
 }
 

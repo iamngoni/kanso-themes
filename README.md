@@ -308,29 +308,26 @@ disappears stays installed and is labelled "Not in the gallery".
 3. **publish** has `contents: write`, no secret, re-verifies every bundle
    hash against the signed index, and commits `gallery/` with `[skip ci]`.
 
-Every action is pinned to a commit. The publishing identity is a dedicated
-fine-grained token or deploy key with `contents: write`, stored as
-`GALLERY_PUBLISH_TOKEN`; it cannot forge a signature.
+Every action is pinned to a commit. The publish job uses the workflow's
+built-in `GITHUB_TOKEN`; main is not protected, and a `GITHUB_TOKEN` push does
+not start another workflow, which is wanted here. It cannot forge a
+signature.
 
-### The owner's one-time setup
+### The owner's setup (done)
 
-1. Generate the key. Keep the secret offline until step 3; never commit it:
+The key and the `gallery` environment already exist; there is nothing left
+to generate.
 
-   ```sh
-   cargo run --manifest-path tools/gallery-sign/Cargo.toml -- keygen
-   ```
+- The public key is in `gallery/trusted-keys.txt` and in Kanso's
+  `crates/kanso-gallery/keys/themes-trusted-keys.txt`.
+- The `gallery` environment requires a reviewer and deploys only from
+  `main`. It holds `KANSO_THEMES_SIGNING_KEY`, and nothing else does.
+- The secret was made with `kanso-release keygen` from Kanso, which prints
+  the base64 of a 32-byte Ed25519 seed. `gallery-sign` reads exactly that
+  format, so it needs no conversion. Do not run `gallery-sign keygen` again
+  unless rotating: a new key would not be trusted by a shipped Kanso.
 
-2. Add the printed **public** key to `gallery/trusted-keys.txt` and to
-   Kanso's `crates/kanso-gallery/keys/themes-trusted-keys.txt`, in the same
-   change or in the next Kanso release (the app ships with an empty list,
-   and says the gallery isn't set up until it has a key).
-3. Create the `gallery` environment under Settings › Environments, require
-   a reviewer, restrict deployment to `main`, and add the printed **secret**
-   as `KANSO_THEMES_SIGNING_KEY` on that environment only.
-4. Add `GALLERY_PUBLISH_TOKEN`, a fine-grained token with `contents: write`
-   on this repository, as a repository secret for the publish job.
-5. Merge the change. The next successful validation run signs and publishes
-   the first index.
+The next successful validation run signs and publishes the index.
 
 ### Rotation
 

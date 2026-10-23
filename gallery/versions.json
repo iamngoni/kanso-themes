@@ -1,5 +1,5 @@
 {
-  "serial": 1,
+  "serial": 2,
   "themes": {
     "andromeda": {
       "version": 1,
@@ -282,8 +282,8 @@
       "hash": "21ad1f8a080888ca9ffddb55d1010b934ff3bb0941c9d87a8f673ce5eaad86ca"
     },
     "phosphor": {
-      "version": 1,
-      "hash": "f0aba512fb9d3c0c09f360cb9b1bec33b9dd012dfa53302ad9f35a4465f0c408"
+      "version": 2,
+      "hash": "b025104cf43525480be2a7947479b9348d420148958302abbac1f49dd5fe2c5d"
     },
     "phosphor-icons-theme": {
       "version": 1,

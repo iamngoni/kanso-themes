@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "serial": 1,
-  "generated_at": "2026-10-23T12:00:00Z",
-  "source_commit": "5b05cd5bbb8ce0946b699d7d9b758f125acb924b",
+  "serial": 2,
+  "generated_at": "2026-10-23T17:29:54Z",
+  "source_commit": "9885af741f7d5eab99d3a8c5d6c111b815dbe2fb",
   "signing_key_id": "unset",
   "themes": [
     {
@@ -148,27 +148,33 @@
       "preview": [
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/_folder.svg",
-          "sha256": "d0459a45e9ae29d54d06b4a64642a7f2f8c7678b5481e39b4187ca3354fc3f84"
+          "sha256": "d0459a45e9ae29d54d06b4a64642a7f2f8c7678b5481e39b4187ca3354fc3f84",
+          "size": 290
         },
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/_folder_open.svg",
-          "sha256": "bc4f70036b562b283774a0c76da3ebd260b42d4b4bfea8f7534f907690d39393"
+          "sha256": "bc4f70036b562b283774a0c76da3ebd260b42d4b4bfea8f7534f907690d39393",
+          "size": 312
         },
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/audio.svg",
-          "sha256": "f2992ba00eb6d2c82998626a8d42a1ae8e876722602b628f681c16c3c993740e"
+          "sha256": "f2992ba00eb6d2c82998626a8d42a1ae8e876722602b628f681c16c3c993740e",
+          "size": 402
         },
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/folder_templates.svg",
-          "sha256": "367badd904f3bde10ada0b3ddf129814df63c30aecdd19cf245d1a43bc7e5496"
+          "sha256": "367badd904f3bde10ada0b3ddf129814df63c30aecdd19cf245d1a43bc7e5496",
+          "size": 863
         },
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/image.svg",
-          "sha256": "baeb360aeaf893a6e9f16e22e191aac6a43af49d1232f56927ebca04085ebeb2"
+          "sha256": "baeb360aeaf893a6e9f16e22e191aac6a43af49d1232f56927ebca04085ebeb2",
+          "size": 545
         },
         {
           "path": "icon-themes/catppuccin-icons/icons/latte/pdf.svg",
-          "sha256": "25098a0ccd35092c3ef4ff84854c792fbfc245db8fcdd25172ae321ad37728c3"
+          "sha256": "25098a0ccd35092c3ef4ff84854c792fbfc245db8fcdd25172ae321ad37728c3",
+          "size": 444
         }
       ]
     },
@@ -265,27 +271,33 @@
       "preview": [
         {
           "path": "icon-themes/charmed-icons/icons/base/_file.svg",
-          "sha256": "2549bda742498170afcde33110ee15c1de81f3bc7e56a465b3b545548ceb3ea2"
+          "sha256": "2549bda742498170afcde33110ee15c1de81f3bc7e56a465b3b545548ceb3ea2",
+          "size": 774
         },
         {
           "path": "icon-themes/charmed-icons/icons/base/_folder.svg",
-          "sha256": "53b57bd6596d448e30b58b961ade2228d42badcaeb1ddbd48d048c8f8e3411d0"
+          "sha256": "53b57bd6596d448e30b58b961ade2228d42badcaeb1ddbd48d048c8f8e3411d0",
+          "size": 607
         },
         {
           "path": "icon-themes/charmed-icons/icons/base/_folder_open.svg",
-          "sha256": "739b9528f970b340ba217d21187c69e31dcee40859d2bfac1cf256fc3ce92b19"
+          "sha256": "739b9528f970b340ba217d21187c69e31dcee40859d2bfac1cf256fc3ce92b19",
+          "size": 1243
         },
         {
           "path": "icon-themes/charmed-icons/icons/base/audio.svg",
-          "sha256": "1e1df5bf2cf2ec99eb1a0418c55fa9b267db81ccfb716e7678a2f9f27d557fb4"
+          "sha256": "1e1df5bf2cf2ec99eb1a0418c55fa9b267db81ccfb716e7678a2f9f27d557fb4",
+          "size": 939
         },
         {
           "path": "icon-themes/charmed-icons/icons/base/image.svg",
-          "sha256": "722824af9921f55ad050d9b65074ce916c06c309d4cd23dc72b7e31bfe6e4c0d"
+          "sha256": "722824af9921f55ad050d9b65074ce916c06c309d4cd23dc72b7e31bfe6e4c0d",
+          "size": 1048
         },
         {
           "path": "icon-themes/charmed-icons/icons/base/pdf.svg",
-          "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411"
+          "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411",
+          "size": 3852
         }
       ]
     },
@@ -482,31 +494,38 @@
       "preview": [
         {
           "path": "icon-themes/fantasticons/icons/_file.svg",
-          "sha256": "2549bda742498170afcde33110ee15c1de81f3bc7e56a465b3b545548ceb3ea2"
+          "sha256": "2549bda742498170afcde33110ee15c1de81f3bc7e56a465b3b545548ceb3ea2",
+          "size": 774
         },
         {
           "path": "icon-themes/fantasticons/icons/audio.svg",
-          "sha256": "c6bc21488d5d5fa9cd988bac410c741d519f8778c1e48a64ae3e4ce003dbce57"
+          "sha256": "c6bc21488d5d5fa9cd988bac410c741d519f8778c1e48a64ae3e4ce003dbce57",
+          "size": 275
         },
         {
           "path": "icon-themes/fantasticons/icons/folder.svg",
-          "sha256": "40ac722f6ba776d69aeb007d7221028ace2bf248bd0a947bf7f432aad273077e"
+          "sha256": "40ac722f6ba776d69aeb007d7221028ace2bf248bd0a947bf7f432aad273077e",
+          "size": 180
         },
         {
           "path": "icon-themes/fantasticons/icons/folder_open.svg",
-          "sha256": "9ee9e1ec64d446c6dd34388f13448acf799a57586b8d3f8f68a7fa334e729a3a"
+          "sha256": "9ee9e1ec64d446c6dd34388f13448acf799a57586b8d3f8f68a7fa334e729a3a",
+          "size": 491
         },
         {
           "path": "icon-themes/fantasticons/icons/folder_template.svg",
-          "sha256": "9553367a5355ab5e20f7ea583154989ace6ef4092347a5dc0ce8ca70e31d7ea4"
+          "sha256": "9553367a5355ab5e20f7ea583154989ace6ef4092347a5dc0ce8ca70e31d7ea4",
+          "size": 493
         },
         {
           "path": "icon-themes/fantasticons/icons/image.svg",
-          "sha256": "722824af9921f55ad050d9b65074ce916c06c309d4cd23dc72b7e31bfe6e4c0d"
+          "sha256": "722824af9921f55ad050d9b65074ce916c06c309d4cd23dc72b7e31bfe6e4c0d",
+          "size": 1048
         },
         {
           "path": "icon-themes/fantasticons/icons/pdf.svg",
-          "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411"
+          "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411",
+          "size": 3852
         }
       ]
     },
@@ -878,23 +897,28 @@
       "preview": [
         {
           "path": "icon-themes/jetbrains-icons/icons/dark/chevron_down.svg",
-          "sha256": "2002c988353dc8d3e4044ddc34ec062366c4c1b4307a5e135478ac44694ea30b"
+          "sha256": "2002c988353dc8d3e4044ddc34ec062366c4c1b4307a5e135478ac44694ea30b",
+          "size": 309
         },
         {
           "path": "icon-themes/jetbrains-icons/icons/dark/chevron_right.svg",
-          "sha256": "bae1f68b729b1eab1ab2e6ce35033b71cdb52b3677fb90ac8aef286c7be68595"
+          "sha256": "bae1f68b729b1eab1ab2e6ce35033b71cdb52b3677fb90ac8aef286c7be68595",
+          "size": 302
         },
         {
           "path": "icon-themes/jetbrains-icons/icons/dark/folder.svg",
-          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e"
+          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e",
+          "size": 549
         },
         {
           "path": "icon-themes/jetbrains-icons/icons/dark/image.svg",
-          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef"
+          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef",
+          "size": 486
         },
         {
           "path": "icon-themes/jetbrains-icons/icons/dark/text.svg",
-          "sha256": "3391cc35837a4420fa9517f2297d8f6b07428db63f57f07dd5c2c29ef00cb489"
+          "sha256": "3391cc35837a4420fa9517f2297d8f6b07428db63f57f07dd5c2c29ef00cb489",
+          "size": 493
         }
       ]
     },
@@ -916,19 +940,23 @@
       "preview": [
         {
           "path": "icon-themes/jetbrains-new-ui-icons/icons/anyType_dark.svg",
-          "sha256": "8d337aa48dc75f4c9ba0cd1795c09f35aded0e480ff19222ba44d1760f1e543a"
+          "sha256": "8d337aa48dc75f4c9ba0cd1795c09f35aded0e480ff19222ba44d1760f1e543a",
+          "size": 1001
         },
         {
           "path": "icon-themes/jetbrains-new-ui-icons/icons/folder_dark.svg",
-          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e"
+          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e",
+          "size": 549
         },
         {
           "path": "icon-themes/jetbrains-new-ui-icons/icons/image_dark.svg",
-          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef"
+          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef",
+          "size": 486
         },
         {
           "path": "icon-themes/jetbrains-new-ui-icons/icons/text.svg",
-          "sha256": "d71666166da544ad42b13bb5af976eb6f0afb60cbaa636676d238c98383ee296"
+          "sha256": "d71666166da544ad42b13bb5af976eb6f0afb60cbaa636676d238c98383ee296",
+          "size": 493
         }
       ]
     },
@@ -1075,35 +1103,43 @@
       "preview": [
         {
           "path": "icon-themes/kokedera-icons/icons/morning/audio.svg",
-          "sha256": "a579e34e0bf28285da572c58d6b71d2513c8f955c68349aedf9ffc2ae4f5b945"
+          "sha256": "a579e34e0bf28285da572c58d6b71d2513c8f955c68349aedf9ffc2ae4f5b945",
+          "size": 478
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/chevron-closed.svg",
-          "sha256": "6ba460acee0149d57e1f343b81911909785f3774767fc370fac8c5558a37f604"
+          "sha256": "6ba460acee0149d57e1f343b81911909785f3774767fc370fac8c5558a37f604",
+          "size": 232
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/chevron-open.svg",
-          "sha256": "5256516d1c78e11b8a49509dcbc6db7cc69166c3bf09cb094e0766a4c313a6b6"
+          "sha256": "5256516d1c78e11b8a49509dcbc6db7cc69166c3bf09cb094e0766a4c313a6b6",
+          "size": 232
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/default.svg",
-          "sha256": "e3dd2d254a4fa8e406fe470a8e596cc6cd7ccc49851372ab21e8f1f0c55de12c"
+          "sha256": "e3dd2d254a4fa8e406fe470a8e596cc6cd7ccc49851372ab21e8f1f0c55de12c",
+          "size": 218
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/folder-closed.svg",
-          "sha256": "5c2675f493a159f49d32197d3f0a8a2229fca0464c67303c97c1573e5f6c30de"
+          "sha256": "5c2675f493a159f49d32197d3f0a8a2229fca0464c67303c97c1573e5f6c30de",
+          "size": 345
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/folder-open.svg",
-          "sha256": "d5780f0c3290e1c187c128a0e1e1358b0ed7206f5e7448d023f8e8d88ad39581"
+          "sha256": "d5780f0c3290e1c187c128a0e1e1358b0ed7206f5e7448d023f8e8d88ad39581",
+          "size": 454
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/folder-pages-closed.svg",
-          "sha256": "ee87491e8cf1fe3c5a04e7c9e408e46d02f3b195c9094bd525d270c685ccd673"
+          "sha256": "ee87491e8cf1fe3c5a04e7c9e408e46d02f3b195c9094bd525d270c685ccd673",
+          "size": 356
         },
         {
           "path": "icon-themes/kokedera-icons/icons/morning/image.svg",
-          "sha256": "09ba1ea38cb38c894cc011a2fc282d8d7a66ba0dcff4bf149ce4e19d20313809"
+          "sha256": "09ba1ea38cb38c894cc011a2fc282d8d7a66ba0dcff4bf149ce4e19d20313809",
+          "size": 711
         }
       ]
     },
@@ -1167,27 +1203,33 @@
       "preview": [
         {
           "path": "icon-themes/material-icon-theme/icons/audio.svg",
-          "sha256": "d4dc1adb8cb99055cb8ad0c2428d6d73ebd94435b575084af1b2e0d1f82f6cf2"
+          "sha256": "d4dc1adb8cb99055cb8ad0c2428d6d73ebd94435b575084af1b2e0d1f82f6cf2",
+          "size": 185
         },
         {
           "path": "icon-themes/material-icon-theme/icons/folder-docs.svg",
-          "sha256": "71bec357e64761462d18b66fa9c6095fe390ab29e1d5977c1f89e3dbd3e6fca3"
+          "sha256": "71bec357e64761462d18b66fa9c6095fe390ab29e1d5977c1f89e3dbd3e6fca3",
+          "size": 388
         },
         {
           "path": "icon-themes/material-icon-theme/icons/folder-open.svg",
-          "sha256": "532456ac9460902d6f7f9ffdb015c09a3b8d87c2493504948f9d16a2f66e22b7"
+          "sha256": "532456ac9460902d6f7f9ffdb015c09a3b8d87c2493504948f9d16a2f66e22b7",
+          "size": 272
         },
         {
           "path": "icon-themes/material-icon-theme/icons/folder.svg",
-          "sha256": "5b8e272caf788ff0e9b6afee97601a9f9c7ad9d381e8d7b1e63ee78368ea1332"
+          "sha256": "5b8e272caf788ff0e9b6afee97601a9f9c7ad9d381e8d7b1e63ee78368ea1332",
+          "size": 224
         },
         {
           "path": "icon-themes/material-icon-theme/icons/image.svg",
-          "sha256": "838e1953a3a2ebf5c6a06b662892ba17e1c605c4379a77c61737639e51fb4f0a"
+          "sha256": "838e1953a3a2ebf5c6a06b662892ba17e1c605c4379a77c61737639e51fb4f0a",
+          "size": 346
         },
         {
           "path": "icon-themes/material-icon-theme/icons/pdf.svg",
-          "sha256": "c14c66a3914b894da40778a6dcd00f0daa134426521aaddbd8ccea86ba4f5ffc"
+          "sha256": "c14c66a3914b894da40778a6dcd00f0daa134426521aaddbd8ccea86ba4f5ffc",
+          "size": 976
         }
       ]
     },
@@ -1284,19 +1326,23 @@
       "preview": [
         {
           "path": "icon-themes/min-icons/icons/file-image.svg",
-          "sha256": "df38af9d4cd215633231751601e3962b48655230285d4e9badb9f5b2db53ef25"
+          "sha256": "df38af9d4cd215633231751601e3962b48655230285d4e9badb9f5b2db53ef25",
+          "size": 362
         },
         {
           "path": "icon-themes/min-icons/icons/file.svg",
-          "sha256": "b0360b3fd34cf31a8cb8390c921c9efe2b9688b14707514c96b003505e8c42c4"
+          "sha256": "b0360b3fd34cf31a8cb8390c921c9efe2b9688b14707514c96b003505e8c42c4",
+          "size": 302
         },
         {
           "path": "icon-themes/min-icons/icons/folder-closed.svg",
-          "sha256": "4563668bd19ad75abb8429e51cff650c92d03548a8dbf038357490066048994f"
+          "sha256": "4563668bd19ad75abb8429e51cff650c92d03548a8dbf038357490066048994f",
+          "size": 414
         },
         {
           "path": "icon-themes/min-icons/icons/folder-open.svg",
-          "sha256": "963136836a2e2f25de7cd016eaa6be6b8ce3c04f3a97770b1ae9063b509e0492"
+          "sha256": "963136836a2e2f25de7cd016eaa6be6b8ce3c04f3a97770b1ae9063b509e0492",
+          "size": 447
         }
       ]
     },
@@ -1343,23 +1389,28 @@
       "preview": [
         {
           "path": "icon-themes/monospace-icons/icons/audio.svg",
-          "sha256": "c6bc21488d5d5fa9cd988bac410c741d519f8778c1e48a64ae3e4ce003dbce57"
+          "sha256": "c6bc21488d5d5fa9cd988bac410c741d519f8778c1e48a64ae3e4ce003dbce57",
+          "size": 275
         },
         {
           "path": "icon-themes/monospace-icons/icons/folder_light.svg",
-          "sha256": "e75db4998a66522d45a201416eea100d51641d4caa4894f050479693a36843c5"
+          "sha256": "e75db4998a66522d45a201416eea100d51641d4caa4894f050479693a36843c5",
+          "size": 721
         },
         {
           "path": "icon-themes/monospace-icons/icons/folder_light_expanded.svg",
-          "sha256": "8dd9b132aab291fb0422e03e881805dc8ccc6647e56965ea315effd36530703d"
+          "sha256": "8dd9b132aab291fb0422e03e881805dc8ccc6647e56965ea315effd36530703d",
+          "size": 1218
         },
         {
           "path": "icon-themes/monospace-icons/icons/image_light.svg",
-          "sha256": "fc0e4c68aac23365db4d7492fded81d18d26e3a2c6500dd707c1402e9ea62c64"
+          "sha256": "fc0e4c68aac23365db4d7492fded81d18d26e3a2c6500dd707c1402e9ea62c64",
+          "size": 1604
         },
         {
           "path": "icon-themes/monospace-icons/icons/pdf_light.svg",
-          "sha256": "742950bab6b94a255f285dc439bc748647724d07d0e92f62ad972e5d4b586848"
+          "sha256": "742950bab6b94a255f285dc439bc748647724d07d0e92f62ad972e5d4b586848",
+          "size": 4693
         }
       ]
     },
@@ -1591,50 +1642,58 @@
     {
       "id": "phosphor",
       "kind": "icons",
-      "version": 1,
+      "version": 2,
       "name": "Phosphor",
       "author": "Phosphor Icons (Helena Zhang and Tobias Fried)",
       "license": "MIT",
-      "source": "https://phosphoricons.com (@phosphor-icons/core 2.1.1, regular weight)",
+      "source": "https://phosphoricons.com",
       "description": "Phosphor's regular icons: rounder and a little heavier than Kanso's own, for every icon Kanso draws.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/phosphor.tar.gz",
-        "sha256": "f0aba512fb9d3c0c09f360cb9b1bec33b9dd012dfa53302ad9f35a4465f0c408",
-        "size": 77236
+        "sha256": "b025104cf43525480be2a7947479b9348d420148958302abbac1f49dd5fe2c5d",
+        "size": 77212
       },
       "preview": [
         {
           "path": "icon-themes/phosphor/icons/address-book.svg",
-          "sha256": "1cbd1381d1b51b27a1fe90de40b1ba16c21dec53b8dbfa9cbe59c66231c6f59a"
+          "sha256": "1cbd1381d1b51b27a1fe90de40b1ba16c21dec53b8dbfa9cbe59c66231c6f59a",
+          "size": 501
         },
         {
           "path": "icon-themes/phosphor/icons/airplane.svg",
-          "sha256": "ccabf03a368441185fe987d392e6a7138710ddccd82383e918544ecf676dc6d3"
+          "sha256": "ccabf03a368441185fe987d392e6a7138710ddccd82383e918544ecf676dc6d3",
+          "size": 688
         },
         {
           "path": "icon-themes/phosphor/icons/alarm.svg",
-          "sha256": "ce7c66246549a31edbb0657e04dea58b7806361ba183613417d490ba3491bbea"
+          "sha256": "ce7c66246549a31edbb0657e04dea58b7806361ba183613417d490ba3491bbea",
+          "size": 420
         },
         {
           "path": "icon-themes/phosphor/icons/alien.svg",
-          "sha256": "27cd0f35a5d65b77c07723e68578a80f5cefaa11c2bc69299c4cf0a0fb5b758b"
+          "sha256": "27cd0f35a5d65b77c07723e68578a80f5cefaa11c2bc69299c4cf0a0fb5b758b",
+          "size": 734
         },
         {
           "path": "icon-themes/phosphor/icons/anchor.svg",
-          "sha256": "13966a7ee12ef1564cf4efd6809cd3c2fea63fa67999739379e10460a6e82fed"
+          "sha256": "13966a7ee12ef1564cf4efd6809cd3c2fea63fa67999739379e10460a6e82fed",
+          "size": 547
         },
         {
           "path": "icon-themes/phosphor/icons/apple-logo.svg",
-          "sha256": "e4e556f87cc8241ea68b339fc81b496f0721849234f9b19d0c6e5d4279a43eec"
+          "sha256": "e4e556f87cc8241ea68b339fc81b496f0721849234f9b19d0c6e5d4279a43eec",
+          "size": 920
         },
         {
           "path": "icon-themes/phosphor/icons/archive.svg",
-          "sha256": "01e009c66bb1392110a7406517ff5459d9e21b3dcf0ecfbff88dbdf3a6de84b2"
+          "sha256": "01e009c66bb1392110a7406517ff5459d9e21b3dcf0ecfbff88dbdf3a6de84b2",
+          "size": 340
         },
         {
           "path": "icon-themes/phosphor/icons/arrow-circle-down.svg",
-          "sha256": "0fff8411da601fafa5bf741269196191afddeb27e17b21434a6200cea373082c"
+          "sha256": "0fff8411da601fafa5bf741269196191afddeb27e17b21434a6200cea373082c",
+          "size": 363
         }
       ]
     },
@@ -1656,35 +1715,43 @@
       "preview": [
         {
           "path": "icon-themes/phosphor-icons-theme/icons/audio.svg",
-          "sha256": "b110ce7b267ff2d4c727054dfcf81994477dbc052c78fd1541f51b65483acbcc"
+          "sha256": "b110ce7b267ff2d4c727054dfcf81994477dbc052c78fd1541f51b65483acbcc",
+          "size": 673
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/caret-down.svg",
-          "sha256": "201f312337b4f0b9958e5101a7ae11812f688ce12fa6f9c37ab179ec1e3b64e5"
+          "sha256": "201f312337b4f0b9958e5101a7ae11812f688ce12fa6f9c37ab179ec1e3b64e5",
+          "size": 233
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/caret-right.svg",
-          "sha256": "33de411d04fde24412a6efdb65695b0a659e49d1748eb20f5f6629712ac661b8"
+          "sha256": "33de411d04fde24412a6efdb65695b0a659e49d1748eb20f5f6629712ac661b8",
+          "size": 238
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/document.svg",
-          "sha256": "d83acc56ec54af20a1e432844017627d973b8e2454226d103de7649f0fb04cca"
+          "sha256": "d83acc56ec54af20a1e432844017627d973b8e2454226d103de7649f0fb04cca",
+          "size": 317
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/folder-closed.svg",
-          "sha256": "40e0c899f5a97a24e8af872847d2cf715d0c9f5d613853bc8e8256d70a9ef4e0"
+          "sha256": "40e0c899f5a97a24e8af872847d2cf715d0c9f5d613853bc8e8256d70a9ef4e0",
+          "size": 330
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/folder-open.svg",
-          "sha256": "7b70e04670378fb2d99cf9e7e3b75d2d0a36e6d7fc49dc5da10bb746f1af94c8"
+          "sha256": "7b70e04670378fb2d99cf9e7e3b75d2d0a36e6d7fc49dc5da10bb746f1af94c8",
+          "size": 448
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/image.svg",
-          "sha256": "4876148136debf8f8c5fe682e61ab22e01b62f1e76533371faecc72d49cf70c0"
+          "sha256": "4876148136debf8f8c5fe682e61ab22e01b62f1e76533371faecc72d49cf70c0",
+          "size": 511
         },
         {
           "path": "icon-themes/phosphor-icons-theme/icons/pdf.svg",
-          "sha256": "7f76200ea297d6b856aa5500a2857cfb78cce6d6d3b75ead73a27a77274d1aef"
+          "sha256": "7f76200ea297d6b856aa5500a2857cfb78cce6d6d3b75ead73a27a77274d1aef",
+          "size": 664
         }
       ]
     },
@@ -1781,15 +1848,18 @@
       "preview": [
         {
           "path": "icon-themes/serendipity-icons/icons/file.svg",
-          "sha256": "56482fdcee6c74d1c9384f0c0edb2a15107c62740b1d6462c0493951b00955dc"
+          "sha256": "56482fdcee6c74d1c9384f0c0edb2a15107c62740b1d6462c0493951b00955dc",
+          "size": 220
         },
         {
           "path": "icon-themes/serendipity-icons/icons/folder-open.svg",
-          "sha256": "c0e1515b66d7a82dbd0043a2f3cd4856e512986c4400d175be06d906caed2ccc"
+          "sha256": "c0e1515b66d7a82dbd0043a2f3cd4856e512986c4400d175be06d906caed2ccc",
+          "size": 425
         },
         {
           "path": "icon-themes/serendipity-icons/icons/folder.svg",
-          "sha256": "9b2bdff8ca10639e93d270360286921502922475f68e28d7a257730cab0fc58b"
+          "sha256": "9b2bdff8ca10639e93d270360286921502922475f68e28d7a257730cab0fc58b",
+          "size": 413
         }
       ]
     },
@@ -1861,23 +1931,28 @@
       "preview": [
         {
           "path": "icon-themes/symbols/icons/files/audio.svg",
-          "sha256": "d70e3b6ead381f409e48558e94942e5d7e3a927d69761482a1c13ee839ec7d1f"
+          "sha256": "d70e3b6ead381f409e48558e94942e5d7e3a927d69761482a1c13ee839ec7d1f",
+          "size": 424
         },
         {
           "path": "icon-themes/symbols/icons/files/image.svg",
-          "sha256": "716ccc1552a29a30a8c8a8ebc36da0b86d4d8a2afe402d1a78302387db2baf21"
+          "sha256": "716ccc1552a29a30a8c8a8ebc36da0b86d4d8a2afe402d1a78302387db2baf21",
+          "size": 403
         },
         {
           "path": "icon-themes/symbols/icons/files/pdf.svg",
-          "sha256": "a9b51ad7c0e02b0079745066555ab037b7488361806c5702c3ada3bcc882dddc"
+          "sha256": "a9b51ad7c0e02b0079745066555ab037b7488361806c5702c3ada3bcc882dddc",
+          "size": 7623
         },
         {
           "path": "icon-themes/symbols/icons/folders/folder-open.svg",
-          "sha256": "1cde421cff71cb409698de3fe6e0ebd9102db88d4f54033e30aab50dbd59fc4b"
+          "sha256": "1cde421cff71cb409698de3fe6e0ebd9102db88d4f54033e30aab50dbd59fc4b",
+          "size": 407
         },
         {
           "path": "icon-themes/symbols/icons/folders/folder.svg",
-          "sha256": "cbac3e926822cebd097ee63dd6be9cde9ef3ab4d66dc2823532f4b078c74c161"
+          "sha256": "cbac3e926822cebd097ee63dd6be9cde9ef3ab4d66dc2823532f4b078c74c161",
+          "size": 392
         }
       ]
     },
