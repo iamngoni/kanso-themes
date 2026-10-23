@@ -1,0 +1,13 @@
+# The theme gallery's public keys: one base64 Ed25519 public key a line.
+#
+# The signing job refuses a key whose public half isn't here, and Kanso
+# verifies `gallery/index.json.sig` against a copy of this list compiled in
+# (`crates/kanso-gallery/keys/themes-trusted-keys.txt`). Keep the two lists
+# identical for every rotation.
+#
+# The owner generates the key once and adds the public half below:
+#
+#   cargo run --manifest-path tools/gallery-sign/Cargo.toml -- keygen
+#
+# Then adds `KANSO_THEMES_SIGNING_KEY` (the secret) to the `gallery`
+# environment (README.md › Publishing).

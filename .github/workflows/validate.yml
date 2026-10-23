@@ -6,8 +6,8 @@ jobs:
   schema:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: 24
       - name: Check every theme against the schema
@@ -21,3 +21,41 @@ jobs:
             [ "$name" = schema ] && continue
             npx ajv validate --spec=draft2020 -c ajv-formats -s icon-themes/schema/kanso-icon-theme-v1.json -d "$dir$name.json" --all-errors
           done
+      - name: Test and check the gallery builder
+        run: |
+          node --test scripts/gallery.test.mjs
+          node scripts/gallery.mjs --root . --out gallery --check
+          node scripts/gallery.mjs --root . --out /tmp/gallery-check
+      - name: Test the signer
+        run: cargo test --manifest-path tools/gallery-sign/Cargo.toml
+
+  kanso:
+    # Schema checks cannot see Kanso's own parser, contrast checks or icon
+    # path rules, so this runs the pinned Kanso parsers on the same tree.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - name: Read the Kanso commit the parser comes from
+        id: kanso
+        run: echo "sha=$(cat gallery/kanso-commit.txt)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          repository: iamngoni/kanso
+          ref: ${{ steps.kanso.outputs.sha }}
+          path: kanso
+          submodules: recursive
+      - name: Build Kanso's parsers
+        run: cargo build --locked -p kanso-app --manifest-path kanso/Cargo.toml
+      - name: Check every theme with Kanso's own parser and contrast checks
+        env:
+          KANSO_DATA_DIR: /tmp/kanso-themes-check
+        run: |
+          kanso=kanso/target/debug/kanso
+          "$kanso" theme check $(find . -maxdepth 1 -name '*.json' ! -name index.json | sort)
+          for dir in icon-themes/*/; do
+            name=$(basename "$dir")
+            [ "$name" = schema ] && continue
+            "$kanso" icon-theme check "$dir"
+          done
+EOF
+echo done

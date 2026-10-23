@@ -1,0 +1,134 @@
+name: Publish gallery
+# Validate themes on main, then build read-only, sign in the protected
+# `gallery` environment, and publish from a separate write-only job. The
+# signing key is in exactly one step's environment and never reaches the
+# job that writes to the repository.
+on:
+  workflow_run:
+    workflows: ["Validate themes"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency: gallery-publish
+
+jobs:
+  build:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the exact validated commit
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - name: Build the catalog and deterministic bundles
+        run: |
+          node scripts/gallery.mjs \
+            --root . --out gallery \
+            --source-commit "${{ github.event.workflow_run.head_sha }}" \
+            --generated-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          node scripts/gallery.mjs --root . --out gallery --check
+      - name: Upload the build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: gallery-build
+          path: gallery/
+          if-no-files-found: error
+
+  sign:
+    needs: build
+    runs-on: ubuntu-latest
+    # Requires reviewers. The key is a secret of this environment only.
+    environment: gallery
+    permissions:
+      contents: read
+    outputs:
+      signed: ${{ steps.check.outputs.signed }}
+    steps:
+      - name: Check out the exact validated commit
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - name: Download the build
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-build
+          path: gallery/
+      - name: See whether this environment has the signing key
+        id: check
+        env:
+          KANSO_THEMES_SIGNING_KEY: ${{ secrets.KANSO_THEMES_SIGNING_KEY }}
+        run: |
+          if [ -z "${KANSO_THEMES_SIGNING_KEY:-}" ]; then
+            echo "The gallery signing key isn't set; skipping the signature." >&2
+            echo "signed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "signed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Sign the exact index bytes
+        if: steps.check.outputs.signed == 'true'
+        id: sign
+        env:
+          KANSO_THEMES_SIGNING_KEY: ${{ secrets.KANSO_THEMES_SIGNING_KEY }}
+        run: |
+          cargo run --quiet --manifest-path tools/gallery-sign/Cargo.toml -- \
+            sign --key "$KANSO_THEMES_SIGNING_KEY" \
+            --index gallery/index.json --out gallery/index.json.sig
+          cargo run --quiet --manifest-path tools/gallery-sign/Cargo.toml -- \
+            verify --index gallery/index.json --signature gallery/index.json.sig \
+            --keys gallery/trusted-keys.txt
+      - name: Upload the signed index
+        if: steps.check.outputs.signed == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: gallery-signed
+          path: |
+            gallery/index.json
+            gallery/index.json.sig
+          if-no-files-found: error
+
+  publish:
+    needs: sign
+    if: needs.sign.outputs.signed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out with the publishing identity
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          token: ${{ secrets.GALLERY_PUBLISH_TOKEN }}
+      - name: Download the signed index
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-signed
+          path: gallery/
+      - name: Download the bundles and versions
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: gallery-build
+          path: gallery-build/
+      - name: Put the build beside the signature and re-verify every hash
+        run: |
+          cp -R gallery-build/icon-themes gallery/icon-themes
+          cp gallery-build/versions.json gallery/versions.json
+          cmp gallery/index.json gallery-build/index.json
+          node scripts/gallery.mjs --root . --out gallery --verify-only
+      - name: Commit and push once, retrying a fast-forward race once
+        run: |
+          git config user.name "kanso-gallery"
+          git config user.email "gallery@users.noreply.github.com"
+          git add gallery
+          if git diff --cached --quiet; then
+            echo "The gallery is unchanged."
+            exit 0
+          fi
+          git commit -m "Publish the theme gallery [skip ci]"
+          git push || { git pull --rebase --autostash && git push; }

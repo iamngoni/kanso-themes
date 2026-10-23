@@ -1,0 +1,301 @@
+{
+  "serial": 1,
+  "themes": {
+    "andromeda": {
+      "version": 1,
+      "hash": "6bde7763bacc5d85ba3bbc29166c7ba02e4a6d1ab194ffac696fd5b21ae6ede5"
+    },
+    "ayu-dark": {
+      "version": 1,
+      "hash": "13065e8135bef58d31a3257c189087bfcfc05dcf1ec0a0b4a81b00b9018e39fd"
+    },
+    "ayu-light": {
+      "version": 1,
+      "hash": "79ad6ce56d690dfc676403970b4ae3620494bcb78f2ccfb07b822fd80f1653d2"
+    },
+    "ayu-mirage": {
+      "version": 1,
+      "hash": "4308e3a3daed254ab6c89dc625777f1c1cf56f1bbc2d095ce1b1e24ce21c9223"
+    },
+    "catppuccin-frappe": {
+      "version": 1,
+      "hash": "02459cfcfbf5a4785779e7f1a20e36ea1716874e5bcdc08b025ec8e045fd06f8"
+    },
+    "catppuccin-latte": {
+      "version": 1,
+      "hash": "d88ab3cf329728f9605fd6ae14a34b662c66b5788355a6878b4739a66b1cd526"
+    },
+    "catppuccin-macchiato": {
+      "version": 1,
+      "hash": "ff0f698c90fd88c496244548dd0da9e3d9fb55074772b520ac0f4c704a122bb3"
+    },
+    "catppuccin-mocha": {
+      "version": 1,
+      "hash": "5b9db16bfc832b0a47cb44cfabf01557f04436d3cb4910aa943897b02ebcaf6f"
+    },
+    "cobalt2": {
+      "version": 1,
+      "hash": "ded577d00c943fb8b6408631b63814e81c8bbd824d0484ca8055c5fe3eab3c07"
+    },
+    "default-dark": {
+      "version": 1,
+      "hash": "7a8f70bad0ef24fcc0b893ccd840417dd982989148c451522e54c6fbd9c87f6b"
+    },
+    "default-light": {
+      "version": 1,
+      "hash": "28b22044e87d53aecd6455e5c93d7ec9a77837b0d2fda94c6c4fbc71eda5215c"
+    },
+    "dracula": {
+      "version": 1,
+      "hash": "b494f58c3005f222f7eb293804755612c7f8e437f23fbaad003f6722aa429afc"
+    },
+    "duskfox": {
+      "version": 1,
+      "hash": "3450c508588f190d907b86d8cc9bd25dfe7eac4ed22b478f046535a812652dae"
+    },
+    "everforest-dark": {
+      "version": 1,
+      "hash": "9f2c3218303f341a6d017eb488f97eeb93b6f8bd5c1f4910f7a7803fb9e793e1"
+    },
+    "everforest-light": {
+      "version": 1,
+      "hash": "92601ea9e6dbc3cbd3982a477bb0540c5c4ad5c093b1d818277ca682874e8b67"
+    },
+    "flexoki-dark": {
+      "version": 1,
+      "hash": "de312983e2015df4be2c65bd0cce6a36c76ed3b5039b2d1760490c65c5f7abca"
+    },
+    "flexoki-light": {
+      "version": 1,
+      "hash": "c76e9418ac79bde7750e2c980060d6c0356d29373c81c18a937210556ff734c9"
+    },
+    "github-dark-dimmed": {
+      "version": 1,
+      "hash": "ab37ad3cb8496f15a0f4599d9e6af4da3132b8baed23e2a368c067a9aff3d50f"
+    },
+    "github-dark-high-contrast": {
+      "version": 1,
+      "hash": "15a8193264753c4362ceb10ce86a6288e32dfd14a410dda2d5478581357e47ec"
+    },
+    "github-dark": {
+      "version": 1,
+      "hash": "e221fc02f45a46ae473c6bf6e78d074d7a0802c18cc0b7dd7a7d5093955252de"
+    },
+    "github-light-high-contrast": {
+      "version": 1,
+      "hash": "05aa401ed86040aaadada012d7af2ce68cebcf87112fc7c7413f3d7e2850c2bc"
+    },
+    "github-light": {
+      "version": 1,
+      "hash": "56f4f97365bac5b86d3c99ef205ad564a7e5acdf7ebda8a79717f7dffa1f0dd3"
+    },
+    "gruvbox-dark": {
+      "version": 1,
+      "hash": "18975078b23bd697333379899f13687fe9c76dc3b52a3049b27e09fd663720ba"
+    },
+    "gruvbox-light": {
+      "version": 1,
+      "hash": "9cc943f1a44c57bf5ccf0cc203ae8add9a974134440b81266567d0627413fae5"
+    },
+    "gruvbox-material-dark": {
+      "version": 1,
+      "hash": "67b4741fe6f519d2054061e76540b625b6c3a246ab88226ab6d6bff593743d0a"
+    },
+    "gruvbox-material-light": {
+      "version": 1,
+      "hash": "8633661f74733224084e47a70e013d545250e2b0db180ccce440ff4b59bc7fe3"
+    },
+    "horizon-bright": {
+      "version": 1,
+      "hash": "a645cb89920bf20b93e371eb2e14f64773fcb52c40c5e29751178f9d89bb2dd1"
+    },
+    "horizon": {
+      "version": 1,
+      "hash": "73fa2cfefed01747c9e4c90173d2bc86a4f0c463eeeed61b8ddb0289f93bb34b"
+    },
+    "iceberg": {
+      "version": 1,
+      "hash": "855f6cc68a06decafb151f5f5c60d8250b4916d486d1d911015eb28b3973c1ff"
+    },
+    "kanagawa-dragon": {
+      "version": 1,
+      "hash": "073e5323a06e63d4f7c8bc8a9e3ad97b8ff1a4dca73f00712901f8ea48ca63d3"
+    },
+    "kanagawa-lotus": {
+      "version": 1,
+      "hash": "bcf861f0744535101f77003b0c6bfcc4466c7993b90bc49255455ea3a4eef510"
+    },
+    "kanagawa-wave": {
+      "version": 1,
+      "hash": "cc2d34b085678350805f8e59766e7854ceb397cbe8b30eee4cf232978253a1b4"
+    },
+    "kanso-dark": {
+      "version": 1,
+      "hash": "1af65ada9880c3ac62f9389ffd7128359a93cb4ba323669b7bc1359dc93493e7"
+    },
+    "kanso-light": {
+      "version": 1,
+      "hash": "f89c27623e1eda4bdc512e468f646e729bde0656945d492c8cac6127254d7a8e"
+    },
+    "material-dark": {
+      "version": 1,
+      "hash": "8cfb2c218172f6a3470c556e02c380de2d169726b29c3cd0b08019c5036a0a9a"
+    },
+    "material-lighter": {
+      "version": 1,
+      "hash": "df310e5446ad36002b13b3961ed2288be5a3244942b8c0d9f2fa3521a83cd1b7"
+    },
+    "material-palenight": {
+      "version": 1,
+      "hash": "e3b99851beffe90e650b71f467f578b18303f592859c44fe4409cd53e0adb3c3"
+    },
+    "min-dark": {
+      "version": 1,
+      "hash": "99027434ebf1333bf784fe0b217580efe67f9eac99eaed9e6559c586c8b4f5e1"
+    },
+    "min-light": {
+      "version": 1,
+      "hash": "76766eb10fa9d74477986fbe4bd1ab6689f694efe82bd7d44ccf26ae3d8df760"
+    },
+    "moonlight": {
+      "version": 1,
+      "hash": "d9abea1521c0eb3d6d12c9793e1918ee7dd81dac98324b401c027101655551ca"
+    },
+    "night-owl-dark": {
+      "version": 1,
+      "hash": "b689d65cc51ac7029cbeca0fa90f17f7045ab2b59e0aef5e2e56d63c28cc560d"
+    },
+    "night-owl-light": {
+      "version": 1,
+      "hash": "230b3587e1a96a5b5aee21971ccf5cca3e8dd08fcdc328eb961795a6e5167d8f"
+    },
+    "nightfox": {
+      "version": 1,
+      "hash": "a44a02c06e7f15f9f93765d699c4e55f7238149ff7e0a1582cf8f1ea17a5c2a0"
+    },
+    "nord": {
+      "version": 1,
+      "hash": "a42adb5dbd6ef42ec331cba65fc28f816cc988c97750a2e250d50e444c798e03"
+    },
+    "nordfox": {
+      "version": 1,
+      "hash": "34ad397f845127bec69c74493f990bf586c987bf1676e92236ea650cf623bd1c"
+    },
+    "one-dark-vibrant": {
+      "version": 1,
+      "hash": "d6491632dadf3bde955da591d224742e6bab09dbc6775c5299dfc73bbf89bc75"
+    },
+    "oxocarbon-dark": {
+      "version": 1,
+      "hash": "4181d1e0b17eae540cf72cd38c58918f7b5ea4e007cb4e2586ca2d498b099227"
+    },
+    "oxocarbon-light": {
+      "version": 1,
+      "hash": "1b7fd741422d7df31fe50ae30ad52a8676449621945806c39262564714640dc0"
+    },
+    "rose-pine-dawn": {
+      "version": 1,
+      "hash": "a0730f44458e4a3d34d31bce58e1069563357555783c7694694a597890d02595"
+    },
+    "rose-pine-moon": {
+      "version": 1,
+      "hash": "8c57830eaee39e239fb4ffa3a4824fcf0943ac2ef71c98f1d392862c57888d00"
+    },
+    "rose-pine": {
+      "version": 1,
+      "hash": "eadb1caacabd28df2d4a5c3d666e2668cbd315ace0b2c1427d690c46dc79f209"
+    },
+    "solarized-dark": {
+      "version": 1,
+      "hash": "9e7349fa4505e0846bb6a10afae554cc1f92326a8ce3c8fd9d9693dac7d2830e"
+    },
+    "solarized-light": {
+      "version": 1,
+      "hash": "1750214ef8c7cb4b1dee3064fd8b654e0639a1506fa8dfeaeb7c2b640048ae71"
+    },
+    "synthwave-84": {
+      "version": 1,
+      "hash": "9a95812bb1186e27d73f3fb731941dba72af403c9be6c221f1d95b19c4da661a"
+    },
+    "tokyo-night-light": {
+      "version": 1,
+      "hash": "27a23e6e2850d0a50dde3e84389d0cddd2727acf12053dd4f6966393316eab80"
+    },
+    "tokyo-night-storm": {
+      "version": 1,
+      "hash": "50667a3c3385ce1ef7e34c7bbe86d05e53a86b7b0b925b62f97bf041b3c7babd"
+    },
+    "tokyo-night": {
+      "version": 1,
+      "hash": "b6647bf3566753dcfbf0b8b2517cab5f56a15057d9864500f20b679c4c57b186"
+    },
+    "tomorrow-night-burns": {
+      "version": 1,
+      "hash": "52785faf5deb54ca886fafc2aa40291cf9ee12db69621040b1dcc29c9caad96a"
+    },
+    "tomorrow-night": {
+      "version": 1,
+      "hash": "fdfc929fee8817f38043d8a4c274e030e9d0fe8dc1e9ad7a2ce0ef0c08611b3a"
+    },
+    "tomorrow": {
+      "version": 1,
+      "hash": "ff18c1f45f63b226fd31c0bab2eae5a6588ac2d6e15c9cf164b401cb19d96480"
+    },
+    "catppuccin-icons": {
+      "version": 1,
+      "hash": "8049a7534dd7b6b52b0c55d77ddc237c19113762f45a61f6a5a6d76a9a6d1abb"
+    },
+    "charmed-icons": {
+      "version": 1,
+      "hash": "6e11bf6484bba722263ad2392fc29cfaf6649a9b5d07b18ebe30dab1bd758e42"
+    },
+    "fantasticons": {
+      "version": 1,
+      "hash": "9ec03bc897709e8489a76302d049022a183848c0712e2cf9bfedddd2826ba686"
+    },
+    "jetbrains-icons": {
+      "version": 1,
+      "hash": "b4f89590f917857529c0262aa21e3d2bf0f4f6a385552e84490d565bdcd0f333"
+    },
+    "jetbrains-new-ui-icons": {
+      "version": 1,
+      "hash": "742b28c789d06f345b7a807391cb6aaf823bdde1e2af59d42c11dc0a4bd2b949"
+    },
+    "kokedera-icons": {
+      "version": 1,
+      "hash": "e74d75b477d5b2c0d00b7e8573ed7485dce2e476b874776dfe28ebd442b561a1"
+    },
+    "lucide": {
+      "version": 1,
+      "hash": "f9550eb4671704f81f615d41bdf1b64e1779a5a4e1e915c3be67da8a09d46125"
+    },
+    "material-icon-theme": {
+      "version": 1,
+      "hash": "e452926164c569b4823ac80a2358821adf9e039a44d64c1a32ff7394f367fe19"
+    },
+    "min-icons": {
+      "version": 1,
+      "hash": "64409ca90243729d09ace5a55512a9474117dcb5e7edc27217a67cd07f8a0fab"
+    },
+    "monospace-icons": {
+      "version": 1,
+      "hash": "21ad1f8a080888ca9ffddb55d1010b934ff3bb0941c9d87a8f673ce5eaad86ca"
+    },
+    "phosphor": {
+      "version": 1,
+      "hash": "f0aba512fb9d3c0c09f360cb9b1bec33b9dd012dfa53302ad9f35a4465f0c408"
+    },
+    "phosphor-icons-theme": {
+      "version": 1,
+      "hash": "10fa17217de280d82f776f06028a3d9d52a12a972e2ceaf89c69b102f2dc5a4c"
+    },
+    "serendipity-icons": {
+      "version": 1,
+      "hash": "445526b654f3d2f66d7ca6a598fa0a99d8e47e7396239e52f8c8539862c58619"
+    },
+    "symbols": {
+      "version": 1,
+      "hash": "05918f30f8962aba4634e8a450c9471407e7af59025ad937e37436157613bb3d"
+    }
+  }
+}
