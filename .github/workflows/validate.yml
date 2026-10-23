@@ -55,6 +55,8 @@ jobs:
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: 24
+      - name: Linux build dependencies
+        run: bash kanso/scripts/linux-deps.sh
       - name: Build Kanso's parsers
         run: cargo build --locked -p kanso-app --manifest-path kanso/Cargo.toml
       - name: Check every theme with Kanso's own parser and contrast checks
