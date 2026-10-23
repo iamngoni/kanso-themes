@@ -59,6 +59,11 @@ jobs:
 
   sign:
     needs: build
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main'
     runs-on: ubuntu-latest
     # Requires reviewers. The key is a secret of this environment only.
     environment: gallery
@@ -103,6 +108,11 @@ jobs:
 
   publish:
     needs: sign
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -141,6 +151,15 @@ jobs:
           fi
           git commit -m "Publish the theme gallery [skip ci]"
           git fetch origin main
+          # The serial was built from main's tip at build time. If another
+          # publication landed since, this index would reuse a serial and
+          # every app would refuse it; fail instead of pushing it.
+          main_serial=$(git show origin/main:gallery/versions.json | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>console.log(JSON.parse(s).serial))")
+          built_serial=$(node -e "console.log(require('./gallery/index.json').serial - 1)")
+          if [ "$main_serial" != "$built_serial" ]; then
+            echo "main published serial $main_serial after this build started; run it again." >&2
+            exit 1
+          fi
           git rebase origin/main
           git push origin HEAD:main || {
             git fetch origin main
