@@ -1,5 +1,5 @@
 {
-  "serial": 2,
+  "serial": 3,
   "themes": {
     "andromeda": {
       "version": 1,
@@ -242,60 +242,60 @@
       "hash": "ff18c1f45f63b226fd31c0bab2eae5a6588ac2d6e15c9cf164b401cb19d96480"
     },
     "catppuccin-icons": {
-      "version": 1,
-      "hash": "8049a7534dd7b6b52b0c55d77ddc237c19113762f45a61f6a5a6d76a9a6d1abb"
+      "version": 3,
+      "hash": "0262bc653a49e4a4f5cfcdc85c3819816bb48ee82a7484b7ed7f5c157be6b895"
     },
     "charmed-icons": {
-      "version": 1,
-      "hash": "6e11bf6484bba722263ad2392fc29cfaf6649a9b5d07b18ebe30dab1bd758e42"
+      "version": 3,
+      "hash": "d00d9876cb8ac49e138b94659a162312a9781d455464531acfadca34be712623"
     },
     "fantasticons": {
-      "version": 1,
-      "hash": "9ec03bc897709e8489a76302d049022a183848c0712e2cf9bfedddd2826ba686"
+      "version": 3,
+      "hash": "a8a727d0c11aba504cc948416a05cc78a605e02440f501d32189f8941e88f80b"
     },
     "jetbrains-icons": {
-      "version": 1,
-      "hash": "b4f89590f917857529c0262aa21e3d2bf0f4f6a385552e84490d565bdcd0f333"
+      "version": 3,
+      "hash": "23a051a94bbe85cf7528689cbf09e7ee08f62031426e0da0e5eb0b1bbc4e2812"
     },
     "jetbrains-new-ui-icons": {
-      "version": 1,
-      "hash": "742b28c789d06f345b7a807391cb6aaf823bdde1e2af59d42c11dc0a4bd2b949"
+      "version": 3,
+      "hash": "23ddc69b9d4abf9856ca1a83da4fef771a4dd1b523e44fc4f8b66e49cf67e6e2"
     },
     "kokedera-icons": {
-      "version": 1,
-      "hash": "e74d75b477d5b2c0d00b7e8573ed7485dce2e476b874776dfe28ebd442b561a1"
+      "version": 3,
+      "hash": "71399004b9eb08daae4e994f6e61acb1e04aff799999e828a86aa37dcdf1fc34"
     },
     "lucide": {
-      "version": 1,
-      "hash": "f9550eb4671704f81f615d41bdf1b64e1779a5a4e1e915c3be67da8a09d46125"
+      "version": 3,
+      "hash": "63c5298ea9d8914ebc1928c15e3a35cc944c3cac34a57813fb331475f8444996"
     },
     "material-icon-theme": {
-      "version": 1,
-      "hash": "e452926164c569b4823ac80a2358821adf9e039a44d64c1a32ff7394f367fe19"
+      "version": 3,
+      "hash": "dc45468d24f6922061846bf980c2606fd07f68652897688e45e6722e52dec509"
     },
     "min-icons": {
-      "version": 1,
-      "hash": "64409ca90243729d09ace5a55512a9474117dcb5e7edc27217a67cd07f8a0fab"
+      "version": 3,
+      "hash": "d912d79b571036a1f248c5254f898a8dcbc5b123e8d2139caf4c430c783eb310"
     },
     "monospace-icons": {
-      "version": 1,
-      "hash": "21ad1f8a080888ca9ffddb55d1010b934ff3bb0941c9d87a8f673ce5eaad86ca"
+      "version": 3,
+      "hash": "6bba945eacb06a8913d412b3a249b40c7e2e1ed72deccdd4c7aca763b19cf8ff"
     },
     "phosphor": {
-      "version": 2,
-      "hash": "b025104cf43525480be2a7947479b9348d420148958302abbac1f49dd5fe2c5d"
+      "version": 3,
+      "hash": "e03e6fb028c074a3e164db98c6986b993340c2dc5bd48051f356cc3bd5091b3b"
     },
     "phosphor-icons-theme": {
-      "version": 1,
-      "hash": "10fa17217de280d82f776f06028a3d9d52a12a972e2ceaf89c69b102f2dc5a4c"
+      "version": 3,
+      "hash": "9e32ec00e6fc47aa140af19443ce5ae8f47d7905e0f6ff0025fa86c1f8b40872"
     },
     "serendipity-icons": {
-      "version": 1,
-      "hash": "445526b654f3d2f66d7ca6a598fa0a99d8e47e7396239e52f8c8539862c58619"
+      "version": 3,
+      "hash": "64cb580cc8fd729d335eea8c5608c150e488cc7066ad2aef972c95ff5e80e7b4"
     },
     "symbols": {
-      "version": 1,
-      "hash": "05918f30f8962aba4634e8a450c9471407e7af59025ad937e37436157613bb3d"
+      "version": 3,
+      "hash": "ec3866e3215874f9e27b0a37c8dbb763a8b55ce6c3b72b37f953ed81102a0ef6"
     }
   }
 }

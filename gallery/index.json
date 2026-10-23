@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "serial": 2,
-  "generated_at": "2026-10-23T17:29:54Z",
-  "source_commit": "9885af741f7d5eab99d3a8c5d6c111b815dbe2fb",
+  "serial": 3,
+  "generated_at": "2026-10-23T19:52:29Z",
+  "source_commit": "1216da790076d6015e9de47ede46e1f3d02286d7",
   "signing_key_id": "unset",
   "themes": [
     {
@@ -133,7 +133,7 @@
     {
       "id": "catppuccin-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Catppuccin Icons",
       "author": "Catppuccin",
       "license": "MIT",
@@ -142,7 +142,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/catppuccin-icons.tar.gz",
-        "sha256": "8049a7534dd7b6b52b0c55d77ddc237c19113762f45a61f6a5a6d76a9a6d1abb",
+        "sha256": "0262bc653a49e4a4f5cfcdc85c3819816bb48ee82a7484b7ed7f5c157be6b895",
         "size": 2685
       },
       "preview": [
@@ -256,7 +256,7 @@
     {
       "id": "charmed-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Charmed Icons",
       "author": "littensy, jmesrje",
       "license": "MIT",
@@ -265,7 +265,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/charmed-icons.tar.gz",
-        "sha256": "6e11bf6484bba722263ad2392fc29cfaf6649a9b5d07b18ebe30dab1bd758e42",
+        "sha256": "d00d9876cb8ac49e138b94659a162312a9781d455464531acfadca34be712623",
         "size": 5257
       },
       "preview": [
@@ -479,7 +479,7 @@
     {
       "id": "fantasticons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "FantastIcons",
       "author": "Caio Landgraf",
       "license": "MIT",
@@ -488,7 +488,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/fantasticons.tar.gz",
-        "sha256": "9ec03bc897709e8489a76302d049022a183848c0712e2cf9bfedddd2826ba686",
+        "sha256": "a8a727d0c11aba504cc948416a05cc78a605e02440f501d32189f8941e88f80b",
         "size": 4945
       },
       "preview": [
@@ -882,7 +882,7 @@
     {
       "id": "jetbrains-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "JetBrains Icons",
       "author": "Zeeshan Ahmad",
       "license": "Apache-2.0",
@@ -891,7 +891,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/jetbrains-icons.tar.gz",
-        "sha256": "b4f89590f917857529c0262aa21e3d2bf0f4f6a385552e84490d565bdcd0f333",
+        "sha256": "23a051a94bbe85cf7528689cbf09e7ee08f62031426e0da0e5eb0b1bbc4e2812",
         "size": 5627
       },
       "preview": [
@@ -925,7 +925,7 @@
     {
       "id": "jetbrains-new-ui-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "JetBrains New UI Icons",
       "author": "ankddev",
       "license": "Apache-2.0",
@@ -934,7 +934,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/jetbrains-new-ui-icons.tar.gz",
-        "sha256": "742b28c789d06f345b7a807391cb6aaf823bdde1e2af59d42c11dc0a4bd2b949",
+        "sha256": "23ddc69b9d4abf9856ca1a83da4fef771a4dd1b523e44fc4f8b66e49cf67e6e2",
         "size": 5757
       },
       "preview": [
@@ -1088,7 +1088,7 @@
     {
       "id": "kokedera-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Kokedera Icons",
       "author": "Florian Mühlhans",
       "license": "MIT",
@@ -1097,7 +1097,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/kokedera-icons.tar.gz",
-        "sha256": "e74d75b477d5b2c0d00b7e8573ed7485dce2e476b874776dfe28ebd442b561a1",
+        "sha256": "71399004b9eb08daae4e994f6e61acb1e04aff799999e828a86aa37dcdf1fc34",
         "size": 2814
       },
       "preview": [
@@ -1146,7 +1146,7 @@
     {
       "id": "lucide",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Lucide",
       "author": "Lucide Contributors",
       "license": "ISC",
@@ -1155,7 +1155,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/lucide.tar.gz",
-        "sha256": "f9550eb4671704f81f615d41bdf1b64e1779a5a4e1e915c3be67da8a09d46125",
+        "sha256": "63c5298ea9d8914ebc1928c15e3a35cc944c3cac34a57813fb331475f8444996",
         "size": 2010
       },
       "preview": []
@@ -1188,7 +1188,7 @@
     {
       "id": "material-icon-theme",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Material Icon Theme",
       "author": "Zed Industries",
       "license": "MIT",
@@ -1197,7 +1197,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/material-icon-theme.tar.gz",
-        "sha256": "e452926164c569b4823ac80a2358821adf9e039a44d64c1a32ff7394f367fe19",
+        "sha256": "dc45468d24f6922061846bf980c2606fd07f68652897688e45e6722e52dec509",
         "size": 6736
       },
       "preview": [
@@ -1311,7 +1311,7 @@
     {
       "id": "min-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Min Icons",
       "author": "Phillip Bronzel",
       "license": "MIT",
@@ -1320,7 +1320,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/min-icons.tar.gz",
-        "sha256": "64409ca90243729d09ace5a55512a9474117dcb5e7edc27217a67cd07f8a0fab",
+        "sha256": "d912d79b571036a1f248c5254f898a8dcbc5b123e8d2139caf4c430c783eb310",
         "size": 2276
       },
       "preview": [
@@ -1374,7 +1374,7 @@
     {
       "id": "monospace-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Monospace Icons",
       "author": "Isheunopa Ralph Mhonde",
       "license": "Apache-2.0",
@@ -1383,7 +1383,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/monospace-icons.tar.gz",
-        "sha256": "21ad1f8a080888ca9ffddb55d1010b934ff3bb0941c9d87a8f673ce5eaad86ca",
+        "sha256": "6bba945eacb06a8913d412b3a249b40c7e2e1ed72deccdd4c7aca763b19cf8ff",
         "size": 8421
       },
       "preview": [
@@ -1642,7 +1642,7 @@
     {
       "id": "phosphor",
       "kind": "icons",
-      "version": 2,
+      "version": 3,
       "name": "Phosphor",
       "author": "Phosphor Icons (Helena Zhang and Tobias Fried)",
       "license": "MIT",
@@ -1651,7 +1651,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/phosphor.tar.gz",
-        "sha256": "b025104cf43525480be2a7947479b9348d420148958302abbac1f49dd5fe2c5d",
+        "sha256": "e03e6fb028c074a3e164db98c6986b993340c2dc5bd48051f356cc3bd5091b3b",
         "size": 77212
       },
       "preview": [
@@ -1700,7 +1700,7 @@
     {
       "id": "phosphor-icons-theme",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Phosphor Icons Theme",
       "author": "Theo Luciano",
       "license": "MIT",
@@ -1709,7 +1709,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/phosphor-icons-theme.tar.gz",
-        "sha256": "10fa17217de280d82f776f06028a3d9d52a12a972e2ceaf89c69b102f2dc5a4c",
+        "sha256": "9e32ec00e6fc47aa140af19443ce5ae8f47d7905e0f6ff0025fa86c1f8b40872",
         "size": 3135
       },
       "preview": [
@@ -1833,7 +1833,7 @@
     {
       "id": "serendipity-icons",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Serendipity Icons",
       "author": "Nguyen Dang Vinh",
       "license": "MIT",
@@ -1842,7 +1842,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/serendipity-icons.tar.gz",
-        "sha256": "445526b654f3d2f66d7ca6a598fa0a99d8e47e7396239e52f8c8539862c58619",
+        "sha256": "64cb580cc8fd729d335eea8c5608c150e488cc7066ad2aef972c95ff5e80e7b4",
         "size": 1894
       },
       "preview": [
@@ -1916,7 +1916,7 @@
     {
       "id": "symbols",
       "kind": "icons",
-      "version": 1,
+      "version": 3,
       "name": "Symbols",
       "author": "Joan Garcia",
       "license": "MIT",
@@ -1925,7 +1925,7 @@
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/symbols.tar.gz",
-        "sha256": "05918f30f8962aba4634e8a450c9471407e7af59025ad937e37436157613bb3d",
+        "sha256": "ec3866e3215874f9e27b0a37c8dbb763a8b55ce6c3b72b37f953ed81102a0ef6",
         "size": 5439
       },
       "preview": [
