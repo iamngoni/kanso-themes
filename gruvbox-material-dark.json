@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Gruvbox Material Dark",
+  "author": "sainnhe",
+  "license": "MIT",
+  "source": "https://github.com/sainnhe/gruvbox-material",
+  "description": "Gruvbox Material's dark: warm, weathered paper and soft, earthy accents.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#292828",
+    "text": "#D4BE98",
+    "accent": "#89B482",
+    "app": "#292828",
+    "sidebar": "#292828",
+    "list": "#292828",
+    "elevated": "#383432",
+    "fill": "#292828",
+    "text_secondary": "#C5B18D",
+    "text_muted": "#928374",
+    "divider": "#292828",
+    "link": "#7DAEA3",
+    "row_active": "#32302F",
+    "row_hover": "#383432",
+    "sidebar_active": "#45403D",
+    "sidebar_hover": "#45403D",
+    "hover": "#45403D",
+    "selected": "#45403D",
+    "active_line": "#383432",
+    "success": "#A9B665",
+    "warning": "#D8A657",
+    "danger": "#EA6962",
+    "selection": "#7DAEA330",
+    "caret": "#7DAEA3"
+  },
+  "syntax": {
+    "heading": {
+      "color": "#EA6962",
+      "font_weight": 400
+    },
+    "block_marker": "#C5B18D",
+    "marker": "#C5B18D",
+    "list_marker": "#EA6962",
+    "link": {
+      "color": "#89B482",
+      "font_style": "normal"
+    },
+    "url": "#89B482",
+    "code": "#A9B665",
+    "code_block": "#A9B665",
+    "emphasis": "#7DAEA3",
+    "strong": {
+      "color": "#AB6C7D",
+      "font_weight": 700
+    },
+    "front_matter": "#D4BE98",
+    "escape": "#928374",
+    "comment": {
+      "color": "#7C6F64",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#928374",
+      "font_style": "italic",
+      "font_weight": 700
+    },
+    "keyword": {
+      "color": "#7DAEA3",
+      "font_style": "italic"
+    },
+    "string": "#A9B665",
+    "string_special": "#AB6C7D",
+    "function": "#89B482",
+    "type": "#89B482",
+    "type_constructor": "#89B482",
+    "number": "#AB6C7D",
+    "boolean": "#AB6C7D",
+    "constant": "#D3869B",
+    "variable": "#D4BE98",
+    "variable_special": "#AB6C7D",
+    "property": "#EA6962",
+    "attribute": "#7DAEA3",
+    "tag": "#7DAEA3",
+    "label": "#7DAEA3",
+    "operator": "#89B482",
+    "punctuation": "#D4BE98",
+    "bracket": "#C5B18D",
+    "embedded": "#D4BE98"
+  },
+  "preview": {}
+}
