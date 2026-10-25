@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Sonokai",
+  "author": "sainnhe",
+  "license": "MIT",
+  "source": "https://github.com/sainnhe/sonokai",
+  "description": "Sainnhe's Sonokai: Monokai Pro's warm reds, yellows and greens on a soft charcoal.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#2C2E34",
+    "text": "#E2E2E3",
+    "accent": "#76CCE0",
+    "app": "#222327",
+    "sidebar": "#222327",
+    "list": "#27282D",
+    "elevated": "#363944",
+    "fill": "#33353F",
+    "text_secondary": "#B1B3B9",
+    "text_muted": "#7F8490",
+    "divider": "#414550",
+    "link": "#76CCE0",
+    "row_active": "#3B3E48",
+    "row_hover": "#33353F",
+    "sidebar_active": "#3B3E48",
+    "sidebar_hover": "#33353F",
+    "hover": "#414550",
+    "selected": "#354157",
+    "active_line": "#33353F",
+    "button": "#76CCE0",
+    "button_text": "#2C2E34",
+    "success": "#9ED072",
+    "warning": "#E7C664",
+    "danger": "#FC5D7C",
+    "selection": "#414550",
+    "caret": "#E2E2E3"
+  },
+  "syntax": {
+    "text": "#E2E2E3",
+    "heading": {
+      "color": "#FC5D7C",
+      "font_weight": 700
+    },
+    "block_marker": "#7F8490",
+    "marker": "#7F8490",
+    "list_marker": "#FC5D7C",
+    "task": "#FC5D7C",
+    "hr": "#B39DF3",
+    "quote": {
+      "color": "#7F8490",
+      "font_style": "italic"
+    },
+    "link": "#FC5D7C",
+    "url": "#76CCE0",
+    "code": "#9ED072",
+    "code_block": "#9ED072",
+    "emphasis": {
+      "color": "#E2E2E3",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#E2E2E3",
+      "font_weight": 700
+    },
+    "front_matter": "#7F8490",
+    "html": {
+      "color": "#76CCE0",
+      "font_style": "italic"
+    },
+    "escape": "#9ED072",
+    "comment": {
+      "color": "#7F8490",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#7F8490",
+      "font_style": "italic"
+    },
+    "keyword": "#FC5D7C",
+    "string": "#E7C664",
+    "string_special": "#9ED072",
+    "function": "#9ED072",
+    "type": {
+      "color": "#76CCE0",
+      "font_style": "italic"
+    },
+    "type_constructor": "#9ED072",
+    "number": "#B39DF3",
+    "boolean": "#B39DF3",
+    "constant": "#F39660",
+    "variable": "#E2E2E3",
+    "variable_special": {
+      "color": "#B39DF3",
+      "font_style": "italic"
+    },
+    "property": "#F39660",
+    "attribute": {
+      "color": "#76CCE0",
+      "font_style": "italic"
+    },
+    "tag": {
+      "color": "#76CCE0",
+      "font_style": "italic"
+    },
+    "label": "#FC5D7C",
+    "operator": "#FC5D7C",
+    "punctuation": "#E2E2E3",
+    "bracket": "#7F8490",
+    "embedded": "#E2E2E3"
+  },
+  "preview": {
+    "text": "#E2E2E3",
+    "heading": "#FC5D7C",
+    "link": "#FC5D7C",
+    "quote": "#9195A0",
+    "task_done": "#7F8490",
+    "border": "#414550",
+    "code_background": "#222327",
+    "code_text": "#9ED072",
+    "inline_code_background": "#33353F",
+    "inline_code_text": "#9ED072",
+    "table_header_background": "#33353F",
+    "selection": "#414550"
+  }
+}

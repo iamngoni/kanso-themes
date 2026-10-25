@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Alucard",
+  "author": "Zeno Rocha",
+  "license": "MIT",
+  "source": "https://github.com/dracula/dracula-theme",
+  "description": "Dracula's daylight twin: warm parchment with deep pink keywords and purple constants.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FFFBEB",
+    "text": "#1F1F1F",
+    "accent": "#644AC9",
+    "app": "#DEDCCF",
+    "sidebar": "#ECE9DF",
+    "list": "#F5F2E5",
+    "elevated": "#ECE9DF",
+    "fill": "#ECE9DF",
+    "text_secondary": "#4A4739",
+    "text_muted": "#6C664B",
+    "divider": "#DEDCCF",
+    "link": "#036A96",
+    "row_active": "#CFCFDE",
+    "row_hover": "#ECE9DF",
+    "sidebar_active": "#CFCFDE",
+    "sidebar_hover": "#DEDCCF",
+    "hover": "#DCDEEF",
+    "selected": "#CFCFDE",
+    "active_line": "#ECE9DF",
+    "button": "#644AC9",
+    "button_text": "#FFFBEB",
+    "success": "#14710A",
+    "warning": "#A34D14",
+    "danger": "#CB3A2A",
+    "selection": "#CFCFDE",
+    "caret": "#1F1F1F"
+  },
+  "syntax": {
+    "text": "#1F1F1F",
+    "heading": {
+      "color": "#644AC9",
+      "font_weight": 700
+    },
+    "block_marker": "#644AC9",
+    "marker": "#6C664B",
+    "list_marker": "#036A96",
+    "task": "#036A96",
+    "hr": "#6C664B",
+    "quote": {
+      "color": "#846E15",
+      "font_style": "italic"
+    },
+    "link": "#A3144D",
+    "url": "#036A96",
+    "code": "#14710A",
+    "code_block": "#14710A",
+    "emphasis": {
+      "color": "#846E15",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#A34D14",
+      "font_weight": 700
+    },
+    "front_matter": "#6C664B",
+    "html": "#A3144D",
+    "escape": "#A3144D",
+    "comment": {
+      "color": "#6C664B",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6C664B",
+      "font_style": "italic"
+    },
+    "keyword": "#A3144D",
+    "string": "#846E15",
+    "string_special": "#CB3A2A",
+    "function": "#14710A",
+    "type": {
+      "color": "#036A96",
+      "font_style": "italic"
+    },
+    "type_constructor": "#644AC9",
+    "number": "#644AC9",
+    "boolean": "#644AC9",
+    "constant": "#644AC9",
+    "variable": "#1F1F1F",
+    "variable_special": {
+      "color": "#644AC9",
+      "font_style": "italic"
+    },
+    "property": "#1F1F1F",
+    "attribute": {
+      "color": "#14710A",
+      "font_style": "italic"
+    },
+    "tag": "#A3144D",
+    "label": "#036A96",
+    "operator": "#A3144D",
+    "punctuation": "#1F1F1F",
+    "bracket": "#1F1F1F",
+    "embedded": "#1F1F1F"
+  },
+  "preview": {
+    "text": "#1F1F1F",
+    "heading": "#644AC9",
+    "link": "#036A96",
+    "quote": "#846E15",
+    "task_done": "#6C664B",
+    "border": "#DEDCCF",
+    "code_background": "#ECE9DF",
+    "code_text": "#14710A",
+    "inline_code_background": "#ECE9DF",
+    "inline_code_text": "#14710A",
+    "table_header_background": "#ECE9DF",
+    "selection": "#CFCFDE"
+  }
+}

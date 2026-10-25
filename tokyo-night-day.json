@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Tokyo Night Day",
+  "author": "folke",
+  "license": "Apache-2.0",
+  "source": "https://github.com/folke/tokyonight.nvim",
+  "description": "Folke's Tokyo Night Day: the night palette turned to a pale, blue-washed morning.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#E1E2E7",
+    "text": "#2E51A1",
+    "accent": "#2E7DE9",
+    "app": "#D0D5E3",
+    "sidebar": "#D0D5E3",
+    "list": "#D0D5E3",
+    "elevated": "#D0D5E3",
+    "fill": "#CFD2E1",
+    "text_secondary": "#5C6DAD",
+    "text_muted": "#68709A",
+    "divider": "#B4B5B9",
+    "link": "#1359B7",
+    "row_active": "#C2CAE7",
+    "row_hover": "#C9D0E5",
+    "sidebar_active": "#C2CAE7",
+    "sidebar_hover": "#C9D0E5",
+    "hover": "#C9D0E5",
+    "selected": "#C2CAE7",
+    "active_line": "#CFD2E1",
+    "button": "#1C72E7",
+    "button_text": "#FFFFFF",
+    "success": "#587539",
+    "warning": "#8C6C3E",
+    "danger": "#C64343",
+    "selection": "#C6CEE9",
+    "caret": "#2E51A1"
+  },
+  "syntax": {
+    "text": "#2E51A1",
+    "heading": {
+      "color": "#006A83",
+      "font_weight": 700
+    },
+    "block_marker": "#006A83",
+    "marker": "#68709A",
+    "list_marker": "#2E7DE9",
+    "task": "#2E7DE9",
+    "hr": "#68709A",
+    "quote": {
+      "color": "#5C6DAD",
+      "font_style": "italic"
+    },
+    "link": "#387068",
+    "url": "#68709A",
+    "code": "#9854F1",
+    "code_block": "#006A83",
+    "emphasis": {
+      "color": "#2E51A1",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#2E51A1",
+      "font_weight": 700
+    },
+    "front_matter": "#68709A",
+    "html": "#F52A65",
+    "escape": "#9854F1",
+    "comment": {
+      "color": "#747DAB",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#747DAB",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#7847BD",
+      "font_style": "italic"
+    },
+    "string": "#587539",
+    "string_special": "#2E5857",
+    "function": "#2E7DE9",
+    "type": "#188092",
+    "type_constructor": "#9854F1",
+    "number": "#B15C00",
+    "boolean": "#B15C00",
+    "constant": "#B15C00",
+    "variable": "#2E51A1",
+    "variable_special": "#F52A65",
+    "property": "#387068",
+    "attribute": "#7847BD",
+    "tag": "#F52A65",
+    "label": "#2E7DE9",
+    "operator": "#006A83",
+    "punctuation": "#006A83",
+    "bracket": "#5C6DAD",
+    "embedded": "#007197"
+  },
+  "preview": {
+    "text": "#2E51A1",
+    "heading": "#006A83",
+    "link": "#366D65",
+    "quote": "#50619F",
+    "task_done": "#68709A",
+    "border": "#B4B5B9",
+    "code_background": "#D0D5E3",
+    "code_text": "#00647B",
+    "inline_code_background": "#D0D5E3",
+    "inline_code_text": "#761BEC",
+    "table_header_background": "#D0D5E3",
+    "selection": "#C6CEE9"
+  }
+}

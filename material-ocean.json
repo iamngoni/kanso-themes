@@ -1,0 +1,116 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Material Ocean",
+  "author": "Kai Cataldo",
+  "license": "MIT",
+  "source": "https://github.com/kaicataldo/material.vim",
+  "description": "Material's Ocean: a deep navy night in Material's bright pastels.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#0F111A",
+    "text": "#8F93A2",
+    "accent": "#82AAFF",
+    "app": "#0F111A",
+    "sidebar": "#0F111A",
+    "list": "#0F111A",
+    "elevated": "#0F111A",
+    "fill": "#1F2233",
+    "text_secondary": "#80869E",
+    "text_muted": "#6B7089",
+    "divider": "#3B3F51",
+    "link": "#82AAFF",
+    "row_active": "#1F2233",
+    "row_hover": "#171A27",
+    "sidebar_active": "#1F2233",
+    "sidebar_hover": "#171A27",
+    "hover": "#252839",
+    "selected": "#22263B",
+    "active_line": "#0A0C12",
+    "button": "#82AAFF",
+    "button_text": "#0F111A",
+    "success": "#C3E88D",
+    "warning": "#FFCB6B",
+    "danger": "#FF5370",
+    "selection": "#3B3F5180",
+    "caret": "#FFCC00"
+  },
+  "syntax": {
+    "text": "#8F93A2",
+    "heading": {
+      "color": "#C3E88D",
+      "font_weight": 700
+    },
+    "block_marker": "#89DDFF",
+    "marker": "#89DDFF",
+    "list_marker": "#89DDFF",
+    "task": "#89DDFF",
+    "hr": "#5A6077",
+    "quote": {
+      "color": "#80869E",
+      "font_style": "italic"
+    },
+    "link": "#C3E88D",
+    "url": "#F07178",
+    "code": "#B2CCD6",
+    "code_block": "#C3E88D",
+    "emphasis": {
+      "color": "#F07178",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#F07178",
+      "font_weight": 700
+    },
+    "front_matter": "#80869E",
+    "html": "#F07178",
+    "escape": "#C3E88D",
+    "comment": {
+      "color": "#5A6077",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#5A6077",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#C792EA",
+      "font_style": "italic"
+    },
+    "string": "#C3E88D",
+    "string_special": "#BB80B3",
+    "function": "#82AAFF",
+    "type": "#FFCB6B",
+    "type_constructor": "#89DDFF",
+    "number": "#F78C6C",
+    "boolean": "#F78C6C",
+    "constant": "#F78C6C",
+    "variable": "#FF5370",
+    "variable_special": "#BB80B3",
+    "property": "#FF5370",
+    "attribute": {
+      "color": "#C792EA",
+      "font_style": "italic"
+    },
+    "tag": "#F07178",
+    "label": "#BB80B3",
+    "operator": "#89DDFF",
+    "punctuation": "#89DDFF",
+    "bracket": "#89DDFF",
+    "embedded": "#8F93A2"
+  },
+  "preview": {
+    "text": "#8F93A2",
+    "heading": "#C3E88D",
+    "link": "#C3E88D",
+    "quote": "#80869E",
+    "task_done": "#80869E",
+    "border": "#3B3F51",
+    "code_background": "#090B10",
+    "code_text": "#C3E88D",
+    "inline_code_background": "#1F2233",
+    "inline_code_text": "#B2CCD6",
+    "table_header_background": "#1F2233",
+    "selection": "#3B3F5180"
+  }
+}

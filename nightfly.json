@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Nightfly",
+  "author": "bluz71",
+  "license": "MIT",
+  "source": "https://github.com/bluz71/vim-nightfly-colors",
+  "description": "Nightfly: a midnight-blue sky in Night Owl's bright accents.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#011627",
+    "text": "#C3CCDC",
+    "accent": "#82AAFF",
+    "app": "#081E2F",
+    "sidebar": "#081E2F",
+    "list": "#04192B",
+    "elevated": "#09243A",
+    "fill": "#0E293F",
+    "text_secondary": "#A1AAB8",
+    "text_muted": "#7C8F8F",
+    "divider": "#252C3F",
+    "link": "#82AAFF",
+    "row_active": "#1D3B53",
+    "row_hover": "#0E293F",
+    "sidebar_active": "#1D3B53",
+    "sidebar_hover": "#092236",
+    "hover": "#1D3B53",
+    "selected": "#1F4462",
+    "active_line": "#092236",
+    "button": "#82AAFF",
+    "button_text": "#011627",
+    "success": "#A1CD5E",
+    "warning": "#E3D18A",
+    "danger": "#FC514E",
+    "selection": "#1D3B53",
+    "caret": "#82AAFF"
+  },
+  "syntax": {
+    "text": "#C3CCDC",
+    "heading": {
+      "color": "#87BCFF",
+      "font_weight": 700
+    },
+    "block_marker": "#FF5874",
+    "marker": "#7C8F8F",
+    "list_marker": "#FF5874",
+    "task": "#82AAFF",
+    "hr": "#FF5874",
+    "quote": {
+      "color": "#7C8F8F",
+      "font_style": "italic"
+    },
+    "link": "#A1CD5E",
+    "url": "#AE81FF",
+    "code": "#ECC48D",
+    "code_block": "#ECC48D",
+    "emphasis": {
+      "color": "#E39AA6",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#FFCB8B",
+      "font_weight": 700
+    },
+    "front_matter": "#7C8F8F",
+    "html": "#82AAFF",
+    "escape": "#7FDBCA",
+    "comment": {
+      "color": "#7C8F8F",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#87A3BA",
+      "font_style": "italic"
+    },
+    "keyword": "#C792EA",
+    "string": "#ECC48D",
+    "string_special": "#7FDBCA",
+    "function": "#82AAFF",
+    "type": "#21C7A8",
+    "type_constructor": "#21C7A8",
+    "number": "#F78C6C",
+    "boolean": "#FF5874",
+    "constant": "#7FDBCA",
+    "variable": "#C3CCDC",
+    "variable_special": "#A1CD5E",
+    "property": "#B0B2F4",
+    "attribute": "#82AAFF",
+    "tag": "#82AAFF",
+    "label": "#7FDBCA",
+    "operator": "#FF5874",
+    "punctuation": "#C3CCDC",
+    "bracket": "#C3CCDC",
+    "embedded": "#7FDBCA"
+  },
+  "preview": {
+    "text": "#C3CCDC",
+    "heading": "#87BCFF",
+    "link": "#A1CD5E",
+    "quote": "#7C8F8F",
+    "task_done": "#7C8F8F",
+    "border": "#252C3F",
+    "code_background": "#081E2F",
+    "code_text": "#ECC48D",
+    "inline_code_background": "#0E293F",
+    "inline_code_text": "#ECC48D",
+    "table_header_background": "#0E293F",
+    "selection": "#1D3B53"
+  }
+}

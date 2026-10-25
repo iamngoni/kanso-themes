@@ -2,6 +2,21 @@
   "schema_version": 1,
   "themes": [
     {
+      "file": "alucard.json",
+      "name": "Alucard",
+      "author": "Zeno Rocha",
+      "license": "MIT",
+      "source": "https://github.com/dracula/dracula-theme",
+      "appearance": "light",
+      "colors": {
+        "editor": "#FFFBEB",
+        "text": "#1F1F1F",
+        "accent": "#644AC9",
+        "sidebar": "#ECE9DF",
+        "list": "#F5F2E5"
+      }
+    },
+    {
       "file": "andromeda.json",
       "name": "Andromeda",
       "author": "Eliver Lara",
@@ -59,6 +74,21 @@
         "accent": "#ECD496",
         "sidebar": "#232936",
         "list": "#2B3242"
+      }
+    },
+    {
+      "file": "carbonfox.json",
+      "name": "Carbonfox",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#161616",
+        "text": "#F2F4F8",
+        "accent": "#52BDFF",
+        "sidebar": "#161616",
+        "list": "#161616"
       }
     },
     {
@@ -137,6 +167,36 @@
       }
     },
     {
+      "file": "dawnfox.json",
+      "name": "Dawnfox",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "appearance": "light",
+      "colors": {
+        "editor": "#FAF4ED",
+        "text": "#575279",
+        "accent": "#406D76",
+        "sidebar": "#FAF4ED",
+        "list": "#FAF4ED"
+      }
+    },
+    {
+      "file": "dayfox.json",
+      "name": "Dayfox",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "appearance": "light",
+      "colors": {
+        "editor": "#F6F2EE",
+        "text": "#3D2B5A",
+        "accent": "#236A70",
+        "sidebar": "#F6F2EE",
+        "list": "#F6F2EE"
+      }
+    },
+    {
       "file": "default-dark.json",
       "name": "Default Dark",
       "author": "Takuya Matsuyama",
@@ -194,6 +254,36 @@
         "accent": "#7AD4D6",
         "sidebar": "#232136",
         "list": "#232136"
+      }
+    },
+    {
+      "file": "edge-dark.json",
+      "name": "Edge Dark",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/edge",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#2C2E34",
+        "text": "#C5CDD9",
+        "accent": "#D38AEA",
+        "sidebar": "#24262A",
+        "list": "#282A2F"
+      }
+    },
+    {
+      "file": "edge-light.json",
+      "name": "Edge Light",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/edge",
+      "appearance": "light",
+      "colors": {
+        "editor": "#FAFAFA",
+        "text": "#4B505B",
+        "accent": "#B05CCC",
+        "sidebar": "#EEF1F4",
+        "list": "#F4F6F8"
       }
     },
     {
@@ -422,6 +512,21 @@
       }
     },
     {
+      "file": "iceberg-light.json",
+      "name": "Iceberg Light",
+      "author": "cocopon",
+      "license": "MIT",
+      "source": "https://github.com/cocopon/iceberg.vim",
+      "appearance": "light",
+      "colors": {
+        "editor": "#E8E9EC",
+        "text": "#33374C",
+        "accent": "#2D539E",
+        "sidebar": "#E8E9EC",
+        "list": "#E8E9EC"
+      }
+    },
+    {
       "file": "iceberg.json",
       "name": "Iceberg",
       "author": "cocopon",
@@ -542,6 +647,21 @@
       }
     },
     {
+      "file": "material-ocean.json",
+      "name": "Material Ocean",
+      "author": "Kai Cataldo",
+      "license": "MIT",
+      "source": "https://github.com/kaicataldo/material.vim",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#0F111A",
+        "text": "#8F93A2",
+        "accent": "#82AAFF",
+        "sidebar": "#0F111A",
+        "list": "#0F111A"
+      }
+    },
+    {
       "file": "material-palenight.json",
       "name": "Material Theme Palenight",
       "author": "Mattia Astorino",
@@ -587,6 +707,21 @@
       }
     },
     {
+      "file": "moonfly.json",
+      "name": "Moonfly",
+      "author": "bluz71",
+      "license": "MIT",
+      "source": "https://github.com/bluz71/vim-moonfly-colors",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#080808",
+        "text": "#C6C6C6",
+        "accent": "#80A0FF",
+        "sidebar": "#121212",
+        "list": "#0D0D0D"
+      }
+    },
+    {
       "file": "moonlight.json",
       "name": "Moonlight",
       "author": "Rick van Assen",
@@ -629,6 +764,21 @@
         "accent": "#2AA298",
         "sidebar": "#F0F0F0",
         "list": "#F0F0F0"
+      }
+    },
+    {
+      "file": "nightfly.json",
+      "name": "Nightfly",
+      "author": "bluz71",
+      "license": "MIT",
+      "source": "https://github.com/bluz71/vim-nightfly-colors",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#011627",
+        "text": "#C3CCDC",
+        "accent": "#82AAFF",
+        "sidebar": "#081E2F",
+        "list": "#04192B"
       }
     },
     {
@@ -692,6 +842,36 @@
       }
     },
     {
+      "file": "one-dark.json",
+      "name": "One Dark",
+      "author": "GitHub (Atom)",
+      "license": "MIT",
+      "source": "https://github.com/atom/atom/tree/master/packages/one-dark-syntax",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#282C34",
+        "text": "#ABB2BF",
+        "accent": "#528BFF",
+        "sidebar": "#21252B",
+        "list": "#21252B"
+      }
+    },
+    {
+      "file": "one-light.json",
+      "name": "One Light",
+      "author": "GitHub (Atom)",
+      "license": "MIT",
+      "source": "https://github.com/atom/atom/tree/master/packages/one-light-syntax",
+      "appearance": "light",
+      "colors": {
+        "editor": "#FAFAFA",
+        "text": "#383A42",
+        "accent": "#304EE2",
+        "sidebar": "#EAEAEB",
+        "list": "#EAEAEB"
+      }
+    },
+    {
       "file": "oxocarbon-dark.json",
       "name": "Oxocarbon Dark",
       "author": "nyoom-engineering",
@@ -719,6 +899,21 @@
         "accent": "#8A3FFC",
         "sidebar": "#FFFFFF",
         "list": "#F4F4F4"
+      }
+    },
+    {
+      "file": "poimandres.json",
+      "name": "Poimandres",
+      "author": "drcmda",
+      "license": "MIT",
+      "source": "https://github.com/drcmda/poimandres-theme",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#1B1E28",
+        "text": "#A6ACCD",
+        "accent": "#5DE4C7",
+        "sidebar": "#1B1E28",
+        "list": "#1B1E28"
       }
     },
     {
@@ -767,6 +962,21 @@
       }
     },
     {
+      "file": "shades-of-purple.json",
+      "name": "Shades of Purple",
+      "author": "Ahmad Awais",
+      "license": "MIT",
+      "source": "https://github.com/ahmadawais/shades-of-purple-vscode",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#2D2B55",
+        "text": "#FFFFFF",
+        "accent": "#FAD000",
+        "sidebar": "#222244",
+        "list": "#222244"
+      }
+    },
+    {
       "file": "solarized-dark.json",
       "name": "Solarized Dark",
       "author": "Ethan Schoonover",
@@ -797,6 +1007,21 @@
       }
     },
     {
+      "file": "sonokai.json",
+      "name": "Sonokai",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/sonokai",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#2C2E34",
+        "text": "#E2E2E3",
+        "accent": "#76CCE0",
+        "sidebar": "#222327",
+        "list": "#27282D"
+      }
+    },
+    {
       "file": "synthwave-84.json",
       "name": "Synthwave '84",
       "author": "Robb Owen",
@@ -809,6 +1034,36 @@
         "accent": "#FF7EDB",
         "sidebar": "#241B2F",
         "list": "#262335"
+      }
+    },
+    {
+      "file": "terafox.json",
+      "name": "Terafox",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#152528",
+        "text": "#E6EAEA",
+        "accent": "#AFD4DE",
+        "sidebar": "#152528",
+        "list": "#152528"
+      }
+    },
+    {
+      "file": "tokyo-night-day.json",
+      "name": "Tokyo Night Day",
+      "author": "folke",
+      "license": "Apache-2.0",
+      "source": "https://github.com/folke/tokyonight.nvim",
+      "appearance": "light",
+      "colors": {
+        "editor": "#E1E2E7",
+        "text": "#2E51A1",
+        "accent": "#2E7DE9",
+        "sidebar": "#D0D5E3",
+        "list": "#D0D5E3"
       }
     },
     {
@@ -899,6 +1154,51 @@
         "accent": "#5286BC",
         "sidebar": "#F2F2F2",
         "list": "#F2F2F2"
+      }
+    },
+    {
+      "file": "vesper.json",
+      "name": "Vesper",
+      "author": "Rauno Freiberg",
+      "license": "MIT",
+      "source": "https://github.com/raunofreiberg/vesper",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#101010",
+        "text": "#FFFFFF",
+        "accent": "#FFC799",
+        "sidebar": "#101010",
+        "list": "#101010"
+      }
+    },
+    {
+      "file": "vitesse-dark.json",
+      "name": "Vitesse Dark",
+      "author": "Anthony Fu",
+      "license": "MIT",
+      "source": "https://github.com/antfu/vscode-theme-vitesse",
+      "appearance": "dark",
+      "colors": {
+        "editor": "#121212",
+        "text": "#CECABE",
+        "accent": "#4D9375",
+        "sidebar": "#121212",
+        "list": "#121212"
+      }
+    },
+    {
+      "file": "vitesse-light.json",
+      "name": "Vitesse Light",
+      "author": "Anthony Fu",
+      "license": "MIT",
+      "source": "https://github.com/antfu/vscode-theme-vitesse",
+      "appearance": "light",
+      "colors": {
+        "editor": "#FFFFFF",
+        "text": "#393A34",
+        "accent": "#1C6B48",
+        "sidebar": "#FFFFFF",
+        "list": "#FFFFFF"
       }
     }
   ]
