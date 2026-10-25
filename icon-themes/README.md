@@ -21,21 +21,38 @@ These are built in:
   (MIT), drawn for every icon Kanso has, with its own notebook, Inbox and
   Journal icons and 34 more icons for notebooks;
 
-and these, converted from Zed icon themes, which draw a notebook (folded and
-open), a note and attachments, and leave the rest to Kanso's own:
+these, converted from Zed icon themes, each keeping its own folder, file and
+attachment art and drawing the rest of Kanso from an open set in the same
+style, so every one of them is complete:
 
-- **Catppuccin Icons** by Catppuccin ([source](https://github.com/catppuccin/zed-icons), MIT);
-- **Charmed Icons** by littensy, jmesrje ([source](https://github.com/jmesrje/zed-charmed-icons), MIT);
-- **FantastIcons** by Caio Landgraf ([source](https://github.com/caiolandgraf/fantasticons-zed), MIT);
-- **JetBrains Icons** by Zeeshan Ahmad ([source](https://github.com/ziishaned/zed-jetbrains-icons), Apache-2.0);
-- **JetBrains New UI Icons** by ankddev ([source](https://github.com/ankddev/zed-jetbrains-newui-icons), Apache-2.0);
-- **Kokedera Icons** by Florian Mühlhans ([source](https://github.com/cappuccinotogo/kokedera-icons-extension-zed), MIT);
-- **Material Icon Theme** by Zed Industries ([source](https://github.com/zed-extensions/material-icon-theme), MIT);
-- **Min Icons** by Phillip Bronzel ([source](https://github.com/phibr0/zed-min-theme), MIT);
-- **Monospace Icons** by Isheunopa Ralph Mhonde ([source](https://github.com/irmhonde/monospace-icon-theme), Apache-2.0);
-- **Phosphor Icons Theme** by Theo Luciano ([source](https://github.com/theoluciano/phosphor-icons-theme), MIT);
-- **Serendipity Icons** by Nguyen Dang Vinh ([source](https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed), MIT);
-- **Symbols** by Joan Garcia ([source](https://github.com/joangarciaa-dev/zed-symbols), MIT).
+- **Catppuccin Icons** (Catppuccin; Luca Burgio (Iconoir); Paweł Kuna (Tabler Icons), MIT): Catppuccin's folder and file icons from the Zed extension, with Iconoir's thin round-capped outlines for the rest of Kanso.
+- **Charmed Icons** (littensy, jmesrje; Microsoft (Fluent UI System Icons); Google (Material Symbols); The Bootstrap Authors, MIT AND Apache-2.0): littensy's soft filled Charmed Icons for folders and files, with Fluent's filled icons for the rest of Kanso.
+- **FantastIcons** (Caio Landgraf; MingCute Design; Microsoft (Fluent UI System Icons), MIT AND Apache-2.0): FantastIcons' flat filled folders and files, with MingCute's filled icons for the rest of Kanso.
+- **JetBrains Icons** (JetBrains (IntelliJ Platform classic icons); Zeeshan Ahmad; The Bootstrap Authors; Microsoft (Fluent UI System Icons); Google (Material Symbols), Apache-2.0 AND MIT): JetBrains IntelliJ's classic flat icons wherever the IDE has one, with Bootstrap's filled icons, and a few of Fluent's and Material's, for the rest.
+- **JetBrains New UI Icons** (JetBrains (IntelliJ Platform New UI icons); ankddev; Paweł Kuna (Tabler Icons), Apache-2.0 AND MIT): The JetBrains IDEs' New UI icons wherever the IDE has one, with Tabler's icons redrawn at the same 1px weight for the rest.
+- **Kokedera Icons** (Florian Mühlhans; Phosphor Icons, MIT): Kokedera's mossy folders and files, with Phosphor's filled icons, as soft and rounded, for the rest of Kanso.
+- **Material Icon Theme** (Zed Industries; Google (Material Symbols); The Bootstrap Authors, MIT AND Apache-2.0): The Material Icon Theme's folders and files, with Google's filled Material Symbols for the rest of Kanso.
+- **Min Icons** (Phillip Bronzel; IBM (Carbon); Paweł Kuna (Tabler Icons), MIT AND Apache-2.0): The Min theme's thin, chamfered Chalice icons for folders and files, with IBM's Carbon icons, as thin and square, for the rest of Kanso.
+- **Monospace Icons** (Isheunopa Ralph Mhonde; Google (Material Symbols); The Bootstrap Authors, Apache-2.0 AND MIT): Firebase Studio's Monospace folders and files, with Google's filled, rounded Material Symbols for the rest of Kanso.
+- **Phosphor Icons Theme** (Theo Luciano; Phosphor Icons, MIT): Phosphor's regular icons with the folders and files Theo Luciano's Zed extension picks.
+- **Serendipity Icons** (Nguyen Dang Vinh; Paweł Kuna (Tabler Icons), MIT): Serendipity's tiny square file and folder icons, with Tabler's icons redrawn thin with square corners for the rest of Kanso.
+- **Symbols** (Joan Garcia; Paweł Kuna (Tabler Icons), MIT): Miguel Solorio's Symbols for folders and files, with Tabler's matching 2px round-stroked icons for the rest of Kanso.
+
+and these, whole open icon families:
+
+- **Bootstrap Icons** (The Bootstrap Authors; Microsoft (Fluent UI System Icons), MIT): Bootstrap's outline icons: crisp, compact 16px glyphs, with Fluent's outlines for the animals Bootstrap doesn't draw.
+- **Fluent Regular** (Microsoft (Fluent UI System Icons); The Bootstrap Authors, MIT): Microsoft's Fluent icons in their regular weight: light, rounded outlines in the style of Windows 11.
+- **Hugeicons** (Hugeicons, MIT): Hugeicons' free stroke-rounded icons: friendly 1.5px outlines with soft corners.
+- **IconPark** (ByteDance, Apache-2.0): ByteDance's IconPark outline icons: chunky, rounded strokes that stay bold at small sizes.
+- **Material Symbols Outlined** (Google (Material Symbols); The Bootstrap Authors, Apache-2.0 AND MIT): Google's Material Symbols in their outlined style: clean, even outlines on Material's grid.
+- **MingCute Line** (MingCute Design, Apache-2.0): MingCute's line icons: crisp, rounded outlines with a light, even stroke.
+- **Phosphor Bold** (Phosphor Icons (Helena Zhang and Tobias Fried), MIT): Phosphor's bold weight: heavy, rounded strokes that read at a glance.
+- **Phosphor Duotone** (Phosphor Icons (Helena Zhang and Tobias Fried), MIT): Phosphor's duotone icons: regular strokes over a soft tinted fill.
+- **Phosphor Thin** (Phosphor Icons (Helena Zhang and Tobias Fried), MIT): Phosphor's thin weight: hairline strokes for a quiet, airy interface.
+- **TDesign Icons** (TDesign (Tencent), MIT): Tencent's TDesign icons: clean geometric outlines on a 24px grid.
+
+Each folder's LICENSE files carry the license of every set its icons come
+from.
 
 ## The format
 
@@ -189,5 +206,6 @@ anything wrong, and `kanso icon-theme schema` prints the schema.
 ## Licenses
 
 Each theme carries its icons' license in its `license` field and its folder's
-LICENSE file: Lucide is ISC, Phosphor is MIT (© 2023 Phosphor Icons). The
-theme files themselves are MIT.
+LICENSE files, one for every icon set it draws from: Lucide is ISC, Phosphor
+is MIT (© 2023 Phosphor Icons), and the rest are MIT or Apache-2.0. The theme
+files themselves are MIT.
