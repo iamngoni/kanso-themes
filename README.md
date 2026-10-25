@@ -173,63 +173,78 @@ Kanso draws each one in the color theme's text color, so any icon theme goes
 with any color theme, and an icon a theme leaves out stays Kanso's own.
 
 Two are Kanso's own: **Lucide**, the icons Kanso draws without an icon
-theme, and **Phosphor**, which redraws every icon in Kanso, from the toolbar
-and menus to the notebooks. Both are built into Kanso too.
+theme, and **Phosphor**. Every other theme here is complete too: it draws
+all of Kanso's icons, from the toolbar, menus and Settings to the sidebar and
+the library's own (notebooks, Inbox, Journal, pins, tags, the board and the
+graph), so choosing one changes the whole app, not only the notebooks.
 
-| Theme | Icons | Icons by | License |
-|---|---|---|---|
-| Lucide | Kanso's own | [Lucide](https://lucide.dev) | ISC |
-| Phosphor | 363, every icon Kanso draws | [Phosphor Icons](https://phosphoricons.com) | MIT |
+Twelve began as [Zed](https://zed.dev) file-icon themes converted with
+`kanso icon-theme import`. Those drew only folders, files and attachments,
+so each keeps its own folder, file and attachment art and takes the rest of
+Kanso's icons from an open icon set drawn in the same style (the same weight,
+corners and fill): Iconoir for Catppuccin, Fluent's filled icons for Charmed,
+MingCute's for FantastIcons, IntelliJ's own icons for the JetBrains pair,
+Material Symbols for Material and Monospace, Carbon for Min, Phosphor for
+Kokedera and the Phosphor Icons Theme, and Tabler for Symbols and
+Serendipity. Where the chosen set has no icon for something, a second set in
+the same style draws it, and the theme's LICENSE files name every set it uses.
+The rest are whole open icon families.
 
-The others are converted from [Zed](https://zed.dev) icon themes with
-`kanso icon-theme import`. Each brings its folder icons as notebooks, closed
-and open, and, where it has them, its chevrons for folding, its file icon for
-notes, its PDF, image and audio icons for attachments, and its templates and
-journal folders for the Templates and Journal notebooks. Zed's icons for kinds of code file have nothing to
-stand for in a notes app, so they are left out, and so these themes
-restyle your library, while the rest of Kanso keeps its own icons. A Zed theme's light, dark and
-other color variants draw the same shapes once they are one color, so each
-theme is here once.
+Every theme's icons are drawn in one color, the color theme's text, so a
+theme converted from a colorful set keeps its shapes and drops its colors.
 
-To use one, drop its folder into the `icon-themes` folder in Kanso's data
-folder (Settings › Themes › Icon theme files › Open Folder), or choose
-**Import…** there and pick the folder. Then choose it in
-Settings › Themes › Icon theme.
+To use one, choose it in Settings › Themes › Icon theme. To try your own,
+drop its folder into the `icon-themes` folder in Kanso's data folder
+(Settings › Themes › Icon theme files › Open Folder), or choose
+**Import…** there and pick the folder.
 
 `scripts/check.sh` reads every icon theme with `kanso icon-theme check` and
 validates it against the schema. `icon-themes/index.json` lists them; Kanso
 has no index command for icon themes yet, so it is written from each theme's
-JSON by hand.
+JSON.
 
-| Theme | Icons | Icons by | License | Converted from |
+| Theme | Icons | Icons by | License | Source |
 |---|---|---|---|---|
-| Catppuccin Icons | 6 | [Catppuccin](https://github.com/catppuccin/vscode-icons) | MIT | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) |
-| Charmed Icons | 6 | littensy | MIT | [jmesrje/zed-charmed-icons](https://github.com/jmesrje/zed-charmed-icons) |
-| FantastIcons | 7 | Caio Landgraf | MIT | [caiolandgraf/fantasticons-zed](https://github.com/caiolandgraf/fantasticons-zed) |
-| JetBrains Icons | 8 | JetBrains | Apache-2.0 | [ziishaned/zed-jetbrains-icons](https://github.com/ziishaned/zed-jetbrains-icons) |
-| JetBrains New UI Icons | 5 | JetBrains | Apache-2.0 | [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) |
-| Kokedera Icons | 9 | Florian Mühlhans | MIT | [cappuccinotogo/kokedera-icons-extension-zed](https://github.com/cappuccinotogo/kokedera-icons-extension-zed) |
-| Material Icon Theme | 6 | [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme) | MIT | [zed-extensions/material-icon-theme](https://github.com/zed-extensions/material-icon-theme) |
-| Min Icons | 6 | Artem Laman ([Chalice](https://github.com/artlaman/chalice-icon-theme)) | MIT | [phibr0/zed-min-theme](https://github.com/phibr0/zed-min-theme) |
-| Monospace Icons | 5 | Isheunopa Ralph Mhonde, after Firebase Studio's Monospace | Apache-2.0 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) |
-| Phosphor Icons Theme | 8 | [Phosphor Icons](https://phosphoricons.com) | MIT | [theoluciano/phosphor-icons-theme](https://github.com/theoluciano/phosphor-icons-theme) |
-| Serendipity Icons | 6 | Nguyen Dang Vinh | MIT | [meocoder31099/Serendipity-Icon-Theme-Zed](https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed) |
-| Symbols | 5 | Miguel Solorio ([Symbols](https://github.com/miguelsolorio/vscode-symbols)) | MIT | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) |
+| Bootstrap Icons | 334 | The Bootstrap Authors; Microsoft (Fluent UI System Icons) | MIT | https://icons.getbootstrap.com |
+| Catppuccin Icons | 334 | Catppuccin; Luca Burgio (Iconoir); Paweł Kuna (Tabler Icons) | MIT | https://github.com/catppuccin/zed-icons |
+| Charmed Icons | 334 | littensy, jmesrje; Microsoft (Fluent UI System Icons); Google (Material Symbols); The Bootstrap Authors | MIT AND Apache-2.0 | https://github.com/jmesrje/zed-charmed-icons |
+| FantastIcons | 334 | Caio Landgraf; MingCute Design; Microsoft (Fluent UI System Icons) | MIT AND Apache-2.0 | https://github.com/caiolandgraf/fantasticons-zed |
+| Fluent Regular | 334 | Microsoft (Fluent UI System Icons); The Bootstrap Authors | MIT | https://github.com/microsoft/fluentui-system-icons |
+| Hugeicons | 334 | Hugeicons | MIT | https://hugeicons.com |
+| IconPark | 334 | ByteDance | Apache-2.0 | https://iconpark.oceanengine.com |
+| JetBrains Icons | 334 | JetBrains (IntelliJ Platform classic icons); Zeeshan Ahmad; The Bootstrap Authors; Microsoft (Fluent UI System Icons); Google (Material Symbols) | Apache-2.0 AND MIT | https://github.com/ziishaned/zed-jetbrains-icons |
+| JetBrains New UI Icons | 334 | JetBrains (IntelliJ Platform New UI icons); ankddev; Paweł Kuna (Tabler Icons) | Apache-2.0 AND MIT | https://github.com/ankddev/zed-jetbrains-newui-icons |
+| Kokedera Icons | 334 | Florian Mühlhans; Phosphor Icons | MIT | https://github.com/cappuccinotogo/kokedera-icons-extension-zed |
+| Lucide | none, Kanso’s own | Lucide Contributors | ISC | https://lucide.dev |
+| Material Icon Theme | 334 | Zed Industries; Google (Material Symbols); The Bootstrap Authors | MIT AND Apache-2.0 | https://github.com/zed-extensions/material-icon-theme |
+| Material Symbols Outlined | 334 | Google (Material Symbols); The Bootstrap Authors | Apache-2.0 AND MIT | https://fonts.google.com/icons |
+| Min Icons | 334 | Phillip Bronzel; IBM (Carbon); Paweł Kuna (Tabler Icons) | MIT AND Apache-2.0 | https://github.com/phibr0/zed-min-theme |
+| MingCute Line | 334 | MingCute Design | Apache-2.0 | https://www.mingcute.com |
+| Monospace Icons | 334 | Isheunopa Ralph Mhonde; Google (Material Symbols); The Bootstrap Authors | Apache-2.0 AND MIT | https://github.com/irmhonde/monospace-icon-theme |
+| Phosphor | 363 | Phosphor Icons (Helena Zhang and Tobias Fried) | MIT | https://phosphoricons.com |
+| Phosphor Bold | 334 | Phosphor Icons (Helena Zhang and Tobias Fried) | MIT | https://phosphoricons.com |
+| Phosphor Duotone | 334 | Phosphor Icons (Helena Zhang and Tobias Fried) | MIT | https://phosphoricons.com |
+| Phosphor Icons Theme | 334 | Theo Luciano; Phosphor Icons | MIT | https://github.com/theoluciano/phosphor-icons-theme |
+| Phosphor Thin | 334 | Phosphor Icons (Helena Zhang and Tobias Fried) | MIT | https://phosphoricons.com |
+| Serendipity Icons | 334 | Nguyen Dang Vinh; Paweł Kuna (Tabler Icons) | MIT | https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed |
+| Symbols | 334 | Joan Garcia; Paweł Kuna (Tabler Icons) | MIT | https://github.com/joangarciaa-dev/zed-symbols |
+| TDesign Icons | 334 | TDesign (Tencent) | MIT | https://tdesign.tencent.com/design/icon-en |
 
-Only icon themes whose icons may be shared under a permissive license are
-here; a Zed icon theme whose icons are GPL, CC BY-SA or of unclear origin
-isn't.
+Only icons whose license allows sharing them are here: MIT, Apache-2.0 or
+ISC. Sets under GPL, CC BY or CC BY-SA, or with a license that forbids
+redistributing them as an icon set, aren't.
 
 ## Licenses
 
 Each theme carries its palette's license in its `license` field, with the
-palette's home in `source`. The palettes here are all MIT licensed; the
+palette's home in `source`. The palettes here are MIT or Apache-2.0 licensed; the
 files themselves are MIT, like Kanso.
 
-Each icon theme carries its icons' license in its `license` field and its
-folder's LICENSE file, the Zed extension's. Where the extension redraws
-another project's icons, that project's license is beside it as
-LICENSE-ICONS (or LICENSE-APACHE).
+Each icon theme carries its icons' license in its `license` field (an SPDX
+expression when it draws from more than one set) and in its folder: a
+converted theme keeps the Zed extension's LICENSE, and the license of every
+icon set it draws from is beside it as LICENSE-<SET> (LICENSE-ICONS or
+LICENSE-APACHE where the extension already carried one).
 
 ## Theme gallery
 

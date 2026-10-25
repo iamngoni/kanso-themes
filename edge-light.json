@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Edge Light",
+  "author": "sainnhe",
+  "license": "MIT",
+  "source": "https://github.com/sainnhe/edge",
+  "description": "Sainnhe's Edge by day: crisp white paper with purple keywords and calm blues.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FAFAFA",
+    "text": "#4B505B",
+    "accent": "#B05CCC",
+    "app": "#E8EBF0",
+    "sidebar": "#EEF1F4",
+    "list": "#F4F6F8",
+    "elevated": "#EEF1F4",
+    "fill": "#EEF1F4",
+    "text_secondary": "#646A76",
+    "text_muted": "#828B9C",
+    "divider": "#DDE2E7",
+    "link": "#436DB4",
+    "row_active": "#DDE2E7",
+    "row_hover": "#EEF1F4",
+    "sidebar_active": "#DDE2E7",
+    "sidebar_hover": "#E8EBF0",
+    "hover": "#DDE2E7",
+    "selected": "#F4E9F8",
+    "active_line": "#EEF1F4",
+    "button": "#A749C6",
+    "button_text": "#FAFAFA",
+    "success": "#608E32",
+    "warning": "#BD7D05",
+    "danger": "#D05858",
+    "selection": "#DDE2E7",
+    "caret": "#4B505B"
+  },
+  "syntax": {
+    "text": "#4B505B",
+    "heading": {
+      "color": "#B05CCC",
+      "font_weight": 700
+    },
+    "block_marker": "#8790A0",
+    "marker": "#8790A0",
+    "list_marker": "#D05858",
+    "task": "#D05858",
+    "hr": "#BE7E05",
+    "quote": {
+      "color": "#8790A0",
+      "font_style": "italic"
+    },
+    "link": "#B05CCC",
+    "url": "#608E32",
+    "code": "#608E32",
+    "code_block": "#608E32",
+    "emphasis": {
+      "color": "#4B505B",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#4B505B",
+      "font_weight": 700
+    },
+    "front_matter": "#8790A0",
+    "html": {
+      "color": "#D05858",
+      "font_style": "italic"
+    },
+    "escape": "#BE7E05",
+    "comment": {
+      "color": "#8790A0",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#8790A0",
+      "font_style": "italic"
+    },
+    "keyword": "#B05CCC",
+    "string": "#608E32",
+    "string_special": "#BE7E05",
+    "function": "#5079BE",
+    "type": {
+      "color": "#D05858",
+      "font_style": "italic"
+    },
+    "type_constructor": "#5079BE",
+    "number": "#608E32",
+    "boolean": "#608E32",
+    "constant": "#BE7E05",
+    "variable": {
+      "color": "#D05858",
+      "font_style": "italic"
+    },
+    "variable_special": {
+      "color": "#3A8B84",
+      "font_style": "italic"
+    },
+    "property": "#3A8B84",
+    "attribute": "#BE7E05",
+    "tag": {
+      "color": "#D05858",
+      "font_style": "italic"
+    },
+    "label": "#B05CCC",
+    "operator": "#B05CCC",
+    "punctuation": "#4B505B",
+    "bracket": "#8790A0",
+    "embedded": "#4B505B"
+  },
+  "preview": {
+    "text": "#4B505B",
+    "heading": "#B05CCC",
+    "link": "#A749C6",
+    "quote": "#697385",
+    "task_done": "#8790A0",
+    "border": "#DDE2E7",
+    "code_background": "#EEF1F4",
+    "code_text": "#51772A",
+    "inline_code_background": "#E8EBF0",
+    "inline_code_text": "#4E7429",
+    "table_header_background": "#EEF1F4",
+    "selection": "#DDE2E7"
+  }
+}

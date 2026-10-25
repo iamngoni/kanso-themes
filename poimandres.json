@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Poimandres",
+  "author": "drcmda",
+  "license": "MIT",
+  "source": "https://github.com/drcmda/poimandres-theme",
+  "description": "Poimandres: a deep blue-grey night lit in mint and pale sky blue.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#1B1E28",
+    "text": "#A6ACCD",
+    "accent": "#5DE4C7",
+    "app": "#1B1E28",
+    "sidebar": "#1B1E28",
+    "list": "#1B1E28",
+    "elevated": "#262934",
+    "fill": "#262934",
+    "text_secondary": "#7D829C",
+    "text_muted": "#767C9D",
+    "divider": "#303340",
+    "link": "#ADD7FF",
+    "row_active": "#303340",
+    "row_hover": "#262934",
+    "sidebar_active": "#303340",
+    "sidebar_hover": "#262934",
+    "hover": "#303340",
+    "selected": "#303340",
+    "active_line": "#272C3C",
+    "button": "#303340",
+    "button_text": "#FFFFFF",
+    "success": "#5DE4C7",
+    "warning": "#FFFAC2",
+    "danger": "#D0679D",
+    "selection": "#717CB425",
+    "caret": "#A6ACCD"
+  },
+  "syntax": {
+    "text": "#A6ACCD",
+    "heading": {
+      "color": "#E4F0FB",
+      "font_weight": 700
+    },
+    "block_marker": "#5DE4C7",
+    "marker": "#ADD7FF",
+    "list_marker": "#ADD7FF",
+    "task": "#ADD7FF",
+    "hr": "#767C9D",
+    "quote": {
+      "color": "#A6ACCD",
+      "font_style": "italic"
+    },
+    "link": "#ADD7FF",
+    "url": "#5DE4C7",
+    "code": "#ADD7FF",
+    "code_block": "#91B4D5",
+    "emphasis": {
+      "color": "#7390AA",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#7390AA",
+      "font_weight": 700
+    },
+    "front_matter": "#767C9D",
+    "html": "#5DE4C7",
+    "escape": "#5FB3A1",
+    "comment": {
+      "color": "#767C9D",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#767C9D",
+      "font_style": "italic"
+    },
+    "keyword": {
+      "color": "#91B4D5",
+      "font_style": "italic"
+    },
+    "string": "#5DE4C7",
+    "string_special": "#5FB3A1",
+    "function": "#ADD7FF",
+    "type": "#8489A4",
+    "type_constructor": "#91B4D5",
+    "number": "#5DE4C7",
+    "boolean": "#5DE4C7",
+    "constant": "#ADD7FF",
+    "variable": "#E4F0FB",
+    "variable_special": {
+      "color": "#ADD7FF",
+      "font_style": "italic"
+    },
+    "property": "#E4F0FB",
+    "attribute": {
+      "color": "#91B4D5",
+      "font_style": "italic"
+    },
+    "tag": "#5DE4C7",
+    "label": "#5FB3A1",
+    "operator": "#91B4D5",
+    "punctuation": "#A6ACCD",
+    "bracket": "#A6ACCD",
+    "embedded": "#ADD7FF"
+  },
+  "preview": {
+    "text": "#A6ACCD",
+    "heading": "#E4F0FB",
+    "link": "#ADD7FF",
+    "quote": "#7390AA",
+    "task_done": "#767C9D",
+    "border": "#303340",
+    "code_background": "#13151B",
+    "code_text": "#91B4D5",
+    "inline_code_background": "#262934",
+    "inline_code_text": "#ADD7FF",
+    "table_header_background": "#262934",
+    "selection": "#717CB425"
+  }
+}

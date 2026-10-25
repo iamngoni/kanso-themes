@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Shades of Purple",
+  "author": "Ahmad Awais",
+  "license": "MIT",
+  "source": "https://github.com/ahmadawais/shades-of-purple-vscode",
+  "description": "Ahmad Awais's Shades of Purple: deep violet with bold yellow and orange accents.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#2D2B55",
+    "text": "#FFFFFF",
+    "accent": "#FAD000",
+    "app": "#1E1E3F",
+    "sidebar": "#222244",
+    "list": "#222244",
+    "elevated": "#1E1E3F",
+    "fill": "#1E1E3F",
+    "text_secondary": "#A599E9",
+    "text_muted": "#A599E9",
+    "divider": "#494685",
+    "link": "#FAD000",
+    "row_active": "#2D2B55",
+    "row_hover": "#28284E",
+    "sidebar_active": "#2D2B55",
+    "sidebar_hover": "#28284E",
+    "hover": "#2D2B55",
+    "selected": "#1E1E3F",
+    "active_line": "#1F1F41",
+    "button": "#FAD000",
+    "button_text": "#222244",
+    "success": "#3AD900",
+    "warning": "#FF9D00",
+    "danger": "#EC3A37",
+    "selection": "#B362FF88",
+    "caret": "#FAD000"
+  },
+  "syntax": {
+    "text": "#FFFFFF",
+    "heading": {
+      "color": "#FAD000",
+      "font_weight": 700
+    },
+    "block_marker": "#FAD000",
+    "marker": "#A599E9",
+    "list_marker": "#FAD000",
+    "task": "#FAD000",
+    "hr": "#FAD000",
+    "quote": {
+      "color": "#A599E9",
+      "font_style": "italic"
+    },
+    "link": "#FAD000",
+    "url": "#A599E9",
+    "code": "#9EFFFF",
+    "code_block": "#9EFFFF",
+    "emphasis": {
+      "color": "#FFFFFF",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#FFFFFF",
+      "font_weight": 700
+    },
+    "front_matter": "#B362FF",
+    "html": "#9EFFFF",
+    "escape": "#FF628C",
+    "comment": {
+      "color": "#B362FF",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#B362FF",
+      "font_style": "italic"
+    },
+    "keyword": "#FF9D00",
+    "string": "#A5FF90",
+    "string_special": "#3AD900",
+    "function": "#FAD000",
+    "type": "#80FFBB",
+    "type_constructor": "#FB94FF",
+    "number": "#FF628C",
+    "boolean": "#FF628C",
+    "constant": "#FF628C",
+    "variable": "#E1EFFF",
+    "variable_special": "#FB94FF",
+    "property": "#FFEE80",
+    "attribute": "#FAD000",
+    "tag": "#9EFFFF",
+    "label": "#FAD000",
+    "operator": "#FF9D00",
+    "punctuation": "#E1EFFF",
+    "bracket": "#E1EFFF",
+    "embedded": "#FFEE80"
+  },
+  "preview": {
+    "text": "#FFFFFF",
+    "heading": "#FAD000",
+    "link": "#FAD000",
+    "quote": "#A599E9",
+    "task_done": "#A599E9",
+    "border": "#494685",
+    "code_background": "#1E1E3F",
+    "code_text": "#9EFFFF",
+    "inline_code_background": "#1E1E3F",
+    "inline_code_text": "#9EFFFF",
+    "table_header_background": "#1E1E3F",
+    "selection": "#B362FF88"
+  }
+}

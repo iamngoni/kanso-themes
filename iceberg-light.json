@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Iceberg Light",
+  "author": "cocopon",
+  "license": "MIT",
+  "source": "https://github.com/cocopon/iceberg.vim",
+  "description": "Iceberg by daylight: pale frost-grey paper with deep, calm blues.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#E8E9EC",
+    "text": "#33374C",
+    "accent": "#2D539E",
+    "app": "#E8E9EC",
+    "sidebar": "#E8E9EC",
+    "list": "#E8E9EC",
+    "elevated": "#DCDFE7",
+    "fill": "#DCDFE7",
+    "text_secondary": "#69719B",
+    "text_muted": "#767E97",
+    "divider": "#CAD0DE",
+    "link": "#2D539E",
+    "row_active": "#DCDFE7",
+    "row_hover": "#DCDFE7",
+    "sidebar_active": "#DCDFE7",
+    "sidebar_hover": "#DCDFE7",
+    "hover": "#CAD0DE",
+    "selected": "#CAD0DE",
+    "active_line": "#DCDFE7",
+    "button": "#2D539E",
+    "button_text": "#E8E9EC",
+    "success": "#62893B",
+    "warning": "#B86B35",
+    "danger": "#CC517A",
+    "selection": "#C9CDD7",
+    "caret": "#33374C"
+  },
+  "syntax": {
+    "text": "#33374C",
+    "heading": {
+      "color": "#B86B35",
+      "font_weight": 700
+    },
+    "block_marker": {
+      "color": "#7E849F",
+      "font_weight": 500
+    },
+    "marker": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "list_marker": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "task": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "hr": {
+      "color": "#7E849F",
+      "font_weight": 500
+    },
+    "quote": {
+      "color": "#788098",
+      "font_style": "italic"
+    },
+    "link": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "url": {
+      "color": "#3F83A6",
+      "font_weight": 500
+    },
+    "code": {
+      "color": "#3F83A6",
+      "font_weight": 500
+    },
+    "code_block": {
+      "color": "#3F83A6",
+      "font_weight": 500
+    },
+    "emphasis": {
+      "color": "#33374C",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#668E3D",
+      "font_weight": 700
+    },
+    "front_matter": {
+      "color": "#7E849F",
+      "font_weight": 500
+    },
+    "html": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "escape": {
+      "color": "#668E3D",
+      "font_weight": 500
+    },
+    "comment": {
+      "color": "#7E849F",
+      "font_weight": 500
+    },
+    "comment_doc": {
+      "color": "#7E849F",
+      "font_weight": 500
+    },
+    "keyword": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "string": {
+      "color": "#3F83A6",
+      "font_weight": 500
+    },
+    "string_special": {
+      "color": "#668E3D",
+      "font_weight": 500
+    },
+    "function": {
+      "color": "#505695",
+      "font_weight": 500
+    },
+    "type": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "type_constructor": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "number": {
+      "color": "#7759B4",
+      "font_weight": 500
+    },
+    "boolean": {
+      "color": "#7759B4",
+      "font_weight": 500
+    },
+    "constant": {
+      "color": "#7759B4",
+      "font_weight": 500
+    },
+    "variable": {
+      "color": "#33374C",
+      "font_weight": 500
+    },
+    "variable_special": {
+      "color": "#3F83A6",
+      "font_weight": 500
+    },
+    "property": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "attribute": {
+      "color": "#7759B4",
+      "font_weight": 500
+    },
+    "tag": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "label": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "operator": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "punctuation": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "bracket": {
+      "color": "#2D539E",
+      "font_weight": 500
+    },
+    "embedded": {
+      "color": "#668E3D",
+      "font_weight": 500
+    }
+  },
+  "preview": {
+    "text": "#33374C",
+    "heading": "#B86B35",
+    "link": "#2D539E",
+    "quote": "#61687F",
+    "task_done": "#7E849F",
+    "border": "#CAD0DE",
+    "code_background": "#DCDFE7",
+    "code_text": "#326884",
+    "inline_code_background": "#DCDFE7",
+    "inline_code_text": "#326884",
+    "table_header_background": "#DCDFE7",
+    "selection": "#C9CDD7"
+  }
+}

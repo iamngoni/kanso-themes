@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "One Dark",
+  "author": "GitHub (Atom)",
+  "license": "MIT",
+  "source": "https://github.com/atom/atom/tree/master/packages/one-dark-syntax",
+  "description": "Atom's One Dark: a soft slate page with gentle reds, purples and blues.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#282C34",
+    "text": "#ABB2BF",
+    "accent": "#528BFF",
+    "app": "#21252B",
+    "sidebar": "#21252B",
+    "list": "#21252B",
+    "elevated": "#242830",
+    "fill": "#31363F",
+    "text_secondary": "#9DA5B4",
+    "text_muted": "#828997",
+    "divider": "#181A1F",
+    "link": "#61AFEF",
+    "row_active": "#3A3F4B",
+    "row_hover": "#2F333D",
+    "sidebar_active": "#3A3F4B",
+    "sidebar_hover": "#2F333D",
+    "hover": "#31363F",
+    "selected": "#3A3F4B",
+    "active_line": "#99BBFF0A",
+    "button": "#4773CA",
+    "button_text": "#FFFFFF",
+    "success": "#73C990",
+    "warning": "#E2C08D",
+    "danger": "#FF6347",
+    "selection": "#3E4451",
+    "caret": "#528BFF"
+  },
+  "syntax": {
+    "text": "#ABB2BF",
+    "heading": {
+      "color": "#E06C75",
+      "font_weight": 700
+    },
+    "block_marker": "#E06C75",
+    "marker": "#828997",
+    "list_marker": "#E06C75",
+    "task": "#C678DD",
+    "hr": "#6D7685",
+    "quote": {
+      "color": "#828997",
+      "font_style": "italic"
+    },
+    "link": "#61AFEF",
+    "url": "#56B6C2",
+    "code": "#98C379",
+    "code_block": "#98C379",
+    "emphasis": {
+      "color": "#C678DD",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#D19A66",
+      "font_weight": 700
+    },
+    "front_matter": "#6D7685",
+    "html": "#E06C75",
+    "escape": "#56B6C2",
+    "comment": {
+      "color": "#6D7685",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#6D7685",
+      "font_style": "italic"
+    },
+    "keyword": "#C678DD",
+    "string": "#98C379",
+    "string_special": "#56B6C2",
+    "function": "#61AFEF",
+    "type": "#E5C07B",
+    "type_constructor": "#E5C07B",
+    "number": "#D19A66",
+    "boolean": "#D19A66",
+    "constant": "#D19A66",
+    "variable": "#E06C75",
+    "variable_special": "#E06C75",
+    "property": "#E06C75",
+    "attribute": "#D19A66",
+    "tag": "#E06C75",
+    "label": "#ABB2BF",
+    "operator": "#56B6C2",
+    "punctuation": "#ABB2BF",
+    "bracket": "#ABB2BF",
+    "embedded": "#C678DD"
+  },
+  "preview": {
+    "text": "#ABB2BF",
+    "heading": "#E06C75",
+    "link": "#61AFEF",
+    "quote": "#8D94A0",
+    "task_done": "#828997",
+    "border": "#3E4451",
+    "code_background": "#21252B",
+    "code_text": "#98C379",
+    "inline_code_background": "#31363F",
+    "inline_code_text": "#98C379",
+    "table_header_background": "#31363F",
+    "selection": "#3E4451"
+  }
+}

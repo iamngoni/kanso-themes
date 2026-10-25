@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Edge Dark",
+  "author": "sainnhe",
+  "license": "MIT",
+  "source": "https://github.com/sainnhe/edge",
+  "description": "Sainnhe's Edge after dark: a clean charcoal with purple keywords and soft blues.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#2C2E34",
+    "text": "#C5CDD9",
+    "accent": "#D38AEA",
+    "app": "#24262A",
+    "sidebar": "#24262A",
+    "list": "#282A2F",
+    "elevated": "#363944",
+    "fill": "#33353F",
+    "text_secondary": "#A0A9B8",
+    "text_muted": "#798497",
+    "divider": "#414550",
+    "link": "#6CB6EB",
+    "row_active": "#3B3E48",
+    "row_hover": "#33353F",
+    "sidebar_active": "#3B3E48",
+    "sidebar_hover": "#33353F",
+    "hover": "#414550",
+    "selected": "#493C53",
+    "active_line": "#33353F",
+    "button": "#D38AEA",
+    "button_text": "#2C2E34",
+    "success": "#A0C980",
+    "warning": "#DEB974",
+    "danger": "#EC7279",
+    "selection": "#3B3E48",
+    "caret": "#C5CDD9"
+  },
+  "syntax": {
+    "text": "#C5CDD9",
+    "heading": {
+      "color": "#D38AEA",
+      "font_weight": 700
+    },
+    "block_marker": "#758094",
+    "marker": "#758094",
+    "list_marker": "#EC7279",
+    "task": "#EC7279",
+    "hr": "#DEB974",
+    "quote": {
+      "color": "#758094",
+      "font_style": "italic"
+    },
+    "link": "#D38AEA",
+    "url": "#A0C980",
+    "code": "#A0C980",
+    "code_block": "#A0C980",
+    "emphasis": {
+      "color": "#C5CDD9",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#C5CDD9",
+      "font_weight": 700
+    },
+    "front_matter": "#758094",
+    "html": {
+      "color": "#EC7279",
+      "font_style": "italic"
+    },
+    "escape": "#DEB974",
+    "comment": {
+      "color": "#758094",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#758094",
+      "font_style": "italic"
+    },
+    "keyword": "#D38AEA",
+    "string": "#A0C980",
+    "string_special": "#DEB974",
+    "function": "#6CB6EB",
+    "type": {
+      "color": "#EC7279",
+      "font_style": "italic"
+    },
+    "type_constructor": "#6CB6EB",
+    "number": "#A0C980",
+    "boolean": "#A0C980",
+    "constant": "#DEB974",
+    "variable": {
+      "color": "#EC7279",
+      "font_style": "italic"
+    },
+    "variable_special": {
+      "color": "#5DBBC1",
+      "font_style": "italic"
+    },
+    "property": "#5DBBC1",
+    "attribute": "#DEB974",
+    "tag": {
+      "color": "#EC7279",
+      "font_style": "italic"
+    },
+    "label": "#D38AEA",
+    "operator": "#D38AEA",
+    "punctuation": "#C5CDD9",
+    "bracket": "#758094",
+    "embedded": "#C5CDD9"
+  },
+  "preview": {
+    "text": "#C5CDD9",
+    "heading": "#D38AEA",
+    "link": "#D38AEA",
+    "quote": "#8D96A7",
+    "task_done": "#758094",
+    "border": "#414550",
+    "code_background": "#24262A",
+    "code_text": "#A0C980",
+    "inline_code_background": "#33353F",
+    "inline_code_text": "#A0C980",
+    "table_header_background": "#33353F",
+    "selection": "#3B3E48"
+  }
+}

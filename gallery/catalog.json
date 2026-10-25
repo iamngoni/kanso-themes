@@ -1,6 +1,10 @@
 {
   "min_kanso": "0.8.4",
   "themes": {
+    "alucard": {
+      "family": "dracula",
+      "min_kanso": "0.8.4"
+    },
     "andromeda": {
       "family": "andromeda",
       "min_kanso": "0.8.4"
@@ -15,6 +19,10 @@
     },
     "ayu-mirage": {
       "family": "ayu-mirage",
+      "min_kanso": "0.8.4"
+    },
+    "carbonfox": {
+      "family": "carbonfox",
       "min_kanso": "0.8.4"
     },
     "catppuccin-frappe": {
@@ -37,6 +45,14 @@
       "family": "cobalt2",
       "min_kanso": "0.8.4"
     },
+    "dawnfox": {
+      "family": "duskfox",
+      "min_kanso": "0.8.4"
+    },
+    "dayfox": {
+      "family": "nightfox",
+      "min_kanso": "0.8.4"
+    },
     "default-dark": {
       "family": "default",
       "min_kanso": "0.8.4"
@@ -51,6 +67,14 @@
     },
     "duskfox": {
       "family": "duskfox",
+      "min_kanso": "0.8.4"
+    },
+    "edge-dark": {
+      "family": "edge",
+      "min_kanso": "0.8.4"
+    },
+    "edge-light": {
+      "family": "edge",
       "min_kanso": "0.8.4"
     },
     "everforest-dark": {
@@ -113,6 +137,10 @@
       "family": "horizon",
       "min_kanso": "0.8.4"
     },
+    "iceberg-light": {
+      "family": "iceberg",
+      "min_kanso": "0.8.4"
+    },
     "iceberg": {
       "family": "iceberg",
       "min_kanso": "0.8.4"
@@ -145,6 +173,10 @@
       "family": "material-lighter",
       "min_kanso": "0.8.4"
     },
+    "material-ocean": {
+      "family": "material-ocean",
+      "min_kanso": "0.8.4"
+    },
     "material-palenight": {
       "family": "material-palenight",
       "min_kanso": "0.8.4"
@@ -157,6 +189,10 @@
       "family": "min",
       "min_kanso": "0.8.4"
     },
+    "moonfly": {
+      "family": "moonfly",
+      "min_kanso": "0.8.4"
+    },
     "moonlight": {
       "family": "moonlight",
       "min_kanso": "0.8.4"
@@ -167,6 +203,10 @@
     },
     "night-owl-light": {
       "family": "night-owl",
+      "min_kanso": "0.8.4"
+    },
+    "nightfly": {
+      "family": "nightfly",
       "min_kanso": "0.8.4"
     },
     "nightfox": {
@@ -185,12 +225,24 @@
       "family": "one-dark-vibrant",
       "min_kanso": "0.8.4"
     },
+    "one-dark": {
+      "family": "one",
+      "min_kanso": "0.8.4"
+    },
+    "one-light": {
+      "family": "one",
+      "min_kanso": "0.8.4"
+    },
     "oxocarbon-dark": {
       "family": "oxocarbon",
       "min_kanso": "0.8.4"
     },
     "oxocarbon-light": {
       "family": "oxocarbon",
+      "min_kanso": "0.8.4"
+    },
+    "poimandres": {
+      "family": "poimandres",
       "min_kanso": "0.8.4"
     },
     "rose-pine-dawn": {
@@ -205,6 +257,10 @@
       "family": "rose-pine",
       "min_kanso": "0.8.4"
     },
+    "shades-of-purple": {
+      "family": "shades-of-purple",
+      "min_kanso": "0.8.4"
+    },
     "solarized-dark": {
       "family": "solarized",
       "min_kanso": "0.8.4"
@@ -213,8 +269,20 @@
       "family": "solarized",
       "min_kanso": "0.8.4"
     },
+    "sonokai": {
+      "family": "sonokai",
+      "min_kanso": "0.8.4"
+    },
     "synthwave-84": {
       "family": "synthwave-84",
+      "min_kanso": "0.8.4"
+    },
+    "terafox": {
+      "family": "terafox",
+      "min_kanso": "0.8.4"
+    },
+    "tokyo-night-day": {
+      "family": "tokyo-night-day",
       "min_kanso": "0.8.4"
     },
     "tokyo-night-light": {
@@ -241,6 +309,21 @@
       "family": "tomorrow",
       "min_kanso": "0.8.4"
     },
+    "vesper": {
+      "family": "vesper",
+      "min_kanso": "0.8.4"
+    },
+    "vitesse-dark": {
+      "family": "vitesse",
+      "min_kanso": "0.8.4"
+    },
+    "vitesse-light": {
+      "family": "vitesse",
+      "min_kanso": "0.8.4"
+    },
+    "bootstrap-icons": {
+      "min_kanso": "0.8.4"
+    },
     "catppuccin-icons": {
       "min_kanso": "0.8.4"
     },
@@ -248,6 +331,15 @@
       "min_kanso": "0.8.4"
     },
     "fantasticons": {
+      "min_kanso": "0.8.4"
+    },
+    "fluent-regular": {
+      "min_kanso": "0.8.4"
+    },
+    "hugeicons": {
+      "min_kanso": "0.8.4"
+    },
+    "icon-park": {
       "min_kanso": "0.8.4"
     },
     "jetbrains-icons": {
@@ -265,22 +357,40 @@
     "material-icon-theme": {
       "min_kanso": "0.8.4"
     },
+    "material-symbols-outlined": {
+      "min_kanso": "0.8.4"
+    },
     "min-icons": {
+      "min_kanso": "0.8.4"
+    },
+    "mingcute-line": {
       "min_kanso": "0.8.4"
     },
     "monospace-icons": {
       "min_kanso": "0.8.4"
     },
-    "phosphor": {
+    "phosphor-bold": {
+      "min_kanso": "0.8.4"
+    },
+    "phosphor-duotone": {
       "min_kanso": "0.8.4"
     },
     "phosphor-icons-theme": {
+      "min_kanso": "0.8.4"
+    },
+    "phosphor-thin": {
+      "min_kanso": "0.8.4"
+    },
+    "phosphor": {
       "min_kanso": "0.8.4"
     },
     "serendipity-icons": {
       "min_kanso": "0.8.4"
     },
     "symbols": {
+      "min_kanso": "0.8.4"
+    },
+    "tdesign-icons": {
       "min_kanso": "0.8.4"
     }
   },

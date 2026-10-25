@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "Moonfly",
+  "author": "bluz71",
+  "license": "MIT",
+  "source": "https://github.com/bluz71/vim-moonfly-colors",
+  "description": "Moonfly: a near-black night with moonlit greys and vivid accents.",
+  "appearance": "dark",
+  "ui": {
+    "editor": "#080808",
+    "text": "#C6C6C6",
+    "accent": "#80A0FF",
+    "app": "#121212",
+    "sidebar": "#121212",
+    "list": "#0D0D0D",
+    "elevated": "#212121",
+    "fill": "#1C1C1C",
+    "text_secondary": "#B2B2B2",
+    "text_muted": "#949494",
+    "divider": "#292929",
+    "link": "#80A0FF",
+    "row_active": "#323437",
+    "row_hover": "#1C1C1C",
+    "sidebar_active": "#323437",
+    "sidebar_hover": "#1C1C1C",
+    "hover": "#2E2E2E",
+    "selected": "#3A3A3A",
+    "active_line": "#1C1C1C",
+    "button": "#80A0FF",
+    "button_text": "#080808",
+    "success": "#8CC85F",
+    "warning": "#E3C78A",
+    "danger": "#FF5D5D",
+    "selection": "#323437",
+    "caret": "#80A0FF"
+  },
+  "syntax": {
+    "text": "#C6C6C6",
+    "heading": {
+      "color": "#74B2FF",
+      "font_weight": 700
+    },
+    "block_marker": "#E65E72",
+    "marker": "#949494",
+    "list_marker": "#E65E72",
+    "task": "#80A0FF",
+    "hr": "#E65E72",
+    "quote": {
+      "color": "#949494",
+      "font_style": "italic"
+    },
+    "link": "#8CC85F",
+    "url": "#AE81FF",
+    "code": "#C6C684",
+    "code_block": "#C6C684",
+    "emphasis": {
+      "color": "#E196A2",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#E3C78A",
+      "font_weight": 700
+    },
+    "front_matter": "#949494",
+    "html": "#80A0FF",
+    "escape": "#79DAC8",
+    "comment": {
+      "color": "#949494",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#88A2B7",
+      "font_style": "italic"
+    },
+    "keyword": "#CF87E8",
+    "string": "#C6C684",
+    "string_special": "#79DAC8",
+    "function": "#80A0FF",
+    "type": "#36C692",
+    "type_constructor": "#36C692",
+    "number": "#DE935F",
+    "boolean": "#E65E72",
+    "constant": "#79DAC8",
+    "variable": "#C6C6C6",
+    "variable_special": "#8CC85F",
+    "property": "#ADADF3",
+    "attribute": "#74B2FF",
+    "tag": "#80A0FF",
+    "label": "#79DAC8",
+    "operator": "#E65E72",
+    "punctuation": "#C6C6C6",
+    "bracket": "#C6C6C6",
+    "embedded": "#79DAC8"
+  },
+  "preview": {
+    "text": "#C6C6C6",
+    "heading": "#74B2FF",
+    "link": "#8CC85F",
+    "quote": "#949494",
+    "task_done": "#949494",
+    "border": "#292929",
+    "code_background": "#121212",
+    "code_text": "#C6C684",
+    "inline_code_background": "#1C1C1C",
+    "inline_code_text": "#C6C684",
+    "table_header_background": "#1C1C1C",
+    "selection": "#323437"
+  }
+}

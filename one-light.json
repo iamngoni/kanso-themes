@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamngoni/kanso-themes/main/schema/kanso-theme-v1.json",
+  "schema_version": 1,
+  "name": "One Light",
+  "author": "GitHub (Atom)",
+  "license": "MIT",
+  "source": "https://github.com/atom/atom/tree/master/packages/one-light-syntax",
+  "description": "Atom's One Light: near-white paper with crisp blues, purples and greens.",
+  "appearance": "light",
+  "ui": {
+    "editor": "#FAFAFA",
+    "text": "#383A42",
+    "accent": "#304EE2",
+    "app": "#EAEAEB",
+    "sidebar": "#EAEAEB",
+    "list": "#EAEAEB",
+    "elevated": "#F2F2F2",
+    "fill": "#F0F0F0",
+    "text_secondary": "#696C77",
+    "text_muted": "#696C77",
+    "divider": "#DBDBDC",
+    "link": "#175BEF",
+    "row_active": "#DBDBDC",
+    "row_hover": "#E3E3E3",
+    "sidebar_active": "#DBDBDC",
+    "sidebar_hover": "#E3E3E3",
+    "hover": "#E5E5E6",
+    "selected": "#E3E3E3",
+    "active_line": "#383A420D",
+    "button": "#4F69EE",
+    "button_text": "#FFFFFF",
+    "success": "#4A9549",
+    "warning": "#B76B01",
+    "danger": "#E45649",
+    "selection": "#E5E5E6",
+    "caret": "#526FFF"
+  },
+  "syntax": {
+    "text": "#383A42",
+    "heading": {
+      "color": "#E45649",
+      "font_weight": 700
+    },
+    "block_marker": "#E45649",
+    "marker": "#696C77",
+    "list_marker": "#E45649",
+    "task": "#A626A4",
+    "hr": "#8F9097",
+    "quote": {
+      "color": "#696C77",
+      "font_style": "italic"
+    },
+    "link": "#4078F2",
+    "url": "#0184BC",
+    "code": "#50A14F",
+    "code_block": "#50A14F",
+    "emphasis": {
+      "color": "#A626A4",
+      "font_style": "italic"
+    },
+    "strong": {
+      "color": "#B76B01",
+      "font_weight": 700
+    },
+    "front_matter": "#696C77",
+    "html": "#E45649",
+    "escape": "#0184BC",
+    "comment": {
+      "color": "#8F9097",
+      "font_style": "italic"
+    },
+    "comment_doc": {
+      "color": "#8F9097",
+      "font_style": "italic"
+    },
+    "keyword": "#A626A4",
+    "string": "#50A14F",
+    "string_special": "#0184BC",
+    "function": "#4078F2",
+    "type": "#CB7701",
+    "type_constructor": "#CB7701",
+    "number": "#B76B01",
+    "boolean": "#B76B01",
+    "constant": "#B76B01",
+    "variable": "#E45649",
+    "variable_special": "#E45649",
+    "property": "#E45649",
+    "attribute": "#B76B01",
+    "tag": "#E45649",
+    "label": "#383A42",
+    "operator": "#0184BC",
+    "punctuation": "#383A42",
+    "bracket": "#383A42",
+    "embedded": "#A626A4"
+  },
+  "preview": {
+    "text": "#383A42",
+    "heading": "#E45649",
+    "link": "#175BEF",
+    "quote": "#696C77",
+    "task_done": "#696C77",
+    "border": "#DBDBDC",
+    "code_background": "#EAEAEB",
+    "code_text": "#3B763A",
+    "inline_code_background": "#F0F0F0",
+    "inline_code_text": "#3B763A",
+    "table_header_background": "#F0F0F0",
+    "selection": "#E5E5E6"
+  }
+}
