@@ -1,5 +1,5 @@
 {
-  "serial": 3,
+  "serial": 4,
   "themes": {
     "andromeda": {
       "version": 1,
@@ -242,60 +242,180 @@
       "hash": "ff18c1f45f63b226fd31c0bab2eae5a6588ac2d6e15c9cf164b401cb19d96480"
     },
     "catppuccin-icons": {
-      "version": 3,
-      "hash": "0262bc653a49e4a4f5cfcdc85c3819816bb48ee82a7484b7ed7f5c157be6b895"
+      "version": 4,
+      "hash": "e713d5aee81c54df5764f0ae11e8032df1c914d74f93d59cde345a9ae6a48480"
     },
     "charmed-icons": {
-      "version": 3,
-      "hash": "d00d9876cb8ac49e138b94659a162312a9781d455464531acfadca34be712623"
+      "version": 4,
+      "hash": "5007c5345cb1fd5aa72c9efb5f979566179c1c5ca746920b33a81550dfa86b08"
     },
     "fantasticons": {
-      "version": 3,
-      "hash": "a8a727d0c11aba504cc948416a05cc78a605e02440f501d32189f8941e88f80b"
+      "version": 4,
+      "hash": "bff9d230dc9367cb4f1e7539820b4291d4db8ae5ae8083b98c99930f284635c4"
     },
     "jetbrains-icons": {
-      "version": 3,
-      "hash": "23a051a94bbe85cf7528689cbf09e7ee08f62031426e0da0e5eb0b1bbc4e2812"
+      "version": 4,
+      "hash": "5e645a078cd2be150a5c78bb56bfac5f3ed29c3b8b41abf3777483943ff0337c"
     },
     "jetbrains-new-ui-icons": {
-      "version": 3,
-      "hash": "23ddc69b9d4abf9856ca1a83da4fef771a4dd1b523e44fc4f8b66e49cf67e6e2"
+      "version": 4,
+      "hash": "25b961ef558f95f735e837d121b8791ebc0a178d6f489a4789f6f699eba04f86"
     },
     "kokedera-icons": {
-      "version": 3,
-      "hash": "71399004b9eb08daae4e994f6e61acb1e04aff799999e828a86aa37dcdf1fc34"
+      "version": 4,
+      "hash": "addc1f4f93e0506da7511be8225ec4c37f0e51c86099e5685c97b48a07520458"
     },
     "lucide": {
       "version": 3,
       "hash": "63c5298ea9d8914ebc1928c15e3a35cc944c3cac34a57813fb331475f8444996"
     },
     "material-icon-theme": {
-      "version": 3,
-      "hash": "dc45468d24f6922061846bf980c2606fd07f68652897688e45e6722e52dec509"
+      "version": 4,
+      "hash": "08791e884afb7cb6dbb5433546f19803c41438079d38575d0d102bcfe7d39f67"
     },
     "min-icons": {
-      "version": 3,
-      "hash": "d912d79b571036a1f248c5254f898a8dcbc5b123e8d2139caf4c430c783eb310"
+      "version": 4,
+      "hash": "93dbb8a6fa2e69be5c3e3c9d9cbdd1fc946c758e5a76e45f71ac98bb15de4a17"
     },
     "monospace-icons": {
-      "version": 3,
-      "hash": "6bba945eacb06a8913d412b3a249b40c7e2e1ed72deccdd4c7aca763b19cf8ff"
+      "version": 4,
+      "hash": "c3c4980abff1c0b6facd421312d5c556b2082f892c37e8b86b5525ae83cdd1df"
     },
     "phosphor": {
       "version": 3,
       "hash": "e03e6fb028c074a3e164db98c6986b993340c2dc5bd48051f356cc3bd5091b3b"
     },
     "phosphor-icons-theme": {
-      "version": 3,
-      "hash": "9e32ec00e6fc47aa140af19443ce5ae8f47d7905e0f6ff0025fa86c1f8b40872"
+      "version": 4,
+      "hash": "efee3b2cb21d28c5054584b8a39e6705ea5fc320ad8e6ab9a4c686d63e5f42c6"
     },
     "serendipity-icons": {
-      "version": 3,
-      "hash": "64cb580cc8fd729d335eea8c5608c150e488cc7066ad2aef972c95ff5e80e7b4"
+      "version": 4,
+      "hash": "b9c30a3f09323586079329e63abc3baceb598b69cd63ffa31bb4d9c5287c9407"
     },
     "symbols": {
-      "version": 3,
-      "hash": "ec3866e3215874f9e27b0a37c8dbb763a8b55ce6c3b72b37f953ed81102a0ef6"
+      "version": 4,
+      "hash": "a2a4440c23143b0c75ccb7a0ca60438baab1ed1a9e3133f2c25efe970b271365"
+    },
+    "alucard": {
+      "version": 4,
+      "hash": "ab0cd6c32a7ae97f9f76ae773a5d27bd540448b358d2e3857a2a45b9ff0b8585"
+    },
+    "carbonfox": {
+      "version": 4,
+      "hash": "51234185855043f0f8b81f5e0866a8a6eb9dde4e698ea41a0f4a02e87f9cb595"
+    },
+    "dawnfox": {
+      "version": 4,
+      "hash": "34ea8d8ab90a909df0e7a43df16c0387a0f47395dda64c53a82029011d3cc295"
+    },
+    "dayfox": {
+      "version": 4,
+      "hash": "bfdf2f2e074f87fcb6dc214949363d4930c6cd01018a752bb57efa11d4139ad8"
+    },
+    "edge-dark": {
+      "version": 4,
+      "hash": "7421a1c9fafd783fc5d8a7e2e784bc2f0d6bb9d3fcfaa5353b6224d856c2222e"
+    },
+    "edge-light": {
+      "version": 4,
+      "hash": "865fbef730b711c8c7e53489d7db406b2ed684ffc6343f3672ec4fb1e28f8323"
+    },
+    "iceberg-light": {
+      "version": 4,
+      "hash": "99e05ee73ef2721823d933fcc9727d8bfa133ff0cf09684ee3748fedc0d61b4b"
+    },
+    "material-ocean": {
+      "version": 4,
+      "hash": "6ec2ac51c0627978f6a5edb900b84b6ad766c58499532c183c5057979c6e542d"
+    },
+    "moonfly": {
+      "version": 4,
+      "hash": "f5c8bc1b57acebaafe406d4b70fe4e3b95af775ca93ae487d5c72afd1e9d6f6a"
+    },
+    "nightfly": {
+      "version": 4,
+      "hash": "b26a58382bb4f287dde8df01adc403e7ac5ae6f855004653f662d3eb6c6f334e"
+    },
+    "one-dark": {
+      "version": 4,
+      "hash": "2c241e8b87fb90821e472f99da352b2b856c05db9b6003ffd61f591294de743f"
+    },
+    "one-light": {
+      "version": 4,
+      "hash": "2661f6f72cbc87e4c2c7c30204eecc363c77a360d3ffbbec26ce87a11313088d"
+    },
+    "poimandres": {
+      "version": 4,
+      "hash": "beade28282b95ffb67b739e69720f179dc371f877f25b444268386715bcf2ba2"
+    },
+    "shades-of-purple": {
+      "version": 4,
+      "hash": "6def4e6fcb7a9dd6869aaa93b31f87b9ed9d8196892fc16e002f587202e68f5c"
+    },
+    "sonokai": {
+      "version": 4,
+      "hash": "cfaee8cfa654405aca67e5a664f91dde7c7287adeb7fd6bb0f5f7c9f084fa359"
+    },
+    "terafox": {
+      "version": 4,
+      "hash": "e0c48c294f3a26d0c528ef674b3f9af1e22fc4bf1494513f2c8c3ae2a3381441"
+    },
+    "tokyo-night-day": {
+      "version": 4,
+      "hash": "c48385222f89fd12bddebaf4969bd61f1a67a0ba425d7bc08bfec296df76a2e7"
+    },
+    "vesper": {
+      "version": 4,
+      "hash": "8114500a704a9ee9e0f271c04f692924be8b0b21a6474c5406a06a8722e69346"
+    },
+    "vitesse-dark": {
+      "version": 4,
+      "hash": "8cf2017aee15d6e436209cd933b222e71c8fb7be9f20c1eb6ab96f9029b39b0d"
+    },
+    "vitesse-light": {
+      "version": 4,
+      "hash": "3077f979e5ea63152ae7dbab4a5b62110be17b828146deb88851fd8254c9cf30"
+    },
+    "bootstrap-icons": {
+      "version": 4,
+      "hash": "cda71ce1347e1c0641c5066d83d3bd8ee789c343b05b4bb5ce4772bbda304c5f"
+    },
+    "fluent-regular": {
+      "version": 4,
+      "hash": "d24dc1863e95451c2f98576ef80be7c96dcf5b164f01868de3f954fd5895b0cf"
+    },
+    "hugeicons": {
+      "version": 4,
+      "hash": "a377d1112302d32f5ec899488d226a17b94a11301469428b91a88fcb3387e31a"
+    },
+    "icon-park": {
+      "version": 4,
+      "hash": "bd35c70275076c6c8641438c618249f865fd653bdec382763a34b191337422d8"
+    },
+    "material-symbols-outlined": {
+      "version": 4,
+      "hash": "1ab0c8da20a01bd3fbb030f56d926f4298638641a3c0c6f4574905930fd6d8ef"
+    },
+    "mingcute-line": {
+      "version": 4,
+      "hash": "966c9045d6f3e0778c54cf536e04b25f361e0b4f59edc0511eaa8794319b80ca"
+    },
+    "phosphor-bold": {
+      "version": 4,
+      "hash": "e5b9f3f4551e0a1cacc8db13ea013a857be6dec0b0e238ffcb834d66d6669b84"
+    },
+    "phosphor-duotone": {
+      "version": 4,
+      "hash": "4ce11d50d8276083a41fa6a71a686c3bca7c33be127175ccd0d2bb434cedf78c"
+    },
+    "phosphor-thin": {
+      "version": 4,
+      "hash": "67a73774f94cb154d09bf23c9dc4df0063dca67b92d8f35014f6f391064dd72e"
+    },
+    "tdesign-icons": {
+      "version": 4,
+      "hash": "c7ce9a7ac8ab5cd2f610e32303145fa9b1381e64d63abe1f1f8d2c9dddc215aa"
     }
   }
 }

@@ -1,10 +1,35 @@
 {
   "schema": 1,
-  "serial": 3,
-  "generated_at": "2026-10-23T19:52:29Z",
-  "source_commit": "1216da790076d6015e9de47ede46e1f3d02286d7",
+  "serial": 4,
+  "generated_at": "2026-10-25T18:57:22Z",
+  "source_commit": "b3cc0fd953e050ce96be185666d9cff835d5c980",
   "signing_key_id": "unset",
   "themes": [
+    {
+      "id": "alucard",
+      "kind": "color",
+      "family": "dracula",
+      "version": 4,
+      "name": "Alucard",
+      "appearance": "light",
+      "author": "Zeno Rocha",
+      "license": "MIT",
+      "source": "https://github.com/dracula/dracula-theme",
+      "description": "Dracula's daylight twin: warm parchment with deep pink keywords and purple constants.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "alucard.json",
+        "sha256": "ab0cd6c32a7ae97f9f76ae773a5d27bd540448b358d2e3857a2a45b9ff0b8585",
+        "size": 2960
+      },
+      "colors": {
+        "editor": "#FFFBEB",
+        "text": "#1F1F1F",
+        "accent": "#644AC9",
+        "sidebar": "#ECE9DF",
+        "list": "#F5F2E5"
+      }
+    },
     {
       "id": "andromeda",
       "kind": "color",
@@ -106,6 +131,89 @@
       }
     },
     {
+      "id": "bootstrap-icons",
+      "kind": "icons",
+      "version": 4,
+      "name": "Bootstrap Icons",
+      "author": "The Bootstrap Authors; Microsoft (Fluent UI System Icons)",
+      "license": "MIT",
+      "source": "https://icons.getbootstrap.com",
+      "description": "Bootstrap's outline icons: crisp, compact 16px glyphs, with Fluent's outlines for the animals Bootstrap doesn't draw.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/bootstrap-icons.tar.gz",
+        "sha256": "cda71ce1347e1c0641c5066d83d3bd8ee789c343b05b4bb5ce4772bbda304c5f",
+        "size": 71984
+      },
+      "preview": [
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/activity.svg",
+          "sha256": "21bc91ca81cbd1c5e0f504fdd7435bc14d729d98b6d862e476222f212afe42c8",
+          "size": 317
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/airplane.svg",
+          "sha256": "648f08bd83a60ce6977629a65bc09bb45b3c1244f5d306c15b881e2e0668beb1",
+          "size": 794
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/alarm.svg",
+          "sha256": "83dd3eca0944d867b44814108c64810ff41c92c6de8c9e017a6b5d107f5dedd4",
+          "size": 647
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/alphabet.svg",
+          "sha256": "6891e00ee0cae2c2640dd51db74835cbdce56eb8f755adf944095a2d149add0a",
+          "size": 994
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/archive.svg",
+          "sha256": "8f975d65f7246206cede7f991772fb75b6ae791658775c43b86b88eb59a8856b",
+          "size": 346
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/arrow-bar-left.svg",
+          "sha256": "a7498df416d0445a5fd98e872813eaf795b28238b726fca2fa8db9e8d0589483",
+          "size": 318
+        },
+        {
+          "path": "icon-themes/bootstrap-icons/icons/bi/arrow-bar-right.svg",
+          "sha256": "342d1d537a55ebd161939c6e9b0eb41de8fc342bef3d74342dbb6d768ace81e3",
+          "size": 317
+        }
+      ]
+    },
+    {
+      "id": "carbonfox",
+      "kind": "color",
+      "family": "carbonfox",
+      "version": 4,
+      "name": "Carbonfox",
+      "appearance": "dark",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "description": "Carbonfox: near-black carbon with bright, electric pinks and blues.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "carbonfox.json",
+        "sha256": "51234185855043f0f8b81f5e0866a8a6eb9dde4e698ea41a0f4a02e87f9cb595",
+        "size": 2677
+      },
+      "colors": {
+        "editor": "#161616",
+        "text": "#F2F4F8",
+        "accent": "#52BDFF",
+        "sidebar": "#161616",
+        "list": "#161616"
+      }
+    },
+    {
       "id": "catppuccin-frappe",
       "kind": "color",
       "family": "catppuccin-frappe",
@@ -133,48 +241,58 @@
     {
       "id": "catppuccin-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Catppuccin Icons",
-      "author": "Catppuccin",
+      "author": "Catppuccin; Luca Burgio (Iconoir); Paweł Kuna (Tabler Icons)",
       "license": "MIT",
       "source": "https://github.com/catppuccin/zed-icons",
-      "description": "Catppuccin's file and folder icons, from the Zed extension.",
+      "description": "Catppuccin's folder and file icons from the Zed extension, with Iconoir's thin round-capped outlines for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/catppuccin-icons.tar.gz",
-        "sha256": "0262bc653a49e4a4f5cfcdc85c3819816bb48ee82a7484b7ed7f5c157be6b895",
-        "size": 2685
+        "sha256": "e713d5aee81c54df5764f0ae11e8032df1c914d74f93d59cde345a9ae6a48480",
+        "size": 44960
       },
       "preview": [
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/_folder.svg",
-          "sha256": "d0459a45e9ae29d54d06b4a64642a7f2f8c7678b5481e39b4187ca3354fc3f84",
-          "size": 290
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/activity.svg",
+          "sha256": "94f17ef0ba2d3358901ac0c232598ea86ae0214ed1b7fc07cf66b196e4dd01cc",
+          "size": 201
         },
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/_folder_open.svg",
-          "sha256": "bc4f70036b562b283774a0c76da3ebd260b42d4b4bfea8f7534f907690d39393",
-          "size": 312
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/airplane.svg",
+          "sha256": "eea9e63d108592617f0f59bd745123106a06c5439c18cb8b4059d94cec3feafd",
+          "size": 604
         },
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/audio.svg",
-          "sha256": "f2992ba00eb6d2c82998626a8d42a1ae8e876722602b628f681c16c3c993740e",
-          "size": 402
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/alarm.svg",
+          "sha256": "d4b4a9bc37aeb60d248c663d08c42a9a8459483b9a2fe4edfd54ae675a645e98",
+          "size": 267
         },
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/folder_templates.svg",
-          "sha256": "367badd904f3bde10ada0b3ddf129814df63c30aecdd19cf245d1a43bc7e5496",
-          "size": 863
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/align-left.svg",
+          "sha256": "11b7bfbb2dda3b3ca9aa78c7577a0ed9eee5da8697c18c6e5d048351c55c3eff",
+          "size": 210
         },
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/image.svg",
-          "sha256": "baeb360aeaf893a6e9f16e22e191aac6a43af49d1232f56927ebca04085ebeb2",
-          "size": 545
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/apple.svg",
+          "sha256": "752eb90bc319b1ddea7ab6f324fe5ddc01b5524e4e76b16897981f76866131c5",
+          "size": 554
         },
         {
-          "path": "icon-themes/catppuccin-icons/icons/latte/pdf.svg",
-          "sha256": "25098a0ccd35092c3ef4ff84854c792fbfc245db8fcdd25172ae321ad37728c3",
-          "size": 444
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/archive.svg",
+          "sha256": "c2cc2166e689b78b7dfb26e7b3dd3c6bdc53fadb8cfb37cd15314f8d17c81f83",
+          "size": 369
+        },
+        {
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/arrow-down-circle.svg",
+          "sha256": "ab5df69c7f1d02d97d994c091127e705593eececec20775faa8a595f782de946",
+          "size": 284
+        },
+        {
+          "path": "icon-themes/catppuccin-icons/icons/iconoir/arrow-down.svg",
+          "sha256": "55fff629907a64b67492717b82974aa40f2eb1fb6d79a01f9db7adb13a30c63b",
+          "size": 214
         }
       ]
     },
@@ -256,17 +374,17 @@
     {
       "id": "charmed-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Charmed Icons",
-      "author": "littensy, jmesrje",
-      "license": "MIT",
+      "author": "littensy, jmesrje; Microsoft (Fluent UI System Icons); Google (Material Symbols); The Bootstrap Authors",
+      "license": "MIT AND Apache-2.0",
       "source": "https://github.com/jmesrje/zed-charmed-icons",
-      "description": "littensy's Charmed Icons, from jmesrje's Zed extension.",
+      "description": "littensy's soft filled Charmed Icons for folders and files, with Fluent's filled icons for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/charmed-icons.tar.gz",
-        "sha256": "d00d9876cb8ac49e138b94659a162312a9781d455464531acfadca34be712623",
-        "size": 5257
+        "sha256": "5007c5345cb1fd5aa72c9efb5f979566179c1c5ca746920b33a81550dfa86b08",
+        "size": 75230
       },
       "preview": [
         {
@@ -298,6 +416,16 @@
           "path": "icon-themes/charmed-icons/icons/base/pdf.svg",
           "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411",
           "size": 3852
+        },
+        {
+          "path": "icon-themes/charmed-icons/icons/bi/github.svg",
+          "sha256": "e18eb6afc414864f4adfef9d6bfb73e8206de85ab92289ae5b0f40c3a3bab0da",
+          "size": 674
+        },
+        {
+          "path": "icon-themes/charmed-icons/icons/fluent/add-24-filled.svg",
+          "sha256": "ad39e3efd1fb27046fe8967cab9c1d9142e3cc5644ad8c0cf9ce579a8a0c47ce",
+          "size": 336
         }
       ]
     },
@@ -324,6 +452,56 @@
         "accent": "#FFC600",
         "sidebar": "#122738",
         "list": "#122738"
+      }
+    },
+    {
+      "id": "dawnfox",
+      "kind": "color",
+      "family": "duskfox",
+      "version": 4,
+      "name": "Dawnfox",
+      "appearance": "light",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "description": "Dawnfox: first light on a rosy cream page, in soft pine and iris.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "dawnfox.json",
+        "sha256": "34ea8d8ab90a909df0e7a43df16c0387a0f47395dda64c53a82029011d3cc295",
+        "size": 2674
+      },
+      "colors": {
+        "editor": "#FAF4ED",
+        "text": "#575279",
+        "accent": "#406D76",
+        "sidebar": "#FAF4ED",
+        "list": "#FAF4ED"
+      }
+    },
+    {
+      "id": "dayfox",
+      "kind": "color",
+      "family": "nightfox",
+      "version": 4,
+      "name": "Dayfox",
+      "appearance": "light",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "description": "Dayfox: warm linen paper with deep, inky blues and violets.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "dayfox.json",
+        "sha256": "bfdf2f2e074f87fcb6dc214949363d4930c6cd01018a752bb57efa11d4139ad8",
+        "size": 2667
+      },
+      "colors": {
+        "editor": "#F6F2EE",
+        "text": "#3D2B5A",
+        "accent": "#236A70",
+        "sidebar": "#F6F2EE",
+        "list": "#F6F2EE"
       }
     },
     {
@@ -427,6 +605,56 @@
       }
     },
     {
+      "id": "edge-dark",
+      "kind": "color",
+      "family": "edge",
+      "version": 4,
+      "name": "Edge Dark",
+      "appearance": "dark",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/edge",
+      "description": "Sainnhe's Edge after dark: a clean charcoal with purple keywords and soft blues.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "edge-dark.json",
+        "sha256": "7421a1c9fafd783fc5d8a7e2e784bc2f0d6bb9d3fcfaa5353b6224d856c2222e",
+        "size": 3050
+      },
+      "colors": {
+        "editor": "#2C2E34",
+        "text": "#C5CDD9",
+        "accent": "#D38AEA",
+        "sidebar": "#24262A",
+        "list": "#282A2F"
+      }
+    },
+    {
+      "id": "edge-light",
+      "kind": "color",
+      "family": "edge",
+      "version": 4,
+      "name": "Edge Light",
+      "appearance": "light",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/edge",
+      "description": "Sainnhe's Edge by day: crisp white paper with purple keywords and calm blues.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "edge-light.json",
+        "sha256": "865fbef730b711c8c7e53489d7db406b2ed684ffc6343f3672ec4fb1e28f8323",
+        "size": 3049
+      },
+      "colors": {
+        "editor": "#FAFAFA",
+        "text": "#4B505B",
+        "accent": "#B05CCC",
+        "sidebar": "#EEF1F4",
+        "list": "#F4F6F8"
+      }
+    },
+    {
       "id": "everforest-dark",
       "kind": "color",
       "family": "everforest",
@@ -479,17 +707,17 @@
     {
       "id": "fantasticons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "FantastIcons",
-      "author": "Caio Landgraf",
-      "license": "MIT",
+      "author": "Caio Landgraf; MingCute Design; Microsoft (Fluent UI System Icons)",
+      "license": "MIT AND Apache-2.0",
       "source": "https://github.com/caiolandgraf/fantasticons-zed",
-      "description": "FantastIcons, from the Zed extension.",
+      "description": "FantastIcons' flat filled folders and files, with MingCute's filled icons for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/fantasticons.tar.gz",
-        "sha256": "a8a727d0c11aba504cc948416a05cc78a605e02440f501d32189f8941e88f80b",
-        "size": 4945
+        "sha256": "bff9d230dc9367cb4f1e7539820b4291d4db8ae5ae8083b98c99930f284635c4",
+        "size": 66584
       },
       "preview": [
         {
@@ -503,29 +731,34 @@
           "size": 275
         },
         {
-          "path": "icon-themes/fantasticons/icons/folder.svg",
-          "sha256": "40ac722f6ba776d69aeb007d7221028ace2bf248bd0a947bf7f432aad273077e",
-          "size": 180
+          "path": "icon-themes/fantasticons/icons/fluent/battery-warning-24-filled.svg",
+          "sha256": "38578780fae3468f009271f73936bcb64a6560a521a2f4a8244d94262afc6450",
+          "size": 520
         },
         {
-          "path": "icon-themes/fantasticons/icons/folder_open.svg",
-          "sha256": "9ee9e1ec64d446c6dd34388f13448acf799a57586b8d3f8f68a7fa334e729a3a",
-          "size": 491
+          "path": "icon-themes/fantasticons/icons/fluent/cloud-arrow-up-24-filled.svg",
+          "sha256": "10e8ce9614696f10a08954ffb0ccfc1dd4595747a33dede7a5f7c50cfc4c2180",
+          "size": 386
         },
         {
-          "path": "icon-themes/fantasticons/icons/folder_template.svg",
-          "sha256": "9553367a5355ab5e20f7ea583154989ace6ef4092347a5dc0ce8ca70e31d7ea4",
-          "size": 493
+          "path": "icon-themes/fantasticons/icons/fluent/cloud-checkmark-24-filled.svg",
+          "sha256": "c532524c62099ba722f829b1edbadfca19cd59069ed400f2bc688c313917dade",
+          "size": 379
         },
         {
-          "path": "icon-themes/fantasticons/icons/image.svg",
-          "sha256": "722824af9921f55ad050d9b65074ce916c06c309d4cd23dc72b7e31bfe6e4c0d",
-          "size": 1048
+          "path": "icon-themes/fantasticons/icons/fluent/cloud-off-24-filled.svg",
+          "sha256": "7f1538db384677c2b65da262c7b71268b70013b6ba4c9d83ac11cc1aa9a87017",
+          "size": 323
         },
         {
-          "path": "icon-themes/fantasticons/icons/pdf.svg",
-          "sha256": "7b90613897812552df43c6b6804cb400d1bb31a44fa3fe5a34f8e4a02b81b411",
-          "size": 3852
+          "path": "icon-themes/fantasticons/icons/fluent/handshake-24-filled.svg",
+          "sha256": "cd33664e18e3065e3a05620e518d90fc49d0dc61a73c6bb10500d932d8593fba",
+          "size": 1676
+        },
+        {
+          "path": "icon-themes/fantasticons/icons/fluent/pin-off-24-filled.svg",
+          "sha256": "74da189ce9c77833e32a23332a3b1177f72f40ebae447343bca483e872949e90",
+          "size": 419
         }
       ]
     },
@@ -578,6 +811,64 @@
         "sidebar": "#F2F0E5",
         "list": "#F2F0E5"
       }
+    },
+    {
+      "id": "fluent-regular",
+      "kind": "icons",
+      "version": 4,
+      "name": "Fluent Regular",
+      "author": "Microsoft (Fluent UI System Icons); The Bootstrap Authors",
+      "license": "MIT",
+      "source": "https://github.com/microsoft/fluentui-system-icons",
+      "description": "Microsoft's Fluent icons in their regular weight: light, rounded outlines in the style of Windows 11.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/fluent-regular.tar.gz",
+        "sha256": "d24dc1863e95451c2f98576ef80be7c96dcf5b164f01868de3f954fd5895b0cf",
+        "size": 80094
+      },
+      "preview": [
+        {
+          "path": "icon-themes/fluent-regular/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/bi/github.svg",
+          "sha256": "e18eb6afc414864f4adfef9d6bfb73e8206de85ab92289ae5b0f40c3a3bab0da",
+          "size": 674
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/add-24-regular.svg",
+          "sha256": "4660599030eb4012f4a2215031291f8d0d7f0629abfab8f6fb58347e939bf624",
+          "size": 237
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/airplane-24-regular.svg",
+          "sha256": "575f882068bfcedd5c333848aeb5e29d718f2ef785f56e146a4adcecfa533437",
+          "size": 1068
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/alert-24-regular.svg",
+          "sha256": "9bbb50c6522ae94e8eaf0493a02edda94120aec38830210eb2479f0ffe0fad51",
+          "size": 448
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/animal-cat-24-regular.svg",
+          "sha256": "7725cb77946d2db7f2b42b09b5338223f0a97566e1a9a1c3d96bbf2bcc91e18d",
+          "size": 1004
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/animal-dog-24-regular.svg",
+          "sha256": "8a945fb2a72f2c21d0361e751477711f1d5e88ff662410bc13143094b363daba",
+          "size": 1526
+        },
+        {
+          "path": "icon-themes/fluent-regular/icons/fluent/animal-paw-print-24-regular.svg",
+          "sha256": "e978c6a3f3b1c3aa53aae6ec5daff2e476a639c10774e8a5adab8b7a139a9ebe",
+          "size": 1079
+        }
+      ]
     },
     {
       "id": "github-dark",
@@ -855,6 +1146,64 @@
       }
     },
     {
+      "id": "hugeicons",
+      "kind": "icons",
+      "version": 4,
+      "name": "Hugeicons",
+      "author": "Hugeicons",
+      "license": "MIT",
+      "source": "https://hugeicons.com",
+      "description": "Hugeicons' free stroke-rounded icons: friendly 1.5px outlines with soft corners.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/hugeicons.tar.gz",
+        "sha256": "a377d1112302d32f5ec899488d226a17b94a11301469428b91a88fcb3387e31a",
+        "size": 69666
+      },
+      "preview": [
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/a-large-small.svg",
+          "sha256": "1f0dca619a0c3299a82fab1e0a2dc4909090fa0611a3c6a9eac5c71a6a479288",
+          "size": 353
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/alarm-clock.svg",
+          "sha256": "02681197bc905877b044ddf0a7b18499887c836774d6adb1b808839e6a1cbcb5",
+          "size": 321
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/alert-circle.svg",
+          "sha256": "11e8cad95b814e94945efdf5f361c8a2e7aac9492fe071833347f6e006a81a93",
+          "size": 280
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/apple.svg",
+          "sha256": "b2aea9911da9cebb2909e9e97dd31108bbda0da7cbbf89697cde8a09e05a5b3b",
+          "size": 595
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/archive-02.svg",
+          "sha256": "a5b0267bc27689b48ab5d7cd24ffbba6348d438592b8e37001d407e1a812d872",
+          "size": 798
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/armchair.svg",
+          "sha256": "30dc4eba48df17ab6da22f4827b7c6eb53fc0ef137e407be523390317c12f256",
+          "size": 618
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/arrow-down-02.svg",
+          "sha256": "7cdd6070eb506152cf6190dd757652256689cbcada697abdc4d54b93394c6efe",
+          "size": 221
+        },
+        {
+          "path": "icon-themes/hugeicons/icons/hugeicons/arrow-expand.svg",
+          "sha256": "1a784bdec029814da98f6c49314785479659d0d36c4f748a43f61249b74f62b2",
+          "size": 467
+        }
+      ]
+    },
+    {
       "id": "iceberg",
       "kind": "color",
       "family": "iceberg",
@@ -880,83 +1229,201 @@
       }
     },
     {
-      "id": "jetbrains-icons",
+      "id": "iceberg-light",
+      "kind": "color",
+      "family": "iceberg",
+      "version": 4,
+      "name": "Iceberg Light",
+      "appearance": "light",
+      "author": "cocopon",
+      "license": "MIT",
+      "source": "https://github.com/cocopon/iceberg.vim",
+      "description": "Iceberg by daylight: pale frost-grey paper with deep, calm blues.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "iceberg-light.json",
+        "sha256": "99e05ee73ef2721823d933fcc9727d8bfa133ff0cf09684ee3748fedc0d61b4b",
+        "size": 4293
+      },
+      "colors": {
+        "editor": "#E8E9EC",
+        "text": "#33374C",
+        "accent": "#2D539E",
+        "sidebar": "#E8E9EC",
+        "list": "#E8E9EC"
+      }
+    },
+    {
+      "id": "icon-park",
       "kind": "icons",
-      "version": 3,
-      "name": "JetBrains Icons",
-      "author": "Zeeshan Ahmad",
+      "version": 4,
+      "name": "IconPark",
+      "author": "ByteDance",
       "license": "Apache-2.0",
-      "source": "https://github.com/ziishaned/zed-jetbrains-icons",
-      "description": "JetBrains IntelliJ's product icons, from Zeeshan Ahmad's Zed extension.",
+      "source": "https://iconpark.oceanengine.com",
+      "description": "ByteDance's IconPark outline icons: chunky, rounded strokes that stay bold at small sizes.",
       "min_kanso": "0.8.4",
       "bundle": {
-        "path": "gallery/icon-themes/jetbrains-icons.tar.gz",
-        "sha256": "23a051a94bbe85cf7528689cbf09e7ee08f62031426e0da0e5eb0b1bbc4e2812",
-        "size": 5627
+        "path": "gallery/icon-themes/icon-park.tar.gz",
+        "sha256": "bd35c70275076c6c8641438c618249f865fd653bdec382763a34b191337422d8",
+        "size": 49891
       },
       "preview": [
         {
-          "path": "icon-themes/jetbrains-icons/icons/dark/chevron_down.svg",
-          "sha256": "2002c988353dc8d3e4044ddc34ec062366c4c1b4307a5e135478ac44694ea30b",
-          "size": 309
+          "path": "icon-themes/icon-park/icons/icon-park-outline/add-text.svg",
+          "sha256": "df5327336de13a9d99a9201e5853c7b2362c9c1a2d0b466d24ec7530eec4945b",
+          "size": 186
         },
         {
-          "path": "icon-themes/jetbrains-icons/icons/dark/chevron_right.svg",
-          "sha256": "bae1f68b729b1eab1ab2e6ce35033b71cdb52b3677fb90ac8aef286c7be68595",
-          "size": 302
+          "path": "icon-themes/icon-park/icons/icon-park-outline/add-user.svg",
+          "sha256": "86422c5e13481b1a39fb4ef2ab885da2b2ff7011ebf1d2a87fc3585b5c7e8f58",
+          "size": 274
         },
         {
-          "path": "icon-themes/jetbrains-icons/icons/dark/folder.svg",
-          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e",
-          "size": 549
+          "path": "icon-themes/icon-park/icons/icon-park-outline/address-book.svg",
+          "sha256": "c6c22a7492eea686809d922d097797d767aa35076b652cc8d0c9e5497fb78e13",
+          "size": 285
         },
         {
-          "path": "icon-themes/jetbrains-icons/icons/dark/image.svg",
-          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef",
-          "size": 486
+          "path": "icon-themes/icon-park/icons/icon-park-outline/aiming.svg",
+          "sha256": "fdb3dc03ea6e05c8b8b261c0baa6aebc892d63169aa45c268ca5307db0b2e95c",
+          "size": 790
         },
         {
-          "path": "icon-themes/jetbrains-icons/icons/dark/text.svg",
-          "sha256": "3391cc35837a4420fa9517f2297d8f6b07428db63f57f07dd5c2c29ef00cb489",
-          "size": 493
+          "path": "icon-themes/icon-park/icons/icon-park-outline/airplane.svg",
+          "sha256": "89c5a3315f10efd5551562ef5d159aaf95cf654b5093b19f10e7299c18da1511",
+          "size": 311
+        },
+        {
+          "path": "icon-themes/icon-park/icons/icon-park-outline/alarm-clock.svg",
+          "sha256": "cd2a4c1504ce2edab293042ff8c89847014683a7c90e919685b1806f42323bae",
+          "size": 367
+        },
+        {
+          "path": "icon-themes/icon-park/icons/icon-park-outline/announcement.svg",
+          "sha256": "482e7cd7b555305c0fea2e0132a2aae9e9d21500024c8ff0e5fc1f93518d1e73",
+          "size": 265
+        },
+        {
+          "path": "icon-themes/icon-park/icons/icon-park-outline/apple.svg",
+          "sha256": "4e7c4d63e1a547d4bd564e92e1ce5a48b9084ace3aa6857418a559dda619054b",
+          "size": 755
+        }
+      ]
+    },
+    {
+      "id": "jetbrains-icons",
+      "kind": "icons",
+      "version": 4,
+      "name": "JetBrains Icons",
+      "author": "JetBrains (IntelliJ Platform classic icons); Zeeshan Ahmad; The Bootstrap Authors; Microsoft (Fluent UI System Icons); Google (Material Symbols)",
+      "license": "Apache-2.0 AND MIT",
+      "source": "https://github.com/ziishaned/zed-jetbrains-icons",
+      "description": "JetBrains IntelliJ's classic flat icons wherever the IDE has one, with Bootstrap's filled icons, and a few of Fluent's and Material's, for the rest.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/jetbrains-icons.tar.gz",
+        "sha256": "5e645a078cd2be150a5c78bb56bfac5f3ed29c3b8b41abf3777483943ff0337c",
+        "size": 78546
+      },
+      "preview": [
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/airplane-fill.svg",
+          "sha256": "f6a7d3331e5688a4673ffcbb5acff39978d5e91ec4a57bd616d5830b04c3bf5b",
+          "size": 441
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/alarm-fill.svg",
+          "sha256": "232897d09103749319eba41d72a4f6cf691452359f409843a969be8594cdcfd8",
+          "size": 564
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/archive-fill.svg",
+          "sha256": "e38f30480a4c843c81ba0b504a409657421174049e651ab8e74cbd7d5767b908",
+          "size": 296
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/arrow-bar-left.svg",
+          "sha256": "a7498df416d0445a5fd98e872813eaf795b28238b726fca2fa8db9e8d0589483",
+          "size": 318
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/arrow-bar-right.svg",
+          "sha256": "342d1d537a55ebd161939c6e9b0eb41de8fc342bef3d74342dbb6d768ace81e3",
+          "size": 317
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/arrow-clockwise.svg",
+          "sha256": "60cc78cde9af43e05c38ca43c885a0fba74f49142f665cedf9c8cbbcb24c0916",
+          "size": 298
+        },
+        {
+          "path": "icon-themes/jetbrains-icons/icons/bi/arrow-counterclockwise.svg",
+          "sha256": "88eccca7f732d7e61c634bb8bf510fdeac38806f8cb901ebd688c6d1314dcc0d",
+          "size": 298
         }
       ]
     },
     {
       "id": "jetbrains-new-ui-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "JetBrains New UI Icons",
-      "author": "ankddev",
-      "license": "Apache-2.0",
+      "author": "JetBrains (IntelliJ Platform New UI icons); ankddev; Paweł Kuna (Tabler Icons)",
+      "license": "Apache-2.0 AND MIT",
       "source": "https://github.com/ankddev/zed-jetbrains-newui-icons",
-      "description": "The JetBrains IDEs' New UI icons, from ankddev's Zed extension.",
+      "description": "The JetBrains IDEs' New UI icons wherever the IDE has one, with Tabler's icons redrawn at the same 1px weight for the rest.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/jetbrains-new-ui-icons.tar.gz",
-        "sha256": "23ddc69b9d4abf9856ca1a83da4fef771a4dd1b523e44fc4f8b66e49cf67e6e2",
-        "size": 5757
+        "sha256": "25b961ef558f95f735e837d121b8791ebc0a178d6f489a4789f6f699eba04f86",
+        "size": 69833
       },
       "preview": [
         {
-          "path": "icon-themes/jetbrains-new-ui-icons/icons/anyType_dark.svg",
-          "sha256": "8d337aa48dc75f4c9ba0cd1795c09f35aded0e480ff19222ba44d1760f1e543a",
-          "size": 1001
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-addFile.svg",
+          "sha256": "11fdfe9d8bb82eceb1cd3848ab47014e120939a14d6f1caea244f8314f501ce4",
+          "size": 833
         },
         {
-          "path": "icon-themes/jetbrains-new-ui-icons/icons/folder_dark.svg",
-          "sha256": "4f08a99236e4b08632cafb159f31df27f238106d584ecf725be42b9702a0a02e",
-          "size": 549
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-checked.svg",
+          "sha256": "48040cbf566b51ac0faf4d665fa9b2d324db420de604bf441392948e8fc99a98",
+          "size": 229
         },
         {
-          "path": "icon-themes/jetbrains-new-ui-icons/icons/image_dark.svg",
-          "sha256": "b7c8a22b2b1022a23f1a2a6b923ca52f59d5f9abaa4dcf1718fa9d50f2f710ef",
-          "size": 486
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-learn.svg",
+          "sha256": "f89e7273df2a81fa24e1c0e2515d1d9e185bf0a8a9aeb6aebb4ba11f6076b60b",
+          "size": 1272
         },
         {
-          "path": "icon-themes/jetbrains-new-ui-icons/icons/text.svg",
-          "sha256": "d71666166da544ad42b13bb5af976eb6f0afb60cbaa636676d238c98383ee296",
-          "size": 493
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-lightning.svg",
+          "sha256": "6a7f90304aeb657b02a115060ac800fb589b92f3f9e3a3f53de084b01f5bf620",
+          "size": 758
+        },
+        {
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-moveToLeft.svg",
+          "sha256": "122f9692dfa170578d508b08b8801d4ed4edb64cb00d67b314d3314997fc9de8",
+          "size": 664
+        },
+        {
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-moveToRight.svg",
+          "sha256": "51993522f3a62a00ceed32ea0f8946b2dd818ea42c5b92abdeaf3330b24a7b0a",
+          "size": 684
+        },
+        {
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-moveToWindow.svg",
+          "sha256": "d03ec8c67b13eddb0a38b649a071c88b42ff0a64a3801db8568ba806b02a49ff",
+          "size": 806
+        },
+        {
+          "path": "icon-themes/jetbrains-new-ui-icons/icons/intellij/expui-actions-properties.svg",
+          "sha256": "f7810f75a30df738132d9416b6360365b362c4bcc6e7396bce709a962d706389",
+          "size": 370
         }
       ]
     },
@@ -1088,17 +1555,17 @@
     {
       "id": "kokedera-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Kokedera Icons",
-      "author": "Florian Mühlhans",
+      "author": "Florian Mühlhans; Phosphor Icons",
       "license": "MIT",
       "source": "https://github.com/cappuccinotogo/kokedera-icons-extension-zed",
-      "description": "Moss temple icons, from the Kokedera Zed extension.",
+      "description": "Kokedera's mossy folders and files, with Phosphor's filled icons, as soft and rounded, for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/kokedera-icons.tar.gz",
-        "sha256": "71399004b9eb08daae4e994f6e61acb1e04aff799999e828a86aa37dcdf1fc34",
-        "size": 2814
+        "sha256": "addc1f4f93e0506da7511be8225ec4c37f0e51c86099e5685c97b48a07520458",
+        "size": 57188
       },
       "preview": [
         {
@@ -1188,17 +1655,17 @@
     {
       "id": "material-icon-theme",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Material Icon Theme",
-      "author": "Zed Industries",
-      "license": "MIT",
+      "author": "Zed Industries; Google (Material Symbols); The Bootstrap Authors",
+      "license": "MIT AND Apache-2.0",
       "source": "https://github.com/zed-extensions/material-icon-theme",
-      "description": "The Material Icon Theme project's icons, from Zed's extension.",
+      "description": "The Material Icon Theme's folders and files, with Google's filled Material Symbols for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/material-icon-theme.tar.gz",
-        "sha256": "dc45468d24f6922061846bf980c2606fd07f68652897688e45e6722e52dec509",
-        "size": 6736
+        "sha256": "08791e884afb7cb6dbb5433546f19803c41438079d38575d0d102bcfe7d39f67",
+        "size": 58056
       },
       "preview": [
         {
@@ -1207,9 +1674,14 @@
           "size": 185
         },
         {
-          "path": "icon-themes/material-icon-theme/icons/folder-docs.svg",
-          "sha256": "71bec357e64761462d18b66fa9c6095fe390ab29e1d5977c1f89e3dbd3e6fca3",
-          "size": 388
+          "path": "icon-themes/material-icon-theme/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/material-icon-theme/icons/bi/github.svg",
+          "sha256": "e18eb6afc414864f4adfef9d6bfb73e8206de85ab92289ae5b0f40c3a3bab0da",
+          "size": 674
         },
         {
           "path": "icon-themes/material-icon-theme/icons/folder-open.svg",
@@ -1227,9 +1699,14 @@
           "size": 346
         },
         {
-          "path": "icon-themes/material-icon-theme/icons/pdf.svg",
-          "sha256": "c14c66a3914b894da40778a6dcd00f0daa134426521aaddbd8ccea86ba4f5ffc",
-          "size": 976
+          "path": "icon-themes/material-icon-theme/icons/material-symbols/account-balance.svg",
+          "sha256": "022d32847109285100e32f1e6aaff998ae6f037a2860b4c0b7bd7120f2d0ecdf",
+          "size": 170
+        },
+        {
+          "path": "icon-themes/material-icon-theme/icons/material-symbols/account-circle.svg",
+          "sha256": "b512eed4585fbcdb5c95edd25e4b5e476d56913e29c936584ffaad9c34cee98f",
+          "size": 524
         }
       ]
     },
@@ -1259,6 +1736,31 @@
       }
     },
     {
+      "id": "material-ocean",
+      "kind": "color",
+      "family": "material-ocean",
+      "version": 4,
+      "name": "Material Ocean",
+      "appearance": "dark",
+      "author": "Kai Cataldo",
+      "license": "MIT",
+      "source": "https://github.com/kaicataldo/material.vim",
+      "description": "Material's Ocean: a deep navy night in Material's bright pastels.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "material-ocean.json",
+        "sha256": "6ec2ac51c0627978f6a5edb900b84b6ad766c58499532c183c5057979c6e542d",
+        "size": 2900
+      },
+      "colors": {
+        "editor": "#0F111A",
+        "text": "#8F93A2",
+        "accent": "#82AAFF",
+        "sidebar": "#0F111A",
+        "list": "#0F111A"
+      }
+    },
+    {
       "id": "material-palenight",
       "kind": "color",
       "family": "material-palenight",
@@ -1282,6 +1784,64 @@
         "sidebar": "#292D3E",
         "list": "#292D3E"
       }
+    },
+    {
+      "id": "material-symbols-outlined",
+      "kind": "icons",
+      "version": 4,
+      "name": "Material Symbols Outlined",
+      "author": "Google (Material Symbols); The Bootstrap Authors",
+      "license": "Apache-2.0 AND MIT",
+      "source": "https://fonts.google.com/icons",
+      "description": "Google's Material Symbols in their outlined style: clean, even outlines on Material's grid.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/material-symbols-outlined.tar.gz",
+        "sha256": "1ab0c8da20a01bd3fbb030f56d926f4298638641a3c0c6f4574905930fd6d8ef",
+        "size": 64318
+      },
+      "preview": [
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/bi/github.svg",
+          "sha256": "e18eb6afc414864f4adfef9d6bfb73e8206de85ab92289ae5b0f40c3a3bab0da",
+          "size": 674
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/account-balance-outline.svg",
+          "sha256": "49f3fc1380bb7e689150177e1193eac67af2951f20f3544a5c2aaeb8f928ae3b",
+          "size": 201
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/account-circle-outline.svg",
+          "sha256": "4137fef1697ec52cd9b91f50723b468ad085a6b2804ba16b757061ba9aca4f28",
+          "size": 744
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/account-tree-outline.svg",
+          "sha256": "da952a6973c886cd9714cc834eb95d745394245a2aee2998f9b694baed8bce09",
+          "size": 214
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/add-comment-outline.svg",
+          "sha256": "bbf0adf72a2120036f77811291f806f09b690a44f2b69461924795a1f355339f",
+          "size": 244
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/add-outline.svg",
+          "sha256": "8ad156c77bb266aa4158e6072d5e6891426bc8d25ea3b72402b21270a9b2e80e",
+          "size": 131
+        },
+        {
+          "path": "icon-themes/material-symbols-outlined/icons/material-symbols/alarm-outline.svg",
+          "sha256": "674f6c1838924f0df8ddd6aafd48f10baab2738fc1a29f91f595242ec1f565c3",
+          "size": 472
+        }
+      ]
     },
     {
       "id": "min-dark",
@@ -1311,38 +1871,58 @@
     {
       "id": "min-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Min Icons",
-      "author": "Phillip Bronzel",
-      "license": "MIT",
+      "author": "Phillip Bronzel; IBM (Carbon); Paweł Kuna (Tabler Icons)",
+      "license": "MIT AND Apache-2.0",
       "source": "https://github.com/phibr0/zed-min-theme",
-      "description": "Artem Laman's Chalice icons, from Phillip Bronzel's Min theme for Zed.",
+      "description": "The Min theme's thin, chamfered Chalice icons for folders and files, with IBM's Carbon icons, as thin and square, for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/min-icons.tar.gz",
-        "sha256": "d912d79b571036a1f248c5254f898a8dcbc5b123e8d2139caf4c430c783eb310",
-        "size": 2276
+        "sha256": "93dbb8a6fa2e69be5c3e3c9d9cbdd1fc946c758e5a76e45f71ac98bb15de4a17",
+        "size": 57035
       },
       "preview": [
         {
-          "path": "icon-themes/min-icons/icons/file-image.svg",
-          "sha256": "df38af9d4cd215633231751601e3962b48655230285d4e9badb9f5b2db53ef25",
-          "size": 362
+          "path": "icon-themes/min-icons/icons/carbon/activity.svg",
+          "sha256": "48e08cb7e541ae3cd2eb55cd0fc397e508b26fa90b7bc42969bcd359a5793a68",
+          "size": 275
         },
         {
-          "path": "icon-themes/min-icons/icons/file.svg",
-          "sha256": "b0360b3fd34cf31a8cb8390c921c9efe2b9688b14707514c96b003505e8c42c4",
-          "size": 302
+          "path": "icon-themes/min-icons/icons/carbon/add-comment.svg",
+          "sha256": "0dac454b9e9b60e54b8ae61ed524e55d47159dbc40ee5b6385cdb6ba93483065",
+          "size": 325
         },
         {
-          "path": "icon-themes/min-icons/icons/folder-closed.svg",
-          "sha256": "4563668bd19ad75abb8429e51cff650c92d03548a8dbf038357490066048994f",
-          "size": 414
+          "path": "icon-themes/min-icons/icons/carbon/add.svg",
+          "sha256": "e2562fe91bcc8d4711a4420c7bed2fb59cfe500915c2de50887ce36f29798075",
+          "size": 131
         },
         {
-          "path": "icon-themes/min-icons/icons/folder-open.svg",
-          "sha256": "963136836a2e2f25de7cd016eaa6be6b8ce3c04f3a97770b1ae9063b509e0492",
-          "size": 447
+          "path": "icon-themes/min-icons/icons/carbon/alarm.svg",
+          "sha256": "38e60dd31eb0355b8b83383247c9605940720b09028930eff0455fcb79382c37",
+          "size": 335
+        },
+        {
+          "path": "icon-themes/min-icons/icons/carbon/apple.svg",
+          "sha256": "f31fef762c3b89d576888f9ce80a9616e6219430074379b5a015ba6f41c1a419",
+          "size": 797
+        },
+        {
+          "path": "icon-themes/min-icons/icons/carbon/apps.svg",
+          "sha256": "1b7cbba8a82c42ca8d3a993c03a6e11d81bf234c240e13d3c4cccb55864725b8",
+          "size": 317
+        },
+        {
+          "path": "icon-themes/min-icons/icons/carbon/archive.svg",
+          "sha256": "374124d08c53900a91bfd5f92055bf6854d41c2cc668b6964f07e9006c2534d3",
+          "size": 227
+        },
+        {
+          "path": "icon-themes/min-icons/icons/carbon/array.svg",
+          "sha256": "7dc0d0912904be10b7973f494eacdf61a1acf9cdfba2050b0ab979c211797992",
+          "size": 205
         }
       ]
     },
@@ -1372,25 +1952,93 @@
       }
     },
     {
+      "id": "mingcute-line",
+      "kind": "icons",
+      "version": 4,
+      "name": "MingCute Line",
+      "author": "MingCute Design",
+      "license": "Apache-2.0",
+      "source": "https://www.mingcute.com",
+      "description": "MingCute's line icons: crisp, rounded outlines with a light, even stroke.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/mingcute-line.tar.gz",
+        "sha256": "966c9045d6f3e0778c54cf536e04b25f361e0b4f59edc0511eaa8794319b80ca",
+        "size": 59594
+      },
+      "preview": [
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/aiming-line.svg",
+          "sha256": "ac4637d0a74946208c5ea3c4ef8a4a3f1cc638bb3218da75c7729c31da9ce064",
+          "size": 347
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/airplane-line.svg",
+          "sha256": "57773643b943b36c5a9804e815873ee9a4535a8549f1e009be6bac075a1f9566",
+          "size": 453
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/alarm-1-line.svg",
+          "sha256": "82d0b2ab67deeadc63cb5882f929aa21b12e59a6ae5ef36586ac1630f93bdebb",
+          "size": 1595
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/alert-line.svg",
+          "sha256": "f754de8379fbfc5caa4d8c9c2b77cfcbdc634b8296d62ff31d86c3c5ab284cd3",
+          "size": 296
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/announcement-line.svg",
+          "sha256": "2886108baa48c357acdb7ff6be29f982e2da2979ceaaebf04b69fa7ec22ea689",
+          "size": 365
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/apple-line.svg",
+          "sha256": "3b272548af2ff238d791ebd769e2bd10e3527fe31c14990557d94bec6ce35491",
+          "size": 787
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/archive-line.svg",
+          "sha256": "247c53fd282c3188af1d5e3071bcb817defc2a84e61545707e1b66b8098e154e",
+          "size": 383
+        },
+        {
+          "path": "icon-themes/mingcute-line/icons/mingcute/arrow-down-circle-line.svg",
+          "sha256": "21d75f98df2a618bc3b590f2ae714c4f562b6df19e6212f331fef8494e4094e0",
+          "size": 266
+        }
+      ]
+    },
+    {
       "id": "monospace-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Monospace Icons",
-      "author": "Isheunopa Ralph Mhonde",
-      "license": "Apache-2.0",
+      "author": "Isheunopa Ralph Mhonde; Google (Material Symbols); The Bootstrap Authors",
+      "license": "Apache-2.0 AND MIT",
       "source": "https://github.com/irmhonde/monospace-icon-theme",
-      "description": "Firebase Studio's Monospace icons, from Isheunopa Ralph Mhonde's Zed extension.",
+      "description": "Firebase Studio's Monospace folders and files, with Google's filled, rounded Material Symbols for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/monospace-icons.tar.gz",
-        "sha256": "6bba945eacb06a8913d412b3a249b40c7e2e1ed72deccdd4c7aca763b19cf8ff",
-        "size": 8421
+        "sha256": "c3c4980abff1c0b6facd421312d5c556b2082f892c37e8b86b5525ae83cdd1df",
+        "size": 74242
       },
       "preview": [
         {
           "path": "icon-themes/monospace-icons/icons/audio.svg",
           "sha256": "c6bc21488d5d5fa9cd988bac410c741d519f8778c1e48a64ae3e4ce003dbce57",
           "size": 275
+        },
+        {
+          "path": "icon-themes/monospace-icons/icons/bi/apple.svg",
+          "sha256": "75b6066086cb68a2f32035f86e64a564ffb0da3b090e048573b580839f3200b3",
+          "size": 833
+        },
+        {
+          "path": "icon-themes/monospace-icons/icons/bi/github.svg",
+          "sha256": "e18eb6afc414864f4adfef9d6bfb73e8206de85ab92289ae5b0f40c3a3bab0da",
+          "size": 674
         },
         {
           "path": "icon-themes/monospace-icons/icons/folder_light.svg",
@@ -1408,11 +2056,41 @@
           "size": 1604
         },
         {
-          "path": "icon-themes/monospace-icons/icons/pdf_light.svg",
-          "sha256": "742950bab6b94a255f285dc439bc748647724d07d0e92f62ad972e5d4b586848",
-          "size": 4693
+          "path": "icon-themes/monospace-icons/icons/material-symbols/ac-unit-rounded.svg",
+          "sha256": "f3cca80b4a7d26e9cc2faaf5c6a8038915f032d1ccbe6ed8abc1d5be260fe555",
+          "size": 886
+        },
+        {
+          "path": "icon-themes/monospace-icons/icons/material-symbols/account-balance-rounded.svg",
+          "sha256": "c47349bf94a3f012e7edc4fcd1c682358a3a8a88f391425be4857aef39b84fd0",
+          "size": 585
         }
       ]
+    },
+    {
+      "id": "moonfly",
+      "kind": "color",
+      "family": "moonfly",
+      "version": 4,
+      "name": "Moonfly",
+      "appearance": "dark",
+      "author": "bluz71",
+      "license": "MIT",
+      "source": "https://github.com/bluz71/vim-moonfly-colors",
+      "description": "Moonfly: a near-black night with moonlit greys and vivid accents.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "moonfly.json",
+        "sha256": "f5c8bc1b57acebaafe406d4b70fe4e3b95af775ca93ae487d5c72afd1e9d6f6a",
+        "size": 2780
+      },
+      "colors": {
+        "editor": "#080808",
+        "text": "#C6C6C6",
+        "accent": "#80A0FF",
+        "sidebar": "#121212",
+        "list": "#0D0D0D"
+      }
     },
     {
       "id": "moonlight",
@@ -1487,6 +2165,31 @@
         "accent": "#2AA298",
         "sidebar": "#F0F0F0",
         "list": "#F0F0F0"
+      }
+    },
+    {
+      "id": "nightfly",
+      "kind": "color",
+      "family": "nightfly",
+      "version": 4,
+      "name": "Nightfly",
+      "appearance": "dark",
+      "author": "bluz71",
+      "license": "MIT",
+      "source": "https://github.com/bluz71/vim-nightfly-colors",
+      "description": "Nightfly: a midnight-blue sky in Night Owl's bright accents.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "nightfly.json",
+        "sha256": "b26a58382bb4f287dde8df01adc403e7ac5ae6f855004653f662d3eb6c6f334e",
+        "size": 2777
+      },
+      "colors": {
+        "editor": "#011627",
+        "text": "#C3CCDC",
+        "accent": "#82AAFF",
+        "sidebar": "#081E2F",
+        "list": "#04192B"
       }
     },
     {
@@ -1565,6 +2268,31 @@
       }
     },
     {
+      "id": "one-dark",
+      "kind": "color",
+      "family": "one",
+      "version": 4,
+      "name": "One Dark",
+      "appearance": "dark",
+      "author": "GitHub (Atom)",
+      "license": "MIT",
+      "source": "https://github.com/atom/atom/tree/master/packages/one-dark-syntax",
+      "description": "Atom's One Dark: a soft slate page with gentle reds, purples and blues.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "one-dark.json",
+        "sha256": "2c241e8b87fb90821e472f99da352b2b856c05db9b6003ffd61f591294de743f",
+        "size": 2817
+      },
+      "colors": {
+        "editor": "#282C34",
+        "text": "#ABB2BF",
+        "accent": "#528BFF",
+        "sidebar": "#21252B",
+        "list": "#21252B"
+      }
+    },
+    {
       "id": "one-dark-vibrant",
       "kind": "color",
       "family": "one-dark-vibrant",
@@ -1587,6 +2315,31 @@
         "accent": "#52E5FF",
         "sidebar": "#18181D",
         "list": "#121212"
+      }
+    },
+    {
+      "id": "one-light",
+      "kind": "color",
+      "family": "one",
+      "version": 4,
+      "name": "One Light",
+      "appearance": "light",
+      "author": "GitHub (Atom)",
+      "license": "MIT",
+      "source": "https://github.com/atom/atom/tree/master/packages/one-light-syntax",
+      "description": "Atom's One Light: near-white paper with crisp blues, purples and greens.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "one-light.json",
+        "sha256": "2661f6f72cbc87e4c2c7c30204eecc363c77a360d3ffbbec26ce87a11313088d",
+        "size": 2821
+      },
+      "colors": {
+        "editor": "#FAFAFA",
+        "text": "#383A42",
+        "accent": "#304EE2",
+        "sidebar": "#EAEAEB",
+        "list": "#EAEAEB"
       }
     },
     {
@@ -1698,19 +2451,135 @@
       ]
     },
     {
+      "id": "phosphor-bold",
+      "kind": "icons",
+      "version": 4,
+      "name": "Phosphor Bold",
+      "author": "Phosphor Icons (Helena Zhang and Tobias Fried)",
+      "license": "MIT",
+      "source": "https://phosphoricons.com",
+      "description": "Phosphor's bold weight: heavy, rounded strokes that read at a glance.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/phosphor-bold.tar.gz",
+        "sha256": "e5b9f3f4551e0a1cacc8db13ea013a857be6dec0b0e238ffcb834d66d6669b84",
+        "size": 63388
+      },
+      "preview": [
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/address-book-bold.svg",
+          "sha256": "a7b3d609885302f72fd3b7e2c24ea260ba1e3db75f394d16fd395a93ebf3f1a1",
+          "size": 482
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/airplane-bold.svg",
+          "sha256": "c28e12f5b0e61d23fad9b27d88528c1c9734ff45a82ece0a715206e2de170b3c",
+          "size": 741
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/alarm-bold.svg",
+          "sha256": "bbe9d4c6ac48aa6ad38721bba39cdf177d2e78cd43bbf84ebd92327659507444",
+          "size": 402
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/apple-logo-bold.svg",
+          "sha256": "c6e97065175ed60bc8bd09bf4296800394c1cc4a548fa556df2528b206744a77",
+          "size": 952
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/archive-bold.svg",
+          "sha256": "237283d67a847d3b7e0cbd4e76a7240aed17e18b226327c99e2f207668d1f4f7",
+          "size": 345
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/arrow-circle-down-bold.svg",
+          "sha256": "9f4baac730a62e7f443cf8e8ee2cc03cb53bc37ae3df49fe3d9c1a70b4a1639c",
+          "size": 347
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/arrow-clockwise-bold.svg",
+          "sha256": "c0f2b4708e4c8a5440053c1c7f2e5fb6c5b6877c778b0d963daafd6abcdfe960",
+          "size": 355
+        },
+        {
+          "path": "icon-themes/phosphor-bold/icons/ph/arrow-counter-clockwise-bold.svg",
+          "sha256": "2128f4421cb548f3913d1b5c867879877301036a7a977f7dc7ea02408160509c",
+          "size": 342
+        }
+      ]
+    },
+    {
+      "id": "phosphor-duotone",
+      "kind": "icons",
+      "version": 4,
+      "name": "Phosphor Duotone",
+      "author": "Phosphor Icons (Helena Zhang and Tobias Fried)",
+      "license": "MIT",
+      "source": "https://phosphoricons.com",
+      "description": "Phosphor's duotone icons: regular strokes over a soft tinted fill.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/phosphor-duotone.tar.gz",
+        "sha256": "4ce11d50d8276083a41fa6a71a686c3bca7c33be127175ccd0d2bb434cedf78c",
+        "size": 71881
+      },
+      "preview": [
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/address-book-duotone.svg",
+          "sha256": "762605f841d80127ab176933c1cf89651e82a8caa37ee037b7aeca73b88446a4",
+          "size": 642
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/airplane-duotone.svg",
+          "sha256": "fdc978f447d77e5fa0738d7738445abbb578dadad0057150a24d39a09e29338b",
+          "size": 813
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/alarm-duotone.svg",
+          "sha256": "3252868db7247222da1711e720ec1cf35d24e746b80c4888bc144070732c843f",
+          "size": 484
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/apple-logo-duotone.svg",
+          "sha256": "8a479683c5c69bd10160aed26df0e915cb5f944ca01e496e7f38117ad5c2b74a",
+          "size": 1228
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/archive-duotone.svg",
+          "sha256": "0181b470302cced749a47940ca970baa1a7923ee890fda7c0970438c421b953c",
+          "size": 408
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/arrow-circle-down-duotone.svg",
+          "sha256": "762cdd4cbea110d40cb20b158d094fe6a64804e6b2f67b7e7b8a36231c43d061",
+          "size": 428
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/arrow-clockwise-duotone.svg",
+          "sha256": "76fefbd269c917aa01cf1b2d90f55375eaeb41de3e4841664832616c2219c6ec",
+          "size": 371
+        },
+        {
+          "path": "icon-themes/phosphor-duotone/icons/ph/arrow-counter-clockwise-duotone.svg",
+          "sha256": "bf21c622f8fc32aded1cceb80450cd4fa5a2601e94af29b97a4f53403fc5d153",
+          "size": 394
+        }
+      ]
+    },
+    {
       "id": "phosphor-icons-theme",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Phosphor Icons Theme",
-      "author": "Theo Luciano",
+      "author": "Theo Luciano; Phosphor Icons",
       "license": "MIT",
       "source": "https://github.com/theoluciano/phosphor-icons-theme",
-      "description": "Phosphor's icons as Theo Luciano's Zed extension picks them.",
+      "description": "Phosphor's regular icons with the folders and files Theo Luciano's Zed extension picks.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/phosphor-icons-theme.tar.gz",
-        "sha256": "9e32ec00e6fc47aa140af19443ce5ae8f47d7905e0f6ff0025fa86c1f8b40872",
-        "size": 3135
+        "sha256": "efee3b2cb21d28c5054584b8a39e6705ea5fc320ad8e6ab9a4c686d63e5f42c6",
+        "size": 64106
       },
       "preview": [
         {
@@ -1754,6 +2623,89 @@
           "size": 664
         }
       ]
+    },
+    {
+      "id": "phosphor-thin",
+      "kind": "icons",
+      "version": 4,
+      "name": "Phosphor Thin",
+      "author": "Phosphor Icons (Helena Zhang and Tobias Fried)",
+      "license": "MIT",
+      "source": "https://phosphoricons.com",
+      "description": "Phosphor's thin weight: hairline strokes for a quiet, airy interface.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/phosphor-thin.tar.gz",
+        "sha256": "67a73774f94cb154d09bf23c9dc4df0063dca67b92d8f35014f6f391064dd72e",
+        "size": 65352
+      },
+      "preview": [
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/address-book-thin.svg",
+          "sha256": "60cc405372f78e5155b97ea8037607300a2bd6ccf0fb48aba554b5fd4710ccf7",
+          "size": 522
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/airplane-thin.svg",
+          "sha256": "5f95f44f17ef81a57ceaf5337cedfb05333ec1ed7f674fe2f4503b5eccd58527",
+          "size": 729
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/alarm-thin.svg",
+          "sha256": "08a8116177c83b1213f76adbdf8f5cec669354ac4aa2ca69209164598249eca3",
+          "size": 412
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/apple-logo-thin.svg",
+          "sha256": "b3815bd6247b95dafd14514226cdb3c840a74926cd83327eea07749035d353bd",
+          "size": 935
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/archive-thin.svg",
+          "sha256": "495e349f1e96e82479c8638bd1a976d26aec0ff7dd7e8f34c228061345d26e82",
+          "size": 419
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/arrow-circle-down-thin.svg",
+          "sha256": "94c79e4be9bc7ee6cd7b503beb22b3e09486ed436eb71606ead815154cebca91",
+          "size": 346
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/arrow-clockwise-thin.svg",
+          "sha256": "18532dc2647588f202602ed3ad1260dba74e820db5680b428323402b05dee874",
+          "size": 293
+        },
+        {
+          "path": "icon-themes/phosphor-thin/icons/ph/arrow-counter-clockwise-thin.svg",
+          "sha256": "82c3767682fa58e412abb7ae5eba7e96407392ae15b44297d3a06baa5770512c",
+          "size": 305
+        }
+      ]
+    },
+    {
+      "id": "poimandres",
+      "kind": "color",
+      "family": "poimandres",
+      "version": 4,
+      "name": "Poimandres",
+      "appearance": "dark",
+      "author": "drcmda",
+      "license": "MIT",
+      "source": "https://github.com/drcmda/poimandres-theme",
+      "description": "Poimandres: a deep blue-grey night lit in mint and pale sky blue.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "poimandres.json",
+        "sha256": "beade28282b95ffb67b739e69720f179dc371f877f25b444268386715bcf2ba2",
+        "size": 2944
+      },
+      "colors": {
+        "editor": "#1B1E28",
+        "text": "#A6ACCD",
+        "accent": "#5DE4C7",
+        "sidebar": "#1B1E28",
+        "list": "#1B1E28"
+      }
     },
     {
       "id": "rose-pine",
@@ -1833,17 +2785,17 @@
     {
       "id": "serendipity-icons",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Serendipity Icons",
-      "author": "Nguyen Dang Vinh",
+      "author": "Nguyen Dang Vinh; Paweł Kuna (Tabler Icons)",
       "license": "MIT",
       "source": "https://github.com/meocoder31099/Serendipity-Icon-Theme-Zed",
-      "description": "A tiny set of file and folder icons, from the Zed extension.",
+      "description": "Serendipity's tiny square file and folder icons, with Tabler's icons redrawn thin with square corners for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/serendipity-icons.tar.gz",
-        "sha256": "64cb580cc8fd729d335eea8c5608c150e488cc7066ad2aef972c95ff5e80e7b4",
-        "size": 1894
+        "sha256": "b9c30a3f09323586079329e63abc3baceb598b69cd63ffa31bb4d9c5287c9407",
+        "size": 38713
       },
       "preview": [
         {
@@ -1860,8 +2812,58 @@
           "path": "icon-themes/serendipity-icons/icons/folder.svg",
           "sha256": "9b2bdff8ca10639e93d270360286921502922475f68e28d7a257730cab0fc58b",
           "size": 413
+        },
+        {
+          "path": "icon-themes/serendipity-icons/icons/tabler/address-book-sw125-capsquare-joinmiter.svg",
+          "sha256": "b1d0492852e5e8793b33c69c8068411530bab3ba8f4d26e8b1f783ff6947b97e",
+          "size": 333
+        },
+        {
+          "path": "icon-themes/serendipity-icons/icons/tabler/alarm-sw125-capsquare-joinmiter.svg",
+          "sha256": "25179a5850c479f43c7f3af66282f94b74f14f5f5a3b94a8551066ad32592e59",
+          "size": 268
+        },
+        {
+          "path": "icon-themes/serendipity-icons/icons/tabler/alert-circle-sw125-capsquare-joinmiter.svg",
+          "sha256": "04d7e324d2a45f80fff4b615cc995bf9717c6cbf63c5cd51ed21d2c368f6ddba",
+          "size": 230
+        },
+        {
+          "path": "icon-themes/serendipity-icons/icons/tabler/alert-triangle-sw125-capsquare-joinmiter.svg",
+          "sha256": "f261f9c43c66806b3480cd304a421bca48a4b288d164a15e1cbf1db133da7e3d",
+          "size": 328
+        },
+        {
+          "path": "icon-themes/serendipity-icons/icons/tabler/apple-sw125-capsquare-joinmiter.svg",
+          "sha256": "9232d18b0895083bf96f6a74c3ea15132fe864d831fc00988b5b8d9ac563829d",
+          "size": 535
         }
       ]
+    },
+    {
+      "id": "shades-of-purple",
+      "kind": "color",
+      "family": "shades-of-purple",
+      "version": 4,
+      "name": "Shades of Purple",
+      "appearance": "dark",
+      "author": "Ahmad Awais",
+      "license": "MIT",
+      "source": "https://github.com/ahmadawais/shades-of-purple-vscode",
+      "description": "Ahmad Awais's Shades of Purple: deep violet with bold yellow and orange accents.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "shades-of-purple.json",
+        "sha256": "6def4e6fcb7a9dd6869aaa93b31f87b9ed9d8196892fc16e002f587202e68f5c",
+        "size": 2822
+      },
+      "colors": {
+        "editor": "#2D2B55",
+        "text": "#FFFFFF",
+        "accent": "#FAD000",
+        "sidebar": "#222244",
+        "list": "#222244"
+      }
     },
     {
       "id": "solarized-dark",
@@ -1914,19 +2916,44 @@
       }
     },
     {
+      "id": "sonokai",
+      "kind": "color",
+      "family": "sonokai",
+      "version": 4,
+      "name": "Sonokai",
+      "appearance": "dark",
+      "author": "sainnhe",
+      "license": "MIT",
+      "source": "https://github.com/sainnhe/sonokai",
+      "description": "Sainnhe's Sonokai: Monokai Pro's warm reds, yellows and greens on a soft charcoal.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "sonokai.json",
+        "sha256": "cfaee8cfa654405aca67e5a664f91dde7c7287adeb7fd6bb0f5f7c9f084fa359",
+        "size": 3053
+      },
+      "colors": {
+        "editor": "#2C2E34",
+        "text": "#E2E2E3",
+        "accent": "#76CCE0",
+        "sidebar": "#222327",
+        "list": "#27282D"
+      }
+    },
+    {
       "id": "symbols",
       "kind": "icons",
-      "version": 3,
+      "version": 4,
       "name": "Symbols",
-      "author": "Joan Garcia",
+      "author": "Joan Garcia; Paweł Kuna (Tabler Icons)",
       "license": "MIT",
       "source": "https://github.com/joangarciaa-dev/zed-symbols",
-      "description": "Miguel Solorio's Symbols, from Joan Garcia's Zed extension.",
+      "description": "Miguel Solorio's Symbols for folders and files, with Tabler's matching 2px round-stroked icons for the rest of Kanso.",
       "min_kanso": "0.8.4",
       "bundle": {
         "path": "gallery/icon-themes/symbols.tar.gz",
-        "sha256": "ec3866e3215874f9e27b0a37c8dbb763a8b55ce6c3b72b37f953ed81102a0ef6",
-        "size": 5439
+        "sha256": "a2a4440c23143b0c75ccb7a0ca60438baab1ed1a9e3133f2c25efe970b271365",
+        "size": 42675
       },
       "preview": [
         {
@@ -1953,6 +2980,21 @@
           "path": "icon-themes/symbols/icons/folders/folder.svg",
           "sha256": "cbac3e926822cebd097ee63dd6be9cde9ef3ab4d66dc2823532f4b078c74c161",
           "size": 392
+        },
+        {
+          "path": "icon-themes/symbols/icons/tabler/address-book.svg",
+          "sha256": "e5af6195d57fdfb646aa45783ee0143377ee0b4a5a63492c7d528512a0d44bab",
+          "size": 329
+        },
+        {
+          "path": "icon-themes/symbols/icons/tabler/adjustments-horizontal.svg",
+          "sha256": "61561fcc2d54840f40ab46a83211719c3f0d59a0b64b7b15abdd71bc5e0cb403",
+          "size": 316
+        },
+        {
+          "path": "icon-themes/symbols/icons/tabler/affiliate.svg",
+          "sha256": "82f831f8d5b816a2be0834df223d66c73daf477e36e03c035d276a871b63171d",
+          "size": 416
         }
       ]
     },
@@ -1982,6 +3024,89 @@
       }
     },
     {
+      "id": "tdesign-icons",
+      "kind": "icons",
+      "version": 4,
+      "name": "TDesign Icons",
+      "author": "TDesign (Tencent)",
+      "license": "MIT",
+      "source": "https://tdesign.tencent.com/design/icon-en",
+      "description": "Tencent's TDesign icons: clean geometric outlines on a 24px grid.",
+      "min_kanso": "0.8.4",
+      "bundle": {
+        "path": "gallery/icon-themes/tdesign-icons.tar.gz",
+        "sha256": "c7ce9a7ac8ab5cd2f610e32303145fa9b1381e64d63abe1f1f8d2c9dddc215aa",
+        "size": 38615
+      },
+      "preview": [
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/activity.svg",
+          "sha256": "b632b7ad45b29a351e85afecdd9d3b18270158edbad49fefa1d63089c61490a4",
+          "size": 214
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/address-book.svg",
+          "sha256": "1c94c6be442a376a1d3a53d3e07cc25261716e4b2345053d43a65c87e19c0755",
+          "size": 417
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/adjustment.svg",
+          "sha256": "fff07904bede8b6d83bced347e2fb83c418dc22096700bec25dff9c2c79c2667",
+          "size": 425
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/ai-1.svg",
+          "sha256": "49ba52979c2f7c15c3b63abee11230c4cd80b54f6d8d8c38247cc023c76cc4f1",
+          "size": 338
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/ai.svg",
+          "sha256": "1a910b97be86cb662bc2928eb02cf7bb99b13aa0af0d2ca3b9326facf2f423e3",
+          "size": 258
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/alarm.svg",
+          "sha256": "1a810c08a506d624d23f654c394f21b040f23307559e6ab44e65b028a47bcd86",
+          "size": 359
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/align-top.svg",
+          "sha256": "dc499817597254cd56c1034b2b889d2b86b4a3e948a1688116915e351462b75c",
+          "size": 184
+        },
+        {
+          "path": "icon-themes/tdesign-icons/icons/tdesign/anchor.svg",
+          "sha256": "ebc8f38261e2c0199bdb35eeb52794260e3fa6f60e7531aaed21c9a96c190428",
+          "size": 341
+        }
+      ]
+    },
+    {
+      "id": "terafox",
+      "kind": "color",
+      "family": "terafox",
+      "version": 4,
+      "name": "Terafox",
+      "appearance": "dark",
+      "author": "EdenEast",
+      "license": "MIT",
+      "source": "https://github.com/EdenEast/nightfox.nvim",
+      "description": "Terafox: deep sea-green earth with coral and sand.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "terafox.json",
+        "sha256": "e0c48c294f3a26d0c528ef674b3f9af1e22fc4bf1494513f2c8c3ae2a3381441",
+        "size": 2658
+      },
+      "colors": {
+        "editor": "#152528",
+        "text": "#E6EAEA",
+        "accent": "#AFD4DE",
+        "sidebar": "#152528",
+        "list": "#152528"
+      }
+    },
+    {
       "id": "tokyo-night",
       "kind": "color",
       "family": "tokyo-night",
@@ -2004,6 +3129,31 @@
         "accent": "#7AA2F7",
         "sidebar": "#16161E",
         "list": "#181822"
+      }
+    },
+    {
+      "id": "tokyo-night-day",
+      "kind": "color",
+      "family": "tokyo-night-day",
+      "version": 4,
+      "name": "Tokyo Night Day",
+      "appearance": "light",
+      "author": "folke",
+      "license": "Apache-2.0",
+      "source": "https://github.com/folke/tokyonight.nvim",
+      "description": "Folke's Tokyo Night Day: the night palette turned to a pale, blue-washed morning.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "tokyo-night-day.json",
+        "sha256": "c48385222f89fd12bddebaf4969bd61f1a67a0ba425d7bc08bfec296df76a2e7",
+        "size": 2860
+      },
+      "colors": {
+        "editor": "#E1E2E7",
+        "text": "#2E51A1",
+        "accent": "#2E7DE9",
+        "sidebar": "#D0D5E3",
+        "list": "#D0D5E3"
       }
     },
     {
@@ -2129,6 +3279,81 @@
         "accent": "#D3494E",
         "sidebar": "#0F0F0F",
         "list": "#121212"
+      }
+    },
+    {
+      "id": "vesper",
+      "kind": "color",
+      "family": "vesper",
+      "version": 4,
+      "name": "Vesper",
+      "appearance": "dark",
+      "author": "Rauno Freiberg",
+      "license": "MIT",
+      "source": "https://github.com/raunofreiberg/vesper",
+      "description": "Rauno Freiberg's Vesper: near-black and white, with peppermint strings and a warm orange glow.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "vesper.json",
+        "sha256": "8114500a704a9ee9e0f271c04f692924be8b0b21a6474c5406a06a8722e69346",
+        "size": 2709
+      },
+      "colors": {
+        "editor": "#101010",
+        "text": "#FFFFFF",
+        "accent": "#FFC799",
+        "sidebar": "#101010",
+        "list": "#101010"
+      }
+    },
+    {
+      "id": "vitesse-dark",
+      "kind": "color",
+      "family": "vitesse",
+      "version": 4,
+      "name": "Vitesse Dark",
+      "appearance": "dark",
+      "author": "Anthony Fu",
+      "license": "MIT",
+      "source": "https://github.com/antfu/vscode-theme-vitesse",
+      "description": "Antfu's Vitesse Dark: a quiet charcoal page with muted greens and terracotta.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "vitesse-dark.json",
+        "sha256": "8cf2017aee15d6e436209cd933b222e71c8fb7be9f20c1eb6ab96f9029b39b0d",
+        "size": 2647
+      },
+      "colors": {
+        "editor": "#121212",
+        "text": "#CECABE",
+        "accent": "#4D9375",
+        "sidebar": "#121212",
+        "list": "#121212"
+      }
+    },
+    {
+      "id": "vitesse-light",
+      "kind": "color",
+      "family": "vitesse",
+      "version": 4,
+      "name": "Vitesse Light",
+      "appearance": "light",
+      "author": "Anthony Fu",
+      "license": "MIT",
+      "source": "https://github.com/antfu/vscode-theme-vitesse",
+      "description": "Antfu's Vitesse Light: clean white paper with deep greens and brick reds.",
+      "min_kanso": "0.8.4",
+      "file": {
+        "path": "vitesse-light.json",
+        "sha256": "3077f979e5ea63152ae7dbab4a5b62110be17b828146deb88851fd8254c9cf30",
+        "size": 2645
+      },
+      "colors": {
+        "editor": "#FFFFFF",
+        "text": "#393A34",
+        "accent": "#1C6B48",
+        "sidebar": "#FFFFFF",
+        "list": "#FFFFFF"
       }
     }
   ],
