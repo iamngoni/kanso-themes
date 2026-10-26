@@ -1,5 +1,5 @@
 {
-  "serial": 4,
+  "serial": 5,
   "themes": {
     "andromeda": {
       "version": 1,
@@ -130,12 +130,12 @@
       "hash": "cc2d34b085678350805f8e59766e7854ceb397cbe8b30eee4cf232978253a1b4"
     },
     "kanso-dark": {
-      "version": 1,
-      "hash": "1af65ada9880c3ac62f9389ffd7128359a93cb4ba323669b7bc1359dc93493e7"
+      "version": 5,
+      "hash": "3115c8cc9757b40c4185601d8554767e636d3711a59519f612e5f914c5005b25"
     },
     "kanso-light": {
-      "version": 1,
-      "hash": "f89c27623e1eda4bdc512e468f646e729bde0656945d492c8cac6127254d7a8e"
+      "version": 5,
+      "hash": "d570bc8883c950414c7c757e906c65be39b4b5ba09fb26a68403bfadc4f01b67"
     },
     "material-dark": {
       "version": 1,
