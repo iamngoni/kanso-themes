@@ -201,7 +201,7 @@
       "name": "Default Dark",
       "author": "Takuya Matsuyama",
       "license": "MIT",
-      "source": "https://github.com/inkdropapp/default-dark",
+      "source": null,
       "appearance": "dark",
       "colors": {
         "editor": "#0A0A0A",
@@ -216,7 +216,7 @@
       "name": "Default Light",
       "author": "Takuya Matsuyama",
       "license": "MIT",
-      "source": "https://github.com/inkdropapp/default-light",
+      "source": null,
       "appearance": "light",
       "colors": {
         "editor": "#FFFFFF",

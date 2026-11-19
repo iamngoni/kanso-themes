@@ -4,7 +4,6 @@
   "name": "Default Dark",
   "author": "Takuya Matsuyama",
   "license": "MIT",
-  "source": "https://github.com/inkdropapp/default-dark",
   "description": "A near-black default dark theme with a blue accent, imported from its palette.",
   "appearance": "dark",
   "ui": {
