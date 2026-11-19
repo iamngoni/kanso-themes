@@ -201,7 +201,7 @@
       "name": "Default Dark",
       "author": "Takuya Matsuyama",
       "license": "MIT",
-      "source": null,
+      "source": "https://github.com/iamngoni/kanso-themes",
       "appearance": "dark",
       "colors": {
         "editor": "#0A0A0A",
@@ -216,7 +216,7 @@
       "name": "Default Light",
       "author": "Takuya Matsuyama",
       "license": "MIT",
-      "source": null,
+      "source": "https://github.com/iamngoni/kanso-themes",
       "appearance": "light",
       "colors": {
         "editor": "#FFFFFF",

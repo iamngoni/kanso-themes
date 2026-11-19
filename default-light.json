@@ -4,6 +4,7 @@
   "name": "Default Light",
   "author": "Takuya Matsuyama",
   "license": "MIT",
+  "source": "https://github.com/iamngoni/kanso-themes",
   "description": "A near-white default light theme with a blue accent, imported from its palette.",
   "appearance": "light",
   "ui": {
