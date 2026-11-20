@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "serial": 5,
-  "generated_at": "2026-11-19T13:15:04Z",
-  "source_commit": "d1bd98ddd418e644811fa1f54e82d4ae7ea8cfb2",
+  "serial": 6,
+  "generated_at": "2026-11-20T08:27:45Z",
+  "source_commit": "8660d26e11072281f2612a42f924c73ff4b66e77",
   "signing_key_id": "unset",
   "themes": [
     {
@@ -513,6 +513,7 @@
       "appearance": "dark",
       "author": "Takuya Matsuyama",
       "license": "MIT",
+      "source": "https://github.com/iamngoni/kanso-themes",
       "description": "A near-black default dark theme with a blue accent, imported from its palette.",
       "min_kanso": "0.8.4",
       "file": {
@@ -526,8 +527,7 @@
         "accent": "#61A6FA",
         "sidebar": "#171717",
         "list": "#111111"
-      },
-      "source": "https://github.com/iamngoni/kanso-themes"
+      }
     },
     {
       "id": "default-light",
@@ -538,6 +538,7 @@
       "appearance": "light",
       "author": "Takuya Matsuyama",
       "license": "MIT",
+      "source": "https://github.com/iamngoni/kanso-themes",
       "description": "A near-white default light theme with a blue accent, imported from its palette.",
       "min_kanso": "0.8.4",
       "file": {
@@ -551,8 +552,7 @@
         "accent": "#3C83F6",
         "sidebar": "#F3F4F6",
         "list": "#FAFAF9"
-      },
-      "source": "https://github.com/iamngoni/kanso-themes"
+      }
     },
     {
       "id": "dracula",
